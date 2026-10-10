@@ -1,5 +1,6 @@
 {
-    "proposed_repository":  "CDS-MR",
+    "repository":  "llm-multi-uav-plan-repair",
+    "repository_url":  "https://github.com/h6wjj/llm-multi-uav-plan-repair",
     "historical_current_code_comparison":  false,
     "scientific_outputs_regenerated":  false,
     "requested_owner":  "h6wjj",
@@ -1698,8 +1699,8 @@
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "65b31e977d21713fc477366e73efc1e57845c017599f8d988750ba22aabd0aaf",
-                      "bytes":  3062,
+                      "sha256":  "4360032395eae7d9a77e9020880db7e055e4191866b95486e8e8a53c2990c6ae",
+                      "bytes":  2977,
                       "role":  "public_release_document"
                   },
                   {
@@ -2525,7 +2526,7 @@
                       "role":  "unchanged_local_package_copy"
                   }
               ],
-    "status":  "prepared_not_uploaded_authentication_pending",
+    "status":  "public_repository_available",
     "excluded_from_local_package":  [
                                         "paper_applied_intelligence/sn-jnl.cls",
                                         "paper_applied_intelligence/supplement_zh.tex",
@@ -2537,6 +2538,6 @@
                                         "paper_applied_intelligence/main_zh.tex",
                                         "paper_applied_intelligence/references.bib"
                                     ],
-    "package_id":  "CDS-MR_public_upload_candidate_20261010",
+    "package_id":  "llm-multi-uav-plan-repair_reproducibility_package_20261010",
     "requested_visibility":  "public"
 }

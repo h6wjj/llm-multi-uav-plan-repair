@@ -2,7 +2,7 @@
 
 本仓库公开提供本文的复现实验代码、冻结输入、逐条结果及统计与绘图材料。
 
-仓库地址：https://github.com/h6wjj/llm-multi-uav-plan-repair 
+仓库地址：[h6wjj/llm-multi-uav-plan-repair](https://github.com/h6wjj/llm-multi-uav-plan-repair)
 
 ## 内容与入口
 
