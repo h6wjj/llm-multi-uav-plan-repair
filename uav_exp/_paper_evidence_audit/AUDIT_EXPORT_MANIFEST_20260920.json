@@ -1,0 +1,36 @@
+{
+  "exported_at": "2026-09-20",
+  "source_host": "192.168.65.128",
+  "source_user": "h",
+  "complete_archive": {
+    "file": "uav_exp_AB_export_20260920.tar.gz",
+    "sha256": "5cd879ab146a408d99faee6cda65a7667a4087b787fca097bf6c255c29823c00",
+    "entries": 101
+  },
+  "experiment_A": {
+    "remote_root": "/home/h/uav_exp/experiment/results/exhaustive_optimality_audit_20260919",
+    "local_root": "experiment_A_exhaustive_optimality_20260919",
+    "row_count": 36,
+    "all_pass": true,
+    "files": {
+      "row_results.jsonl": "ac382c410326537f401f427f40b61211398382cd6f5c639f571e0d5745ad6924",
+      "summary.json": "8f4db8bc770a9534dfb053047340307d430e536df219706a683339e7472b4b2e"
+    }
+  },
+  "experiment_B": {
+    "remote_root": "/home/h/uav_exp/experiment/results/heterogeneous_capability_exclusion_20260919",
+    "local_root": "experiment_B_heterogeneous_capability_20260919",
+    "record_count": 12,
+    "nominal_rows": 6,
+    "recoverable_rows": 6,
+    "recoverable_successes": 6,
+    "all_pass": true,
+    "files": {
+      "manifest.json": "7546400fbe168d729a9158463ff55c20ba29f589691435e71d682c2f3a899eaa",
+      "tasks.jsonl": "163802ddd69bafd44cf1693c6f3d178b4f89b7727cb4d660e807f3acd1956216",
+      "full/cds_mr.jsonl": "94c2877a02dad940815b2e8f23f8eeb83cc7f238853b24a03e023a54aedfa7e2",
+      "full/audit/validation.json": "40d399307d4af9c1e349991affafade8583bff7fda250811e18aa970156b7d9e"
+    },
+    "note": "Per-record Linux log filenames containing ':' were not copied as individual Windows files; core task, run, result, manifest, and validation artifacts are present."
+  }
+}

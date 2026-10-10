@@ -1,0 +1,21 @@
+﻿comparison,metric,metric_label,n,mean_delta_left_minus_right,std_delta,ci95_low,ci95_high,p_two_sided,cohen_dz
+SeSE_vs_Blind_Global,recovery_success_rate_item,RSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_Global,contract_satisfaction_rate,CSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_Global,normalized_plan_stability_distance,NPSD,30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_Global,repair_decision_latency_seconds,Repair latency (s),30,-0.000546,0.006715,-0.00294,0.001758,0.663063,-0.081322
+SeSE_vs_Blind_Global,mission_completion_time_seconds,"Mission time (s), success only",30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_CDS,recovery_success_rate_item,RSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_CDS,contract_satisfaction_rate,CSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_CDS,normalized_plan_stability_distance,NPSD,30,0.0,0.0,0.0,0.0,1.0,0.0
+SeSE_vs_Blind_CDS,repair_decision_latency_seconds,Repair latency (s),30,-0.001003,0.006567,-0.003376,0.001254,0.418926,-0.152744
+SeSE_vs_Blind_CDS,mission_completion_time_seconds,"Mission time (s), success only",30,0.0,0.0,0.0,0.0,1.0,0.0
+CDS_vs_Global_Blind,recovery_success_rate_item,RSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+CDS_vs_Global_Blind,contract_satisfaction_rate,CSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+CDS_vs_Global_Blind,normalized_plan_stability_distance,NPSD,30,-0.216667,0.17698,-0.281111,-0.156667,2e-05,-1.224246
+CDS_vs_Global_Blind,repair_decision_latency_seconds,Repair latency (s),30,-0.000654,0.006075,-0.002769,0.00151,0.568064,-0.107625
+CDS_vs_Global_Blind,mission_completion_time_seconds,"Mission time (s), success only",30,0.0,0.0,0.0,0.0,1.0,0.0
+CDS_vs_Global_SeSE,recovery_success_rate_item,RSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+CDS_vs_Global_SeSE,contract_satisfaction_rate,CSR,30,0.0,0.0,0.0,0.0,1.0,0.0
+CDS_vs_Global_SeSE,normalized_plan_stability_distance,NPSD,30,-0.216667,0.17698,-0.281111,-0.156667,2e-05,-1.224246
+CDS_vs_Global_SeSE,repair_decision_latency_seconds,Repair latency (s),30,-0.001111,0.00759,-0.00378,0.001502,0.443526,-0.14635
+CDS_vs_Global_SeSE,mission_completion_time_seconds,"Mission time (s), success only",30,0.0,0.0,0.0,0.0,1.0,0.0

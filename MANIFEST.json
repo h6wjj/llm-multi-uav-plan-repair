@@ -1,0 +1,2542 @@
+{
+    "proposed_repository":  "CDS-MR",
+    "historical_current_code_comparison":  false,
+    "scientific_outputs_regenerated":  false,
+    "requested_owner":  "h6wjj",
+    "files":  [
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/formal_metric_audit.json",
+                      "sha256":  "495e4d939d8b6b79aff9259a88c0681e1595367b14816f8a8c34efa53d5abea7",
+                      "bytes":  348475,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/Global_total_route_reallocation.jsonl",
+                      "sha256":  "440d73ea007aa28f28e1013f70818d3ba75c0b361b2ade392a312a9f4b32487f",
+                      "bytes":  4736651,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/metric_audit.json",
+                      "sha256":  "794ff4a4c59cd478337a4aeb88a24232ce069df147dd11cb3fcbfefa6eb74914",
+                      "bytes":  337979,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/B3_ANALYSIS.md",
+                      "sha256":  "3216609548f6aa0ebed49391e715332635db5c06f3e8b54003724e0f1d07e919",
+                      "bytes":  4188,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/CDS_MR.jsonl",
+                      "sha256":  "80a70382b112d60a8fb71c81afad5dbf3e199a4f0ef21975ff92c243efb17572",
+                      "bytes":  4852453,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/comparison_by_pair.jsonl",
+                      "sha256":  "cbb22b3a14a9407180bc1db6d8b6aa2e644d90c587cddcf7fe0fbd34e48951c3",
+                      "bytes":  60839,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/pair_audit.json",
+                      "sha256":  "88db37e2d06abfa8c29b7d511889a138df689c8906c791a430f68ae7cb4e9679",
+                      "bytes":  142,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/summary.json",
+                      "sha256":  "d273a4436379960d30b5dd0613b8a333cd00bb83336b21bdd12b6ec41db1d47d",
+                      "bytes":  3317,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/summary.md",
+                      "sha256":  "74229cddc77767aa0eb172d1d16c4bb405f97a057108642e9c385031509fc4ad",
+                      "bytes":  1868,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/tasks_recoverable_failure_v1.jsonl",
+                      "sha256":  "ab179ac3f37fdee61c397edc55e3b6fa39e17bac39e924e14d0d88def7aa516e",
+                      "bytes":  1111701,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/README.md",
+                      "sha256":  "967ccc3148380ab8683be9b9ce22aff82548a66b476537fc2bf65ba695f05099",
+                      "bytes":  1056,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/run_manifest.json",
+                      "sha256":  "dad1f787f69dcd771c8e90c82a4c7d032774cb4a91d21f501834bb0bb3413aa3",
+                      "bytes":  1645,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/Simple_local_reassignment.jsonl",
+                      "sha256":  "9facbf917a23be42111c9ea4e02334893afa6ff84896f49d623d00deaf65538f",
+                      "bytes":  4733794,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_uav_langchain_tools.py",
+                      "sha256":  "d411747b4a299c9dc0851f28b3049e395b9cd7dc36f5b4e97c1c963759a451a7",
+                      "bytes":  30854,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/protocols/offline_stability_control_v1.md",
+                      "sha256":  "94faec17d850ab415cd4c0271c505818279b1de9383974ae5bf96513bf75b287",
+                      "bytes":  1820,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/provenance/environment.txt",
+                      "sha256":  "0ffa30b961bb18343b62f203fdc69d0c6c5011d4500eb9d1badbbb57587c813e",
+                      "bytes":  2121,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_path_finder.py",
+                      "sha256":  "33001db1aef5323de959cced5afe33501b0c6bca6a1ac353337be5a79fd194f3",
+                      "bytes":  7597,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_token_usage.py",
+                      "sha256":  "06a805dcc3b199b415e6b37acc6d912640c9ddc8f3e013894302164e915b6293",
+                      "bytes":  23598,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_uav_api_client.py",
+                      "sha256":  "75328c45221e07d024903a6696ce8a8c717a184eab4c9c8b6d24b8fa03f6c009",
+                      "bytes":  7856,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/provenance/reproducibility_closeout_20261003.json",
+                      "sha256":  "272404fad60c1c5768d7eda0db8ff38651a35d984e8a7c46bf1998cbd1d8b6d3",
+                      "bytes":  9489,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/ablation_v6_4_seed8_12/summary.json",
+                      "sha256":  "985b25130742762fde9fb95c56e2076fcc577e15e5c0e9ca5651f998661f6982",
+                      "bytes":  6458,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/ablation_v6_4_seed8_12/summary.md",
+                      "sha256":  "d800a4dec6b7ad6371f44b37f5de25e168fcfbdc779e68c94eb0afe3e591c278",
+                      "bytes":  933,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/B3_ANALYSIS.json",
+                      "sha256":  "89c7842ff85517c150538751e52b22ac805aedef920bc1fafaefc36fa832f81a",
+                      "bytes":  23118,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/provenance/sese_selection_validation.json",
+                      "sha256":  "5aa3d6971ed9f1cedf11501e5faa234d1f825987454ae1e1b033bf04aa99b443",
+                      "bytes":  527,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/provenance/vm_environment_20261003.json",
+                      "sha256":  "bd684f531a87ccf1b063e7d44ea4b9924f18860bd3bbeb53705d8c719d70c886",
+                      "bytes":  1704,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/ablation_v6_4_seed8_12/ablation_stats_seed8_12.json",
+                      "sha256":  "a85c01aa4256b11c6a72fae4f6ce1926c060c3a3dd2dbc566f0047b4f44a7665",
+                      "bytes":  26953,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/tasks_recoverable_failure_v1.jsonl",
+                      "sha256":  "c346b7f43a779c45bd2d2511759c35fe18bf0dc01cae33333e2d18ddf346aadf",
+                      "bytes":  599937,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/summary_closed_external_overlay.json",
+                      "sha256":  "c4f09910996ed0e671a1e993dedd4c5cb63199dd75706211cf52f75910fd1f1b",
+                      "bytes":  21685,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/summary_closed_external_overlay.md",
+                      "sha256":  "e8514a0b192ee4bd8010aae3f9a62a71a33ff645dad0b481a1351f88d7bf958a",
+                      "bytes":  4470,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/Simple_local_reassignment.jsonl",
+                      "sha256":  "30d284a5af26c3fc9e5bf94950674e6e0fbcdb8b394f97d9c148c2ee4a622062",
+                      "bytes":  2011499,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/summary.json",
+                      "sha256":  "2652eabfd6d53ac7cdd7ce1a24ffc629c55752a57e97fac96c17fa1469dcb3ec",
+                      "bytes":  1158,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/summary.md",
+                      "sha256":  "59b7a92ef0ab0f56c13f8f5348c9385f7e8ae54bf35e3cf1c2e2c91141f6e415",
+                      "bytes":  1302,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_13/b0.jsonl",
+                      "sha256":  "c58ba8acb92a1e91383730ee32fe8312c4a8d079bf0f58f39d68daed5e54a5ef",
+                      "bytes":  994436,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_15/b0.jsonl",
+                      "sha256":  "bf675820524ded16b4432bf43fcf4d96de7045ea8be36b4d9c302a9dd2d21b8b",
+                      "bytes":  912541,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_15/cds_mr.jsonl",
+                      "sha256":  "7ea5fa7ad8fc49d5fd4b6d564b16f5283575bd12f4195cd22e064d8fab510a30",
+                      "bytes":  444677,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_16/b0.jsonl",
+                      "sha256":  "e34f7b66f0ef94fd574ef8b8ece3a0624e2ef48dc44cf24b3d75070e10e76be8",
+                      "bytes":  970161,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_13/cds_mr.jsonl",
+                      "sha256":  "195be63ab0874964351f35bc45a78944d5c0489732d702b90bb15c9c76f62da6",
+                      "bytes":  444567,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_14/b0.jsonl",
+                      "sha256":  "24acca488cf9b81c6297d81ab9e91f9343c1d3579e38cd532afe400921333ab7",
+                      "bytes":  892758,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_14/cds_mr.jsonl",
+                      "sha256":  "5e47d72293d8dd6b0c8245ad9c2a7f49e30e0a4801060d0e147cff8bba5530a0",
+                      "bytes":  444153,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/constraint_sensitivity/summary.json",
+                      "sha256":  "cdab699a6d67afd8afd6fdde040a988a58feedc2a0e3c9eb5d97cde838025d2d",
+                      "bytes":  5443,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/constraint_sensitivity/summary.md",
+                      "sha256":  "bb9e973d22d67a1d807266a32c7007a1877db854dbd172baeb78eb99f1c2a801",
+                      "bytes":  1246,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/external_baseline_repro_v1/h_mrta.jsonl",
+                      "sha256":  "01504da1605c6619071a6e3bf3f47b62e2b41c9746a133feafc8877d489964c0",
+                      "bytes":  3246281,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/three_way_by_task.jsonl",
+                      "sha256":  "2a0993500adeebcff385bf737851dbfe37570dac4584bbc02c1f9becdac6537b",
+                      "bytes":  36120,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/b3_independent_task_distribution_formal_v1/three_way_state_audit.json",
+                      "sha256":  "0b3a8aa7477f0d79368e08be7f8a497d94ec2954795b0db9bd9ac3a24932c959",
+                      "bytes":  115,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/constraint_sensitivity/raw_results.jsonl",
+                      "sha256":  "3eb0ca35f78e2c1e0a4a00407d5de783cd4ea73c1699f695d392ae41c481c7e4",
+                      "bytes":  1857090,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/external_baseline_repro_v1/llm_ape_final.jsonl",
+                      "sha256":  "342c0c4b80ed5d05272e97e48f1a769a80c14f3feb6cc10c6ce8b9f371d38cb1",
+                      "bytes":  3367322,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/comparison_by_pair.jsonl",
+                      "sha256":  "0edf034ae40220d2f5299c8a360181702f683984cc1a5c519262b609144cc2f2",
+                      "bytes":  25357,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/pair_audit.json",
+                      "sha256":  "649c96fca7329999d127f5639f6f846d6c38efd28fcfece55a239ad2d9ac5413",
+                      "bytes":  142,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/run_manifest.json",
+                      "sha256":  "6f31fe4d871e4d609acd23b636f0ab054ff55c6fda00aa955533ac4c83cee606",
+                      "bytes":  1311,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/external_baseline_repro_v1/run_manifest.json",
+                      "sha256":  "afde0e15eef960da96be5d8f1f93b503cc422c68bd7744b7978a91d2f176a86b",
+                      "bytes":  4195,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/external_baseline_repro_v1/tasks_all_v1.jsonl",
+                      "sha256":  "78677e316bbc52b79d1d3a3b25d0efcf2d3abd51ab8c371432b9d55cf04bef35",
+                      "bytes":  1152534,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/local_repair_vs_cds_mr_v1/CDS_MR.jsonl",
+                      "sha256":  "76daba4b164bd9ca55e4f5fc22e15eae2ad6bb3bde1252e62b98a832f8364442",
+                      "bytes":  2057149,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_coverage_planner.py",
+                      "sha256":  "6eb8b307457231a50102fc348c750796f94e9ad28315eb0a030eabe6f63e7f4c",
+                      "bytes":  8450,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/utils/Logger.py",
+                      "sha256":  "f8f853b620b4ca328d9aa3b0931c510740a8bdfc798dca2d3e2dbd76ea01d2dd",
+                      "bytes":  19847,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/utils/utils.py",
+                      "sha256":  "b6d7ba20103e78ed37dc4172f575297aaade7358fe48a2de6d0528fb1016f7fc",
+                      "bytes":  1473,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/utils/__init__.py",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0,
+                      "role":  "restored_original_empty_package_marker"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/play.py",
+                      "sha256":  "3cdb813a233ba9e4f7b7754683c4c41d966f39fc6177a009276823ababf9e726",
+                      "bytes":  3188,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/__init__.py",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0,
+                      "role":  "restored_original_empty_package_marker"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/utils/enums.py",
+                      "sha256":  "68929a15e5ae31d89bbbe26cf4cb9db18fccc40203915328e4c33ac73cf87ea6",
+                      "bytes":  2106,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/tests/test_build.py",
+                      "sha256":  "7647a732c8a28d595102ced11a61b6bbda41b1defe916bbddf178d33b77a7eb0",
+                      "bytes":  203,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/agent_api_service.py",
+                      "sha256":  "39412d713a7b560934b147fbf5602b5033becf0871ba4bf5de33579495697466",
+                      "bytes":  12787,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/blackboard.py",
+                      "sha256":  "00db1a37dd6b896c98f8449036c0e0321fe3872903e5c989bb516bf83e04d049",
+                      "bytes":  6903,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/llm_settings.example.json",
+                      "sha256":  "e7516336756dd30ed88fc1b627486a33bbfc82a0ed21d2f379bcd1b92296e9c8",
+                      "bytes":  3377,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/tests/test_examples.py",
+                      "sha256":  "7ded802c08e56b43ecdfc20f4d7a05d6d3e06db62173cba2a6a2e87e55959ccb",
+                      "bytes":  532,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/LICENSE",
+                      "sha256":  "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+                      "bytes":  35149,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/README.md",
+                      "sha256":  "0209bd6df855f25e762abfc2feab958cf7b9b22d96b4d7fec4a9d61493658644",
+                      "bytes":  11769,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/MultiHoverAviary.py",
+                      "sha256":  "5cd41ba972fa8148ed70303cfcee7712d9fd017e07415b0c49ff4726e0684667",
+                      "bytes":  5405,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/VelocityAviary.py",
+                      "sha256":  "cedb04e876b2ee69935fb25af3c248c8e4f0c1e4fed6a3c89910ce2e23723768",
+                      "bytes":  9340,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/__init__.py",
+                      "sha256":  "a100c75d20f2dea2c64b1ffadcdf6ff7eb95c693f46c0c644ca029a3fe4f6c3a",
+                      "bytes":  317,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/BetaAviary.py",
+                      "sha256":  "c4244b6b469225ddb4565518667732a32fba9a559499ae27f65aa583b5ef697b",
+                      "bytes":  13599,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/CtrlAviary.py",
+                      "sha256":  "9e1f2bbd35129cd6d2a76a294e536c5ab9ce976bc5374bab3338db69a66ac957",
+                      "bytes":  7580,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/HoverAviary.py",
+                      "sha256":  "c6a2071c4d26a7e9da631d60cba627a0fa023000db84a829b156931dba7eb4cc",
+                      "bytes":  4616,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/beta.py",
+                      "sha256":  "5dcb8442fe220a823b76229eb34125e3fcade67a4096a5188f4363054e718358",
+                      "bytes":  7543,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/mrac.py",
+                      "sha256":  "d88f6f6a0441119ef54db32c355bf59205271dabc5359c96184ca43cd6002cb2",
+                      "bytes":  3923,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/pid.py",
+                      "sha256":  "2bcc67e4b6b3adda71536739d69a73bf1a054a8cf80e66b067ef89dc5f4cbb02",
+                      "bytes":  10038,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/pid_velocity.py",
+                      "sha256":  "219feef51d921594148d75fc95f4f70209a235e11ffaecdf7173507697c5fb6a",
+                      "bytes":  7560,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/debug.py",
+                      "sha256":  "cb8cc81ed353791bef2aa755e68acf6b28822ece684a173499f7b53ceeb7e860",
+                      "bytes":  5957,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/downwash.py",
+                      "sha256":  "1ca8f88dc23584fc35c350c4f5330baaf8791f8ef88148d56735eb566e6d1f98",
+                      "bytes":  5932,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/learn.py",
+                      "sha256":  "617900cab78fb28790f23706c22238b0ec1d41920ac67be8379376229e3d717f",
+                      "bytes":  9417,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/path_planning/path_finder_original.py",
+                      "sha256":  "168d506b087063cfe6c60c33652a16e9420f7b026142f55b0d3c34337c7572d4",
+                      "bytes":  6764,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/path_planning/visualizer.py",
+                      "sha256":  "435df074ccb54b04ea26a8b58a58914e53947e5ed563b1521ff360c53dda3951",
+                      "bytes":  5511,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/path_planning/__init__.py",
+                      "sha256":  "6f9ba2293ce2a1391ccbb2535c39c5c9f3fe4317115a095b2f5a8210a8249e4d",
+                      "bytes":  709,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/docs/TASK_TEMPLATE_EDIT_GUIDE.md",
+                      "sha256":  "e29108253457b8a432ac65f4acb922561d57809eab85318d3d3fc81fd58be37d",
+                      "bytes":  13744,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/path_planning/coverage_planner.py",
+                      "sha256":  "e3ec89e5e22225e4d1dbc70a55c176dc715a134bd7120670019cfa2603021ea6",
+                      "bytes":  10881,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/path_planning/path_finder.py",
+                      "sha256":  "aaef192bf8668ab7b36469930868695cbcae3f01aafcf7cdbbbfaf72695d373d",
+                      "bytes":  14879,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/template/agent_prompt.py",
+                      "sha256":  "3d02ee25733d552178c6a0257c3420b338c3d38098fd1d65004dfe83d1ee711e",
+                      "bytes":  3430,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/run_path_finder_demo.py",
+                      "sha256":  "1823aca894177fd866ec8203b4e2fa5c9f4992fdd21844c44408588137c21411",
+                      "bytes":  12343,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_agent_api_service.py",
+                      "sha256":  "d4436c2c799b9b0351b433cf6f7160b1fc0afc4f446b541629239b098d0a247d",
+                      "bytes":  8627,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/tests/test_coverage.py",
+                      "sha256":  "e6169e6c8e2715d987a17953c28481a7e706926853e0a2f2adbfbe86d2729fa4",
+                      "bytes":  11328,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/template/parsing_error.py",
+                      "sha256":  "26c47f636a589fc69c1a967d64805de9e9772089336bf48d786d0f11947f6ff4",
+                      "bytes":  555,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/template/system_prompt.py",
+                      "sha256":  "b1034b08a9cccc328feda37f1b4a629f2d86732f28f09c26d895a48160f40938",
+                      "bytes":  5151,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/template/__init__.py",
+                      "sha256":  "5d2342e36b7ceae9b6ace372699df9bce34c683b0332ca0163ecc2ee7f814073",
+                      "bytes":  378,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/README_SERVICE.md",
+                      "sha256":  "b6d8e44e5b1f5076b48e98a8dd3e2f66b9fda1e5fd4e8018ba8953d23b3e472d",
+                      "bytes":  4015,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/toolchain_recorder.py",
+                      "sha256":  "5bca05757bdea0a55ad703a284bb0622e040ac298421bc902d0c29f0e941ac0e",
+                      "bytes":  6356,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/uav_agent.py",
+                      "sha256":  "e0d00b8e38c12c0a950d8f2dff6c86d829e7161d2a7e5e6182fb639637bcd212",
+                      "bytes":  54926,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/logging_config.py",
+                      "sha256":  "1928555d298a4e70e1909faacbc82ef5c5c87baa228a75d480ab2470007d8a74",
+                      "bytes":  1976,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/main.py",
+                      "sha256":  "979aa3376b3a7690896f530d182bd68bdbd2b70631f6cc1a51e35a42b01a0d4c",
+                      "bytes":  52119,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/README_API.md",
+                      "sha256":  "5973af9d8dc3c73730f7404b1d2402fc2bf6e68f4d48d615ab0cc3971ab04f29",
+                      "bytes":  3420,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/uav_api_client.py",
+                      "sha256":  "c68c41f1efb481c6ef1dae67b0464aab3c8b5b0b5737f9cb18a83ce8f32ddb90",
+                      "bytes":  16653,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/docs/API_REFERENCE.md",
+                      "sha256":  "bfedbc7c206140b963223f136d9a88c85bbef1b3fa419087882835afe822f668",
+                      "bytes":  82219,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/docs/AUTHENTICATION.md",
+                      "sha256":  "947e35e8f5ab80d77fd35a7f77b0f079ad77b4cebf4341cef248259387d9d362",
+                      "bytes":  14102,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/docs/CHANGELOG.md",
+                      "sha256":  "773fba81f429764e02481fcc69f279427afeba4dd8e9592bb9195d4b4af26b52",
+                      "bytes":  9766,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/uav_langchain_tools.py",
+                      "sha256":  "bd94953bd18446e8e1df7b88e7716dd8e6c21c9ae8f9ef4f0258baf382e953d6",
+                      "bytes":  59540,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/docs/API_AGENT_GUIDE.md",
+                      "sha256":  "cf3d0d28c3d40307219e114858492a20e716dd1975075a0b87fdb513e32b878c",
+                      "bytes":  20075,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/MultiUAV-Plat/agent4drone/docs/API_DOCUMENTATION.md",
+                      "sha256":  "837619f2edee9869167b9013980d5d566f37cd2bc470769d4df6551ab1093df3",
+                      "bytes":  151492,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_8/tasks.jsonl",
+                      "sha256":  "c2c1bd8ff9baac1caa9e7aa9083050bf13a856e76d44e8b2bd02523788ea2e68",
+                      "bytes":  383932,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_9/candidate_pools.jsonl",
+                      "sha256":  "5616764d1503f34b40913836312f35c3e952a00924b310ae62fa30c61fab333a",
+                      "bytes":  18760,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_9/manifest.json",
+                      "sha256":  "8e7b956bcddcc5d608479cae4be907934261b0abfce1b0a3dfbfbe301216d12e",
+                      "bytes":  1085,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_8/candidate_pools.jsonl",
+                      "sha256":  "9f500dfdb73558b4108bd82cb4592a35c00b3efbe758a85596487c0bca91c3a9",
+                      "bytes":  18758,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_8/manifest.json",
+                      "sha256":  "8e51364feefea3a0f5ab42dc9dcacb73a47e91952bdfd65375a7a591da5d0c73",
+                      "bytes":  1085,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_8/pool_manifest.json",
+                      "sha256":  "ca6b5468db57ed7f9a1942e5b6c4f8d3df6d2efdfa5dc9612f4d97854b095f3b",
+                      "bytes":  317,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_9/pool_manifest.json",
+                      "sha256":  "10eaf1fbe7decb165dfe52672b0e47ff29b1786e298d0b14e5d9c361f8fa2a54",
+                      "bytes":  317,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/constraint_sensitivity/README.md",
+                      "sha256":  "2f07e65adc59839b63762d835fd953f3a4373bb894e8bcb3f094adfd67cb6c5b",
+                      "bytes":  2484,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/constraint_sensitivity/tasks.jsonl",
+                      "sha256":  "856ec49ae6f471ab641fea2bb6e0c2e7a1c269e225767f0a98cd58ea404dedcc",
+                      "bytes":  319068,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/build_b3_independent_tasks_v1.py",
+                      "sha256":  "a2bfc5eaf0a813bd0da59db761964877aba86d44e2d0fa05b45a3533d40de301",
+                      "bytes":  16706,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_9/tasks.jsonl",
+                      "sha256":  "b70293acb7022959ebd3fd0a596cc72216815a66ea8d830e55b299f1ecd7a49d",
+                      "bytes":  383936,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/constraint_sensitivity/candidate_pools.jsonl",
+                      "sha256":  "16e9ff71e5f857cfe3b87c2cd573af2c0cba2ce9d9de48ebc75c3eaadb2cebc1",
+                      "bytes":  24153,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/constraint_sensitivity/manifest.json",
+                      "sha256":  "0e93542f6f7780fb1de87e364aff337b11703e3b9efca0de056c6d88eaac253d",
+                      "bytes":  2225,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_10/pool_manifest.json",
+                      "sha256":  "85e42438cbb6ff42fc7e23df203a0097b68e8078bd52a28fa1ad5baf9201bb4a",
+                      "bytes":  318,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_10/tasks.jsonl",
+                      "sha256":  "940fcd6e0c6d6baf318edfcfa8c7dbb980a58ef1e91a1b7988e376781d66f909",
+                      "bytes":  384012,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_11/candidate_pools.jsonl",
+                      "sha256":  "e5ecb832fa3ed806a45af576c92e9818a4ae903ca19c20fe7bd6a1f143052157",
+                      "bytes":  19143,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/three_way_state_audit.json",
+                      "sha256":  "0b3a8aa7477f0d79368e08be7f8a497d94ec2954795b0db9bd9ac3a24932c959",
+                      "bytes":  115,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_10/candidate_pools.jsonl",
+                      "sha256":  "ba9ea7a5434557924f393d94559458f8e1c92ef77df42d02f19e4cdcd0508231",
+                      "bytes":  18774,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_10/manifest.json",
+                      "sha256":  "b74853613c30a1551a93c23843c16d6cbe186d7b1c583f169f6242cad15db688",
+                      "bytes":  1087,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_11/manifest.json",
+                      "sha256":  "804c08f8dbca286bf6451d1e2f35c5b59fdc1764ef0b26be846b8cb6a5423811",
+                      "bytes":  1087,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_12/manifest.json",
+                      "sha256":  "178543677c57f1a63aa93e506fd8efcb9c7255ab32c90cf215d29dec5c16d421",
+                      "bytes":  1087,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_12/pool_manifest.json",
+                      "sha256":  "eadcebbc54322dd23c48b3de1de6323061ae9569eda34294c52170357a68715b",
+                      "bytes":  318,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_12/tasks.jsonl",
+                      "sha256":  "09f80e92472e5798512112458a15d6fc6b15fb9a2ee24a249de6c2c3878d0bd5",
+                      "bytes":  384004,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_11/pool_manifest.json",
+                      "sha256":  "f91ce18b9c499e78e6647b0eaff0de1684088ad558d6f1e6f4789845158c2476",
+                      "bytes":  318,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_11/tasks.jsonl",
+                      "sha256":  "334fe68460b0b59287353858f9597e5958525324f3c910c52caedbd28efa5d35",
+                      "bytes":  384024,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/ablation_v6_4_seed8_12/seed_12/candidate_pools.jsonl",
+                      "sha256":  "2af6f575b0402f33f1445d4483c6293f682194732f08b0afac0351f5a5b82485",
+                      "bytes":  18803,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_18/manifest.json",
+                      "sha256":  "e1cbb2a8e6c8764fc4a3e7739dafc09588e8c13ad9636397e33ce62284c9ca22",
+                      "bytes":  1101,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_18/tasks.jsonl",
+                      "sha256":  "0d7791b9aacaac19b67dfb1a8f3ee3526a6ac967dc90035250a03097ca482df7",
+                      "bytes":  192088,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/sese_selection/manifest.json",
+                      "sha256":  "43dc979f1cdd31feb5be877d00516ca8d19821cdd72dea64608a6567ef00bf48",
+                      "bytes":  1606,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_16/tasks.jsonl",
+                      "sha256":  "08dc23010e7356c8a23a5c905c84e8ff1a00b048d43f47d99b4a3791c0e1be57",
+                      "bytes":  192092,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_17/manifest.json",
+                      "sha256":  "798ca15862e006e6620a4c8e54ddb9374f1de3ee9c09ffb5590fd8fee0239347",
+                      "bytes":  1101,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_17/tasks.jsonl",
+                      "sha256":  "340be9a2d49995a512261d0eff603d7fd0da0fcfaf2a24ae863a58d0b0a64310",
+                      "bytes":  192090,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/sese_selection/tasks.jsonl",
+                      "sha256":  "f090586f18683fc72ac205bfdb222dce462c6f8160414f764bd55680921d3df1",
+                      "bytes":  432320,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/suffix_coupling_grid_v1/README.md",
+                      "sha256":  "82bddb3e3d06b8228c0a8516b200eeea9c77b339416820db7db95ee42da8762a",
+                      "bytes":  3263,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/suffix_coupling_grid_v1/run_readiness.json",
+                      "sha256":  "4e9fada9e4cac31dcbb86f55a84ce9dfac5d407fc8999e89295fab6df841947f",
+                      "bytes":  3440,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/suffix_coupling_grid_v1/tasks.jsonl",
+                      "sha256":  "abd943e3060b15310627b1f9f701a2ee2930717dc5f6b580dbcba2ddd5f7c238",
+                      "bytes":  1069257,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/suffix_coupling_grid_v1/design_audit.json",
+                      "sha256":  "0b46f59e24350083e63d8016c12a635db1eaa59e714d7fa13a184dc0d5876b75",
+                      "bytes":  37033,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/suffix_coupling_grid_v1/preflight_3.jsonl",
+                      "sha256":  "9b2606eecc3e357c699e16bf25aba73267ca80dca81ac775654745c0068c6668",
+                      "bytes":  35764,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/suffix_coupling_grid_v1/protocol.json",
+                      "sha256":  "1bb74b2d16c64c67cf039db58d7e63db7d88259e1a349ea70dd64aa1a1faaf93",
+                      "bytes":  2785,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/pilot_generation_audit.json",
+                      "sha256":  "24c81384ac265e0eb73b69579d964d9f3d5328de255b4c5912137375fafba3ef",
+                      "bytes":  2515,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/protocol.json",
+                      "sha256":  "56552861125135865ca596bff594269db5443e03eaa5b1679600f61374aafe0b",
+                      "bytes":  5709,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/tasks.jsonl",
+                      "sha256":  "e6aa209faa87ca6f918a9209c74a124f6bced16860cfd7b15a268d34005ffb98",
+                      "bytes":  1111791,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/freeze_manifest.json",
+                      "sha256":  "1707db4dfc90a30f17faebd3402cd33186132cac0612a12642ce69e0e649fccf",
+                      "bytes":  3464,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/generation_audit.json",
+                      "sha256":  "96ecd71cd60ca6833ed5c77763cbac922abab9e056f4bdb4db87b13d44fb94ec",
+                      "bytes":  48418,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/independent_task_distribution_b3_v1/pilot_3.jsonl",
+                      "sha256":  "4daea07584435e66d4f983940784c72756e03c40f7da3b09a39799fbc3109aea",
+                      "bytes":  37060,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_13/manifest.json",
+                      "sha256":  "405ea15f4f9f03f34ce5fb5559befccc1c7b15d0d98d921d64a1afc7a71043d6",
+                      "bytes":  1101,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_15/manifest.json",
+                      "sha256":  "c502489613dcc1f20fa82add2549fbd1c6f9687b7f26e651822c35694c4aa092",
+                      "bytes":  1101,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_15/tasks.jsonl",
+                      "sha256":  "fe12b2e9c896072fa1dfee1278aae4d113c2eb91a2cf2ae5a33bb7b58ceb117e",
+                      "bytes":  192082,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_16/manifest.json",
+                      "sha256":  "d2cdf9af7159ef566892b909309419fea3157a6efe6871573f2cf8725050cb0c",
+                      "bytes":  1101,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_13/tasks.jsonl",
+                      "sha256":  "a7d561735670d5f4a2a9c973535684d2633164a5a85fafef70b465dc541d6def",
+                      "bytes":  192090,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_14/manifest.json",
+                      "sha256":  "9405e1c16372a4dee44df093fb25e7f9e6c8881acf3bb67ba4fb63e80c9883eb",
+                      "bytes":  1101,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/scenarios/main_v6_4/seed_14/tasks.jsonl",
+                      "sha256":  "d8db2d4f5fb669c203c1c98c86e7bb2607b4dea5d7e1fe3ef5fd0c8ecdca83d1",
+                      "bytes":  192092,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/three_way_by_task.jsonl",
+                      "sha256":  "b6547d2804cd29bbc827153838f8d3d0cca43d086f2b504484c497c617fb2384",
+                      "bytes":  36720,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/pair_audit.json",
+                      "sha256":  "d460082e1afc8037b3fd889e21ccf2479ac9ed2e3d0f5ff64de6f7bbb109dafb",
+                      "bytes":  139,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/physical_dynamics_audit.json",
+                      "sha256":  "7dde140ffcab1f6cc0a33500fc28a43523e7c78e82d293c459751274a9bdb303",
+                      "bytes":  4836,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/run_manifest.json",
+                      "sha256":  "0b084bc3c16d00f04671994772955dbe330288b810371b4d51e0aa3cba2e853d",
+                      "bytes":  982,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/tasks_recoverable_failure_v1.jsonl",
+                      "sha256":  "dbabe68c68ced1445e2ed6341820d193d294d71c92ba0e0fbc3bebbafb07804c",
+                      "bytes":  62964,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/CDS_MR.jsonl",
+                      "sha256":  "a4859edc6eef980618604751d1bceb14e20212effdecd4ef0c4e3803cf772ab2",
+                      "bytes":  152206,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/comparison_by_pair.jsonl",
+                      "sha256":  "e21b875f364e1abeeb67a019ede81fe4108f362a31435a2a2a891afd50b1c5b7",
+                      "bytes":  1915,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/Simple_local_reassignment.jsonl",
+                      "sha256":  "1a88d49367afbc843a3e094482e6dffceecbc55e25d0eab1870ad5c84376a6cb",
+                      "bytes":  148482,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/CDS_MR.jsonl",
+                      "sha256":  "9c19051835551b3e9c100ec0d5827446542234bcce4aad492557a5541c0625ab",
+                      "bytes":  147367,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/comparison_by_pair.jsonl",
+                      "sha256":  "a53c1c0d39df360e35a17bd2e7f281b0ede65d0b244e504a430ece89f6c81f7a",
+                      "bytes":  1905,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/pair_audit.json",
+                      "sha256":  "d460082e1afc8037b3fd889e21ccf2479ac9ed2e3d0f5ff64de6f7bbb109dafb",
+                      "bytes":  139,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/summary.json",
+                      "sha256":  "4d6b1db4533ef5d4350429641fcf6ca86dbc63a91f7736a2d13fad8dea15f289",
+                      "bytes":  1140,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/summary.md",
+                      "sha256":  "d04b3fc71bac66a7727a6749df6bfbd49c2d3f40eca1a541d8d627298182cbe9",
+                      "bytes":  1285,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/tasks_recoverable_failure_v1.jsonl",
+                      "sha256":  "5393bfe3d11d806e24f52bb6b0df3c796737519aca4f31071ca0724dde841f34",
+                      "bytes":  31086,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_18/b0.jsonl",
+                      "sha256":  "94a3202073c3ab5149ec33d6aa90c680c983135c40a729f99cc1d5eba96b2d66",
+                      "bytes":  967385,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_18/cds_mr.jsonl",
+                      "sha256":  "9ff189c57c38faa99b64236f9b33e79190d3f52ec5c1a4bc7bdbaeb047a5764c",
+                      "bytes":  444327,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/boundary_audit.json",
+                      "sha256":  "4cd958014210f1232cd998743294c94d1f379e9da9da96a6b51a8e390351b86f",
+                      "bytes":  3249,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_16/cds_mr.jsonl",
+                      "sha256":  "0c252e0580f735e45e93b4006a9dafca670b1a0acab1c5e7a32fe183c537c33e",
+                      "bytes":  444441,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_17/b0.jsonl",
+                      "sha256":  "531cac6133f6f5eb5b4071c49a60e915543915074cafef28cf05481c932a1db3",
+                      "bytes":  909489,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/main_v6_4/seed_17/cds_mr.jsonl",
+                      "sha256":  "76bb98fa9d77ae34ca7178026b7005cdd323cbda40d11f4fce1abde4456d511d",
+                      "bytes":  443915,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/CDS_MR.jsonl",
+                      "sha256":  "8ebef6d14f4ad11fd5dbfddf26fd6616c27429a28e42a10ac24b9f4a83338793",
+                      "bytes":  304242,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/Simple_local_reassignment.jsonl",
+                      "sha256":  "52d62e5dd0a03b8efa94b0b366c4d13ff9faa791dc6dac4e45cd09675db30c12",
+                      "bytes":  297261,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/summary.json",
+                      "sha256":  "e0d44fd5871290fd2a199c109958fb6e4cb739005876dad2eb102bb552994303",
+                      "bytes":  1140,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/summary.md",
+                      "sha256":  "26063f963c86bc94d5e7e63af7f5b1bfb94dd3ec2770bca73c803a96f4cb5b5b",
+                      "bytes":  1285,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/comparison_by_pair.jsonl",
+                      "sha256":  "a8adfe0228ca8654704022b32e639b1c42dd9a1cb9d0183be5c5da5359293af5",
+                      "bytes":  3899,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/pair_audit.json",
+                      "sha256":  "03453920d51e8a40e594a56052681f982f12c0b3cc0a7e392d6a65c0c950ac9b",
+                      "bytes":  139,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_boundary_v1_vm/run_manifest.json",
+                      "sha256":  "ee84ccee0fdf459b1f4d78c3615fc3a923f455365c4af0845349958e66279541",
+                      "bytes":  977,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/formal_metric_audit.json",
+                      "sha256":  "0dc9bc1784aa5ce5831edfbed6d6222a5833a8e8ed5d616f51bee030e7dd9f23",
+                      "bytes":  349074,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/Global_total_route_reallocation.jsonl",
+                      "sha256":  "da788b1e9181aba51ad92698ddf11d208cba314bfe61f697a3cb0f475dc3a28e",
+                      "bytes":  4742434,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/metric_audit.json",
+                      "sha256":  "a9310aa858047ed67c7615c285c06c7bcc7e018d5f3aa90b86a982bd71f1f531",
+                      "bytes":  338578,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/sese_selection/validation.json",
+                      "sha256":  "5aa3d6971ed9f1cedf11501e5faa234d1f825987454ae1e1b033bf04aa99b443",
+                      "bytes":  527,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/CDS_MR.jsonl",
+                      "sha256":  "f95a862753b410d707eb574e4819939fb4d040130d3f7864aeb699e67dcc1bce",
+                      "bytes":  4857683,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/comparison_by_pair.jsonl",
+                      "sha256":  "c5b31fb9474d326b00eac7c4e54e78379123d924cd39a75c2f4065a880892029",
+                      "bytes":  61328,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/pair_audit.json",
+                      "sha256":  "88db37e2d06abfa8c29b7d511889a138df689c8906c791a430f68ae7cb4e9679",
+                      "bytes":  142,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/summary.json",
+                      "sha256":  "9487ee11d679d5a68eb7dc0e4e46c2f7b00d509effae84cd3d9b52baaad39577",
+                      "bytes":  3305,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/summary.md",
+                      "sha256":  "40955c3f9dd96d5fb7186b0ef5037fc2d1291299a2427773c895ca46473c4005",
+                      "bytes":  1854,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/tasks_recoverable_failure_v1.jsonl",
+                      "sha256":  "5e892889909d80c706b88f949f2819d647aa551fde3fd8016d1efcbb085f5878",
+                      "bytes":  1069167,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/README.md",
+                      "sha256":  "5fb68ce775af3c3edb9cc74425e1a1c31063bbe6e3f1f1986b82a4b07a803c76",
+                      "bytes":  684,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/run_manifest.json",
+                      "sha256":  "93278ec410441a298ae8f5b5a3d7f22d614f00adc18ff917cdac167859cd81a6",
+                      "bytes":  1633,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/suffix_grid_three_way_formal_v1/Simple_local_reassignment.jsonl",
+                      "sha256":  "b7857ed2a1ec06dd282b27764643dbe7c7dac811d47404bee8b9159a0e19dcca",
+                      "bytes":  4738379,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/summary.json",
+                      "sha256":  "97fb9e561b3f528a979887966ee2b1346d0c55c55a5665bb2d2d5f19e75dfee1",
+                      "bytes":  1140,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/summary.md",
+                      "sha256":  "96b5409f2febea7d3b7a6247c4bae4f4b1ee5820f147138874e89457a90b2216",
+                      "bytes":  1283,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/tasks_recoverable_failure_v1.jsonl",
+                      "sha256":  "5b45aa533bf690ab49fba4072f44cd21d504d9f20cad2894d5cb7503dacefdcf",
+                      "bytes":  30419,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/README.md",
+                      "sha256":  "52d704d32d44ca984ca48ef5fa7fe7ea74ee43445b9e67c1ec4ca27e9d3a7598",
+                      "bytes":  1715,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/run_manifest.json",
+                      "sha256":  "da32d9e43cce8eae7a05ab5ae2dc9f6beba2721c8bdf679137834124c52b68c1",
+                      "bytes":  975,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/mechanism_stress_v2_vm_v10/Simple_local_reassignment.jsonl",
+                      "sha256":  "657917dac5dcc2496059c42998721e67d53ba547586c0371e5cef77f2d35483f",
+                      "bytes":  143959,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/offline_stability_control_v1/by_task.jsonl",
+                      "sha256":  "4acde9761f8dcec64e5d36c9460591a05405473da3b5be15eab963f78d387ac3",
+                      "bytes":  565619,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/sese_selection/selections.jsonl",
+                      "sha256":  "96cc50deb27eed42ec907365832e16eda4a985090544adc86386ad90201fa710",
+                      "bytes":  5726363,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/sese_selection/summary.json",
+                      "sha256":  "e3c84d8e756d34d5da4b3d4a4898843a976c369addb3b19037a9024bf38ceaea",
+                      "bytes":  6680,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/sese_selection/summary.md",
+                      "sha256":  "9443cf555e8607631f1d099dbfb02b2cc0029de05d72deccea10728b1d2e3ac1",
+                      "bytes":  1223,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/offline_stability_control_v1/summary.json",
+                      "sha256":  "2a46410eb064258518c35f2f19bb1b465b5ed7f00b30ed99b860310d9a083321",
+                      "bytes":  2919,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/sese_selection/candidate_executions.jsonl",
+                      "sha256":  "595275fec5eabd1d025115c10a6e5b6e824c2f812b4c731e597c945f9fcd4be3",
+                      "bytes":  2780860,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/results/sese_selection/candidate_pools.jsonl",
+                      "sha256":  "2fbef1f64ccd90456ba349f59600ce13c9d416e1a51cba39ca748f8cb5482f6e",
+                      "bytes":  74459,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig1_总体框架/Fig1_framework_v1_build_notes.md",
+                      "sha256":  "30ea34cab26af863a9b63afee8ba8de30a59b80947a4a24008fb040f8a293b25",
+                      "bytes":  1268,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig1_总体框架/Fig1_framework_v2_wireframe_review.md",
+                      "sha256":  "906eca1a6af2ade434ce45b707d420450f829b5b1913acfad05d89c922aa4325",
+                      "bytes":  5532,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig1_总体框架/fig1_nodes.csv",
+                      "sha256":  "7c45d60537b2a6d90322ef572f91415252f9a3cf2ffe1eaafaa59a9cee53f296",
+                      "bytes":  684,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/validation_report.json",
+                      "sha256":  "8d1e58482107657fd5276e95fa157975f02006477e36b58c6e5fa5646e2d0628",
+                      "bytes":  555,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig1_总体框架/fig1_edges.csv",
+                      "sha256":  "67b4da61b707a877f4ef201f9f07d84cb32eaafa0ae4e6adcdee997d64a4c29b",
+                      "bytes":  466,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig1_总体框架/Fig1_framework_v1_audit.md",
+                      "sha256":  "6bc1f86174d273b77869f1dccf44701df710c0377873bb2fdbe06e0786f66b2a",
+                      "bytes":  2887,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig1_总体框架/Fig1_参考论文视觉风格学习与V2规范.md",
+                      "sha256":  "d1afff9ad6b4a46598fa30ee411c42f13fe78539db3fb359bd276406fb256bef",
+                      "bytes":  11338,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig3_主对比/fig3_main_rows_recoverable.csv",
+                      "sha256":  "454fb2d38be97a1a27fb3a1bf268f3c38599afdce7c9b0d5cbf61a573e590460",
+                      "bytes":  54623,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig3_主对比/fig3_main_summary.csv",
+                      "sha256":  "4a259aa53d35285aeb74462be5b9b8ff5aa1a8e97241cd34ecf491108c18cc2b",
+                      "bytes":  4502,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig3_主对比/fig3_paired_statistics.csv",
+                      "sha256":  "6514148f99125e6d76f807ec8f1f1c664331f3ec3639ad8cb4a20b4d5b5954e1",
+                      "bytes":  3373,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig2_最小修复机制/fig2_mechanism_steps.csv",
+                      "sha256":  "e2c6848726494af8832157ceb0a7fb48807df3bfd3279e99cadc7786a92390de",
+                      "bytes":  643,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig2_最小修复机制/fig2_objective_terms.csv",
+                      "sha256":  "f01b670ac2fb7dc1d3d2a737eac976baa9c5611042878748b855c271e2ebd0bc",
+                      "bytes":  381,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig2_最小修复机制/fig2_set_definitions.csv",
+                      "sha256":  "1c28b98f3ead8ad6d0d81f57556071a682f88090fa1bc466c5f12f9c61c0d6cb",
+                      "bytes":  537,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/reports/fig3_processed_metrics.json",
+                      "sha256":  "68357e52b5e815cb5d7bb05b2bc1261c06b7fe098d3efd6640795a42fadbc037",
+                      "bytes":  1957,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/scripts/plot_suffix_results.py",
+                      "sha256":  "bbbfe3b889507bc63363799a9a12c9c9c1db037faa816d4b34d6cc6e88aafc13",
+                      "bytes":  9933,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/scripts/fig3/plot_fig3.py",
+                      "sha256":  "0cd2de0d908554b18fa8b199a388c871b00ca13a99cada7138c2f25a74cef6d9",
+                      "bytes":  10836,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/selection_diagnostic/summary.json",
+                      "sha256":  "e3c84d8e756d34d5da4b3d4a4898843a976c369addb3b19037a9024bf38ceaea",
+                      "bytes":  6680,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/selection_diagnostic/validation.json",
+                      "sha256":  "5aa3d6971ed9f1cedf11501e5faa234d1f825987454ae1e1b033bf04aa99b443",
+                      "bytes":  527,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/reports/fig3_data_audit.json",
+                      "sha256":  "54808b9216eea863702ec99a87bef5e04b2ee3681a772b24013bedee62954604",
+                      "bytes":  26752,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/scripts/fig3/prepare_fig3_data.py",
+                      "sha256":  "da70656580575ed7ef8cc693d05afa1487e230fb7a0b3de126815636fa7ca9a9",
+                      "bytes":  5558,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/00_五图统一视觉规范与装配审查.md",
+                      "sha256":  "13fa5feb4cfa431c13d23ce1f9f14e836149d7978fe824f02cd4ecb89fd34f9e",
+                      "bytes":  22434,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/manifest.json",
+                      "sha256":  "0671d62e846b4a2ce956533ba379867639094014187b13da23fcf9a767846be6",
+                      "bytes":  14377,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/README.md",
+                      "sha256":  "4d1b1a4be5cba937f443168ee1116adaadaaf340c2a696047684156f3fa75ecd",
+                      "bytes":  6494,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/scripts/fig5/plot_fig5.py",
+                      "sha256":  "ff0767fd1f097c3b52fc11a2ccc274cf35bd2ea0da1e316f6072d7ca065f37f7",
+                      "bytes":  22587,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/style/figure_spec.md",
+                      "sha256":  "3a1f78691d2a62ff44af9d0224b04c71dc9c52b3b705a50cbda43c1952960b66",
+                      "bytes":  653,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/style/paper_style.py",
+                      "sha256":  "666d03bbd8f4bd13409e747fb029730c94a93c0d1fa4a1866191a5aba65804fb",
+                      "bytes":  724,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table3_experiment_setup.csv",
+                      "sha256":  "fdb79c581b319cc1b23c155460f8951c99c79c3ba30bd63110534bb70c90b3f1",
+                      "bytes":  1389,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table4_main_results.csv",
+                      "sha256":  "49c05d7363d798c0909c5b4cbf14ebbd9f5039c08ace1c93322962c781a0a2d6",
+                      "bytes":  748,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table4_paired_statistics.csv",
+                      "sha256":  "6514148f99125e6d76f807ec8f1f1c664331f3ec3639ad8cb4a20b4d5b5954e1",
+                      "bytes":  3373,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/suffix_results/random_paired_outcomes.csv",
+                      "sha256":  "17616422c9a1ab8c4dc40cabef5dfd45d4321cd99e0bf2ae60eeeeef147a4bb3",
+                      "bytes":  6511,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table1_symbols.csv",
+                      "sha256":  "a199a285c78dd3d091507fb3bafc65329ea7ba90eaa3e9162634283ee50af5d6",
+                      "bytes":  923,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table2_mechanism_functions.csv",
+                      "sha256":  "8b596979a6000f671fff65f3803a698c348d4ee050fc4673c4267983bfa0f861",
+                      "bytes":  809,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table5_ablation_paired_statistics.csv",
+                      "sha256":  "8e042199811f9066b3e81c74c65b8d665d66c8a29265b4903485212fe3b1ccb5",
+                      "bytes":  2124,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/生成脚本/build_figure_table_data.py",
+                      "sha256":  "7fc2bcfc48e637ac79c1a49b0690451b8ec8d159447a5aaec706982c09ee185b",
+                      "bytes":  41518,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/REPRODUCIBILITY_CLOSEOUT_20261003.md",
+                      "sha256":  "ee901d713fbc6b7b0018617325b9fb8e4e97f0cc5d94ffe9208a9f4933924c47",
+                      "bytes":  5955,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_10/results.jsonl",
+                      "sha256":  "8f377191a5983162e1952d696a4eb499649aa860427b62d60e26b454b6ed474c",
+                      "bytes":  1224250,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table5_ablation_summary.csv",
+                      "sha256":  "48ba2a0deebca6219ffcdda0c36b5f6089747ec38c279688508ee244648544f9",
+                      "bytes":  2749,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table5_simple_local_pairs.csv",
+                      "sha256":  "7760e39b3d6387e4b00db57c610b49bbfaf8b2946664a5318585d1eac9d764fc",
+                      "bytes":  12088,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/tables/table5_simple_local_summary.csv",
+                      "sha256":  "ca94757d22ab69fd284c7037d22ae2c6a13469bbd24c8f0c9bbe1e568ca0afba",
+                      "bytes":  482,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig4_案例分析/fig4_waypoints.csv",
+                      "sha256":  "d28bdde8a0164e36935a08b4e989a6eb2c71f3e46198b632730b2a3f429f333a",
+                      "bytes":  909,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig5_选择器与约束/fig5a_selector_paired_statistics.csv",
+                      "sha256":  "61179d61e8486326c292c5aba729fcb8a5ea84390eb6a2845fa0d74e4ae0d9fa",
+                      "bytes":  1108,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig5_选择器与约束/fig5a_selector_rows.csv",
+                      "sha256":  "1fc71efcd06e66546c401889a196f6eb19dedb327178688fc8d1bbb8e47aa6d5",
+                      "bytes":  16801,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig3_主对比/fig3_task_level_summary.csv",
+                      "sha256":  "02710231b455143916909680a1c8f12129627ed28461580c60ea6c6c76689460",
+                      "bytes":  18130,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig4_案例分析/fig4_bundle_assignment_comparison.csv",
+                      "sha256":  "b0336f3bfb8b9ffb9ad584b3f704511cbf3010b1d1e8fa75c14972123def1ebc",
+                      "bytes":  510,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig4_案例分析/fig4_case_overview.json",
+                      "sha256":  "3b9553a906c38449e4fd37821af0160cbc953eddcd9eef8c6576892493b3909e",
+                      "bytes":  906,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig5_选择器与约束/fig5a_selector_summary.csv",
+                      "sha256":  "9532d715e2f1cde595b3f3d51bc2d28a885e873354aeb2f09a328ca49ce15a32",
+                      "bytes":  1624,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/suffix_results/figure_provenance.json",
+                      "sha256":  "60453245e52e9c30d12870967353a3d2321236b9756e22c4c9c828c0bbf32676",
+                      "bytes":  3773,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/suffix_results/formal_metrics.csv",
+                      "sha256":  "f461ff5dc95725f40a90ce5dc437f9b87c346b93c95c504c471e4875018e36dc",
+                      "bytes":  60877,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/suffix_results/grid_paired_effects.csv",
+                      "sha256":  "eab88ff25a797d89d38fce0596b087800471528ab5dcdcc2e79a689a565fe828",
+                      "bytes":  1618,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig5_选择器与约束/fig5bc_constraint_paired_deltas.csv",
+                      "sha256":  "064e1f8151ea28e2b04a8bbf4b2af58f87c665eb646041b6c0177e7fe1311d09",
+                      "bytes":  1288,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig5_选择器与约束/fig5bc_constraint_rows.csv",
+                      "sha256":  "aa900155b3817725a92bb88ab092ac312993ccae62ffbc0bcb2094d43eacacd0",
+                      "bytes":  8167,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "图表数据/fig5_选择器与约束/fig5bc_constraint_summary.csv",
+                      "sha256":  "bf2748fb8e46afd1ef5d77513c4a7972ff492d01326eb442b416ba373664f20b",
+                      "bytes":  2816,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/selection_diagnostic/selections.jsonl",
+                      "sha256":  "96cc50deb27eed42ec907365832e16eda4a985090544adc86386ad90201fa710",
+                      "bytes":  5726363,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig6.pdf",
+                      "sha256":  "90dc96dc82949bc3278421995a3124326314ae5391bd1646849c6b14d95af8f7",
+                      "bytes":  41953,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig7.pdf",
+                      "sha256":  "f034afe71cc6254dc40a94e3506c342035740831071218dafca94b21dac976fc",
+                      "bytes":  57675,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/reports/nine_case_current_reproduction_confirmation.md",
+                      "sha256":  "de1dc952a8c8d5dda0fb2672e8a0ccd91caeb5d304d80ea9613d0e066c526206",
+                      "bytes":  2896,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig3.pdf",
+                      "sha256":  "174f8d0357a4ef3ce71454e004dfe152fcc2f4d9cbd0e690d9107d36efe8fb89",
+                      "bytes":  106557,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig4.pdf",
+                      "sha256":  "9e0be389e653e23f167fbbd201de9765caf6bc4f5a5cf7c45c63fd5359c74602",
+                      "bytes":  62546,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig5.pdf",
+                      "sha256":  "89a08cd74c646d5967b9b59d0855ee34efe2cdb4e10da8de9f484071303f258f",
+                      "bytes":  81116,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "tools/check_package.py",
+                      "sha256":  "cf70faeaae6b2435fd164a5b28108521e5f1f7de2c2f446721a02ec6d61d56a4",
+                      "bytes":  3226,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/validate_cds_mr_exhaustive_optimality.py",
+                      "sha256":  "28401c6321c6b54e71c58123611121ede988db03a31acf1d61085b148f871371",
+                      "bytes":  18444,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/validate_experiment_b_heterogeneous_capability.py",
+                      "sha256":  "82cbbd764a93d05726cb1797aaa2edaa1a7225faa47009b1c817372deb8d063a",
+                      "bytes":  5093,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/experiment_A_exhaustive_optimality_20260919/row_results.jsonl",
+                      "sha256":  "ac382c410326537f401f427f40b61211398382cd6f5c639f571e0d5745ad6924",
+                      "bytes":  48672,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "tools/reproduce.py",
+                      "sha256":  "df632aa20890dc745cf8c5ced0a64065f130b498a2602bb63ae5827b64662a1b",
+                      "bytes":  6520,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/AUDIT_EXPORT_MANIFEST_20260920.json",
+                      "sha256":  "554f9b7fe71dbb4496bcd9bf372339df21dd8155d0a158c5b93c7f186b324444",
+                      "bytes":  1601,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/build_experiment_b_heterogeneous_capability.py",
+                      "sha256":  "6cd0a7843b52dc19bd8fcb570d97b7b75e1031586ad24d167bb825ce2191184c",
+                      "bytes":  10508,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "EXCLUSIONS.json",
+                      "sha256":  "f64a40e30ead850f05cfa0e258a6b03a6c0a9e0991778b058e0092d8eb79cf36",
+                      "bytes":  2160,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "EXPERIMENT_MAP.md",
+                      "sha256":  "76b8813cbab8c1672be287fab74a6e1d47a67b6f1a574742be372c69003c7541",
+                      "bytes":  3282,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "PROTOCOL_SCOPE.md",
+                      "sha256":  "7af063f1b5ed1dcabfc570f46b165a04c9933c321010c2b84331bf8ad0db11e7",
+                      "bytes":  2894,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  ".gitattributes",
+                      "sha256":  "0074723f1db751db5ef5f20cd861a0855a3140582a00fb0b3900ccd655bb663b",
+                      "bytes":  80,
+                      "role":  "public_release_document"
+                  },
+                  {
+                      "path":  ".gitignore",
+                      "sha256":  "cc2419b70392b4160beb24d1a99907315340435153b165d0ce9ab78e95659345",
+                      "bytes":  570,
+                      "role":  "public_release_document"
+                  },
+                  {
+                      "path":  "ENVIRONMENT.md",
+                      "sha256":  "9bab8ef72730207d91b0bfaaea117dd2240ef44d9e247f9c0286e4ee484bbd9d",
+                      "bytes":  2050,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "65b31e977d21713fc477366e73efc1e57845c017599f8d988750ba22aabd0aaf",
+                      "bytes":  3062,
+                      "role":  "public_release_document"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/REPRODUCTION_INDEX.md",
+                      "sha256":  "bfff446a486a70f943d60dbb841866b0188f7aa8d550496399c852e7be320d4c",
+                      "bytes":  9012,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig1.pdf",
+                      "sha256":  "3299eaae27df89a7fe494c781d373717e94fd9afda722fba990e687b18501762",
+                      "bytes":  60810,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/figures/Fig2.pdf",
+                      "sha256":  "27de415ea68bcdf92379fec9e5d4dc9dedad34b55a3c204a23b3617d8fb6be53",
+                      "bytes":  66084,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "RUNBOOK.md",
+                      "sha256":  "f75f5d35c3b7fcdd9ce61245e0664815487ff0ce67d2976e1a2fd0a3746a04d4",
+                      "bytes":  3618,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "THIRD_PARTY_NOTICES.md",
+                      "sha256":  "2e4ecedd9d7420352ffedc9df071406487c4c223987aaad09a33e18d5d734f21",
+                      "bytes":  2066,
+                      "role":  "public_release_document"
+                  },
+                  {
+                      "path":  "paper_applied_intelligence/REPRODUCTION_INDEX.json",
+                      "sha256":  "14d6cf3266b4ca0b2ea3b0958b754b5470ce05a68e7ccd00899820e4d066ed48",
+                      "bytes":  14240,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Agent4Drone_no_recovery/seed_17/b0.jsonl",
+                      "sha256":  "531cac6133f6f5eb5b4071c49a60e915543915074cafef28cf05481c932a1db3",
+                      "bytes":  909489,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Agent4Drone_no_recovery/seed_18/b0.jsonl",
+                      "sha256":  "94a3202073c3ab5149ec33d6aa90c680c983135c40a729f99cc1d5eba96b2d66",
+                      "bytes":  967385,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Global_reallocation/h_mrta.jsonl",
+                      "sha256":  "01504da1605c6619071a6e3bf3f47b62e2b41c9746a133feafc8877d489964c0",
+                      "bytes":  3246281,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Agent4Drone_no_recovery/seed_14/b0.jsonl",
+                      "sha256":  "24acca488cf9b81c6297d81ab9e91f9343c1d3579e38cd532afe400921333ab7",
+                      "bytes":  892758,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Agent4Drone_no_recovery/seed_15/b0.jsonl",
+                      "sha256":  "bf675820524ded16b4432bf43fcf4d96de7045ea8be36b4d9c302a9dd2d21b8b",
+                      "bytes":  912541,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Agent4Drone_no_recovery/seed_16/b0.jsonl",
+                      "sha256":  "e34f7b66f0ef94fd574ef8b8ece3a0624e2ef48dc44cf24b3d75070e10e76be8",
+                      "bytes":  970161,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Intent_preserving_repair/seed_13/cds_mr.jsonl",
+                      "sha256":  "195be63ab0874964351f35bc45a78944d5c0489732d702b90bb15c9c76f62da6",
+                      "bytes":  444567,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Intent_preserving_repair/seed_17/cds_mr.jsonl",
+                      "sha256":  "76bb98fa9d77ae34ca7178026b7005cdd323cbda40d11f4fce1abde4456d511d",
+                      "bytes":  443915,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Intent_preserving_repair/seed_18/cds_mr.jsonl",
+                      "sha256":  "9ff189c57c38faa99b64236f9b33e79190d3f52ec5c1a4bc7bdbaeb047a5764c",
+                      "bytes":  444327,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/LLM_replanning/llm_ape_final.jsonl",
+                      "sha256":  "350d19c988df2eb3f5aa515eded075538c2f56fed18658072b1cfbcb144e7361",
+                      "bytes":  3367250,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Intent_preserving_repair/seed_14/cds_mr.jsonl",
+                      "sha256":  "5e47d72293d8dd6b0c8245ad9c2a7f49e30e0a4801060d0e147cff8bba5530a0",
+                      "bytes":  444153,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Intent_preserving_repair/seed_15/cds_mr.jsonl",
+                      "sha256":  "7ea5fa7ad8fc49d5fd4b6d564b16f5283575bd12f4195cd22e064d8fab510a30",
+                      "bytes":  444677,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Intent_preserving_repair/seed_16/cds_mr.jsonl",
+                      "sha256":  "0c252e0580f735e45e93b4006a9dafca670b1a0acab1c5e7a32fe183c537c33e",
+                      "bytes":  444441,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/experiment_B_heterogeneous_capability_20260919/tasks.jsonl",
+                      "sha256":  "163802ddd69bafd44cf1693c6f3d178b4f89b7727cb4d660e807f3acd1956216",
+                      "bytes":  203846,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/experiment_B_heterogeneous_capability_20260919/full/cds_mr.jsonl",
+                      "sha256":  "94c2877a02dad940815b2e8f23f8eeb83cc7f238853b24a03e023a54aedfa7e2",
+                      "bytes":  1332749,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/ablation_2x2/ablation_stats_seed8_12.json",
+                      "sha256":  "a85c01aa4256b11c6a72fae4f6ce1926c060c3a3dd2dbc566f0047b4f44a7665",
+                      "bytes":  26953,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/experiment_A_exhaustive_optimality_20260919/summary.json",
+                      "sha256":  "8f4db8bc770a9534dfb053047340307d430e536df219706a683339e7472b4b2e",
+                      "bytes":  886,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/experiment_A_exhaustive_optimality_20260919/summary.md",
+                      "sha256":  "5114e705ea8b73896b0a1708dc77e2db166a9d9b8299e5219fc9d5d45bab6296",
+                      "bytes":  238,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "uav_exp/_paper_evidence_audit/experiment_B_heterogeneous_capability_20260919/manifest.json",
+                      "sha256":  "7546400fbe168d729a9158463ff55c20ba29f589691435e71d682c2f3a899eaa",
+                      "bytes":  2743,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/ablation_2x2/ablation_stats_seed8_12.md",
+                      "sha256":  "45e987429c070b7636cde7239c4361f93bbff42b8f7f2d97c4e200eda3d49994",
+                      "bytes":  6956,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/constraint_sensitivity/summary.json",
+                      "sha256":  "cdab699a6d67afd8afd6fdde040a988a58feedc2a0e3c9eb5d97cde838025d2d",
+                      "bytes":  5443,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/constraint_sensitivity/validation.json",
+                      "sha256":  "1d15ed2455a14bf1e387d0c06fe4fe3bb0a4ff3b47733f179b93f34a18eabc77",
+                      "bytes":  13707,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/main_comparison/Agent4Drone_no_recovery/seed_13/b0.jsonl",
+                      "sha256":  "c58ba8acb92a1e91383730ee32fe8312c4a8d079bf0f58f39d68daed5e54a5ef",
+                      "bytes":  994436,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/ablation_2x2/summary.json",
+                      "sha256":  "985b25130742762fde9fb95c56e2076fcc577e15e5c0e9ca5651f998661f6982",
+                      "bytes":  6458,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/case_forest_fog_seed13/selected-case-evidence.json",
+                      "sha256":  "7e57adf7b71a747c9a0cc6271627056c16e417efd97de0a7a5bba72c3678e884",
+                      "bytes":  3783,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "UAV_PAPER/frozen_data/constraint_sensitivity/raw_results.jsonl",
+                      "sha256":  "3eb0ca35f78e2c1e0a4a00407d5de783cd4ea73c1699f695d392ae41c481c7e4",
+                      "bytes":  1857090,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/summarize_v6_3_preexec_ablation.py",
+                      "sha256":  "85011a57e09efbfd62fe7797eb922ff39200f9d73f5649da35142765e14f43f8",
+                      "bytes":  34958,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/task_common.py",
+                      "sha256":  "2b4af8871e2483b5289948f2951d8a92a5e16e03432c448596453d065983c61d",
+                      "bytes":  2622,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/v6_metric_evaluator.py",
+                      "sha256":  "a5a2fb3ec482f87e239523372d08c0bca088801e204fed1494d82e3fded0295d",
+                      "bytes":  6826,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/run_cds_mr_contract_online.py",
+                      "sha256":  "06532cb989850c222d80dc68b2c7edc9a6fde47c0c1a915b676e2791d0ed3270",
+                      "bytes":  60709,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/run_v6_3_preexec_ablation.py",
+                      "sha256":  "677c3b60a865b8f7d2c4d5afa621ec73a4a194e5c79c2a4eb2b10df40eef78df",
+                      "bytes":  24138,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/sese_gate.py",
+                      "sha256":  "795e72bf5d210fe44b01f9512001e57add22bf32fc44a21f84fefabe9d50a1ad",
+                      "bytes":  10467,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/validate_uav_task_v1.py",
+                      "sha256":  "3e1c7d1620dab3069e9f488f457c6fd09c619abff61aa2ad728c1152309a26bd",
+                      "bytes":  6072,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/CITATION.cff",
+                      "sha256":  "4710f3a31abb8eb4260375fda6cb0839596dac63c838577c2220b0a78d014fea",
+                      "bytes":  937,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/LICENSE",
+                      "sha256":  "d49cdc3020dfe0615515277ff96e2f5ca471750248a7505c9bb288be84af4591",
+                      "bytes":  1072,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/pyproject.toml",
+                      "sha256":  "0790984b35d627c52678e797ed4b4b94521fa9d425310d19f181bc107abc7e99",
+                      "bytes":  752,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/dataset/UAVBench/LICENSE",
+                      "sha256":  "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+                      "bytes":  11357,
+                      "role":  "third_party_source_and_license_copy"
+                  },
+                  {
+                      "path":  "实验数据/dataset/UAVBench/README.md",
+                      "sha256":  "2ab8a3517de465dbb1cef187f35cb75c87af5238055520f6b1f17e785452a56b",
+                      "bytes":  17916,
+                      "role":  "third_party_source_and_license_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/.gitignore",
+                      "sha256":  "cfa3dccdb654143496d7bc7b24bf40fe5ab9e0e629e3489376f2a74fdadf3ce1",
+                      "bytes":  5141,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/convert_uavbench.py",
+                      "sha256":  "741d54d57ac8de50e7f6e4e88eae575cb2f88d77d0cc9ad0b717d47b04735173",
+                      "bytes":  9168,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/filter_executable_tasks.py",
+                      "sha256":  "2b1ed717126b2fd142fb44af67400782ee1d13373ec694f674e9ae944afdcddf",
+                      "bytes":  11058,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/gym_task_adapter.py",
+                      "sha256":  "a8a53d47d48602d8af3a36e4781249d697842f89122d9b609fa91689de512717",
+                      "bytes":  6207,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/agent4drone_action_adapter.py",
+                      "sha256":  "446b43205edac585810aa19bcea319f97efdb58fa3fa6eb70d9c6a61824155cb",
+                      "bytes":  6331,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/build_v6_3_preexec_scenarios.py",
+                      "sha256":  "51fd56d23f95927e0ecd568cc949348de87a86849ce65f91ff0ad4806213225c",
+                      "bytes":  10823,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/configure_agent4drone.py",
+                      "sha256":  "e684f0940d06b4b6909e6b9b35dad3fb1e3ed303f46637e9e9e1e86778a94ada",
+                      "bytes":  5726,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/gym_uav_bridge.py",
+                      "sha256":  "2ced429748c27696176cf0d18ab4dc2f36e63a81a940ffb2d0304d2cf69124cc",
+                      "bytes":  57839,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/run_agent4drone_baseline.py",
+                      "sha256":  "99d8189a8f085bb4f070a88b744845274c0e942c01714d010fdea44f3743a34e",
+                      "bytes":  12907,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/run_agent4drone_parallel.py",
+                      "sha256":  "2a14f9f9834601075cf6268b25f4c073a96001fbc9462eaf1f406652e4cd1caa",
+                      "bytes":  15883,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/run_agent4drone_sese_online.py",
+                      "sha256":  "607bf4729de44b991bb16ad7e918f6437e99178aef8cb93995740ee3336f622a",
+                      "bytes":  18250,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/make_fixed_eval_split.py",
+                      "sha256":  "e45e770faf40d5f5745341980fbd30451714abde4a83cc662ae000a685780556",
+                      "bytes":  5646,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/profile_uavbench.py",
+                      "sha256":  "e7f405d1d199a4402bafafadeb85e0a34732887264e7f360943b24b8fd27d980",
+                      "bytes":  3222,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/scripts/project_waypoints_for_gym.py",
+                      "sha256":  "d15e9a8c696d19741994db48e9b0623998ce42c08b609638ef1d9395ec01b01b",
+                      "bytes":  5339,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/marl.gif",
+                      "sha256":  "0ae4dd86c0a308b753e29602684c8e509a7d2b2beb34eac7225c34b5dfdacdd3",
+                      "bytes":  1665718,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/racer.urdf",
+                      "sha256":  "4ddcd3a8edd4a31654b3dde5d315490688545efdf79a40c434fdad3d4863d5c4",
+                      "bytes":  2565,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/rl.gif",
+                      "sha256":  "f6d892987fa8ca4f66cda5dd5402b7e63d1ed372ca5e509762095448774f7a1a",
+                      "bytes":  1510652,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/ffmpeg_png2mp4.sh",
+                      "sha256":  "65f47cc471ff08977b507835d9b003403e3f18d1ddf12651b2c566c748c1d386",
+                      "bytes":  606,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/helix.gif",
+                      "sha256":  "27615a744def833dc7ac3e5c1217e7be2341313534506406cdbb439ec25971c9",
+                      "bytes":  8297446,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/helix.png",
+                      "sha256":  "326ab87d68b0f8af3f2af2f80c914b7a8f256eecaf96d0633ab7fbf8887b3170",
+                      "bytes":  908397,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/control/BaseControl.py",
+                      "sha256":  "c2b6573e9d14b41da04aa1339d74096749d61509fabab7ce1878ab70d5cf5ec1",
+                      "bytes":  9491,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/control/__init__.py",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0,
+                      "role":  "restored_original_empty_package_marker"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/BaseAviary.py",
+                      "sha256":  "729e6a51e30b81ba4ace4625d6ca1be1815b56c3e55de96a81380f749bf34023",
+                      "bytes":  54902,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/envs/BaseRLAviary.py",
+                      "sha256":  "eb891759fd903440dd89fb112454f0e96953eb3d46993427218e8bf4a6828498",
+                      "bytes":  17438,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/control/CTBRControl.py",
+                      "sha256":  "ab4f86223ce1980b9de541c7c8d9e6abd242f65781a96b015ceccf5d35dee12f",
+                      "bytes":  11122,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/control/DSLPIDControl.py",
+                      "sha256":  "b7a5aab114d55600955364ee286e529178e357402d678920da6f92732eb6ba53",
+                      "bytes":  13791,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/control/MRACControl.py",
+                      "sha256":  "364ab2660ae5c12132b12f8128bc6cd89f2571cfdfa82e23c1bd2e5ff134aa5b",
+                      "bytes":  5853,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/__init__.py",
+                      "sha256":  "737d759edb43e9995309ad615d2ba38bb374a1a45d123bb835178f5cc483d846",
+                      "bytes":  443,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/architrave.urdf",
+                      "sha256":  "b8e2651fa15fbebd14da9928f7b844cf1e1200c61842359585a1d9e30c8aa447",
+                      "bytes":  635,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/beta-presets-bak.txt",
+                      "sha256":  "67d5dca89cab19033fb6ab330a9d6dbd5db80d6fccb9e4ff097623933236d089",
+                      "bytes":  1307,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/README.md",
+                      "sha256":  "1a5c8b80307d5934c9c7fdd78ec477514a1389cbc1deaf71fb2b5dd67a02326a",
+                      "bytes":  6303,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/.github/dependabot.yml",
+                      "sha256":  "0f2e5571040fede4ec9ecf00f1d76d56a4914a95c5c10c18d4778c1017526343",
+                      "bytes":  370,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/.github/workflows/test.yml",
+                      "sha256":  "2c4ffc3b1ad21fa31894fad3346629395c4e67dcf393714d086e9ef1e079c4e4",
+                      "bytes":  614,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/beta-traj.csv",
+                      "sha256":  "9f3aa5b344817217622ce24828cf49b0507133ed539dd1dec55cd47bf6e7e37b",
+                      "bytes":  2023138,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/cf2x.urdf",
+                      "sha256":  "81494018056df2995351da62b9365d2ef4e1512112feaf73e88f9203e20c884b",
+                      "bytes":  2836,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/clone_bfs.sh",
+                      "sha256":  "5282d426cd321926435145f656073988ad3cd3967023475d1feb09b34ccc2052",
+                      "bytes":  2497,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/eeprom.bin",
+                      "sha256":  "006572e58a7cb196698016d1834e1c37a3819362143836e9960f406accfd2f49",
+                      "bytes":  32768,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/box.urdf",
+                      "sha256":  "87f132c778f0ce0c3909fa4fff7d08fb9efb1b0b0fe24944e88538a01bef5a12",
+                      "bytes":  390,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/cf2.dae",
+                      "sha256":  "8db98d6393bbf672f01a8d3af6ff5ac42b9e85f6ee3e3e2d2c53801e823b3a35",
+                      "bytes":  529734,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/assets/cf2p.urdf",
+                      "sha256":  "9c6acd425307103bb2f40e93afc5c951811eed77ee85a7baa246a265d845f2b9",
+                      "bytes":  2830,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/schemas/uav_task_v1.schema.json",
+                      "sha256":  "c458b17e316d175800b7cb367208f1234f02b4726bb98828607ed4aca98f77a7",
+                      "bytes":  3514,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_route_cost_outcome_stress.py",
+                      "sha256":  "6582f1e31608592d540d4efc00c3f169ca60b93bfa956f9eea089c10db042b81",
+                      "bytes":  5001,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_sese_selection_evidence.py",
+                      "sha256":  "817c2d6d19b8cf0ba0ceb6d78a48ae7b738ddbaa175e6bf61e0949ca2ffbe728",
+                      "bytes":  10150,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_suffix_coupling_grid_v1.py",
+                      "sha256":  "eeb2081634fd3f6ea1deca2215db95270a85d1499799ce7e6350a8828599a4ed",
+                      "bytes":  16713,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_mechanism_dynamic_scale_v3.py",
+                      "sha256":  "1e05aeacc44cdf03f4c4dcad08c0bb1cf1c96748445082aa6b0a12c0cc0271fe",
+                      "bytes":  4966,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_mechanism_stress_v2.py",
+                      "sha256":  "3620288abc673f75276b6f94ebb45cb987b2d15d2001bd7e558c1c88323248bb",
+                      "bytes":  11405,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_outcome_discriminating_stress.py",
+                      "sha256":  "dd9f7893d9b76c8f3d88376a6a900473bdb75297992bd5afaef51aebacb1da14",
+                      "bytes":  7564,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_v6_3_preexec_scenarios.py",
+                      "sha256":  "51fd56d23f95927e0ecd568cc949348de87a86849ce65f91ff0ad4806213225c",
+                      "bytes":  10823,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/merge_external_outputs.py",
+                      "sha256":  "2a42240270a584ee1845b56d11b43e3a356d33650eb5579841ec97f79e474b30",
+                      "bytes":  1384,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/offline_stability_control.py",
+                      "sha256":  "007119237a7e034ea4dbcd93093291610e2425649a4e436cfd5f70ec70c7d9a5",
+                      "bytes":  10475,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/outcome_stress_preregistration_v1.json",
+                      "sha256":  "a870ea49997e0466834cfb326f21507b3dd60c8aedf61daa7442989f68753893",
+                      "bytes":  1453,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/global_suffix_reallocation.py",
+                      "sha256":  "a3ffbb11b2199d93ff04e4c7ddcd3f9c5fbff604319e42a6a63c0a597d1144e0",
+                      "bytes":  6497,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/gym_task_adapter.py",
+                      "sha256":  "a8a53d47d48602d8af3a36e4781249d697842f89122d9b609fa91689de512717",
+                      "bytes":  6207,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/gym_uav_bridge.py",
+                      "sha256":  "a7e7034e9932e6532958a89ee0db5201c752ded7941748c97fd5b42b6df42fed",
+                      "bytes":  64103,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_9/results.jsonl",
+                      "sha256":  "38714cb97639953cf8cfe512d4f316a75b326f3adad5ea0b382e156c733b2ab7",
+                      "bytes":  1225003,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/analyze_b3_independent_distribution.py",
+                      "sha256":  "2d87337a0062bc008cc20461093bef38f344a9520f666b38c3933b9371eccc4a",
+                      "bytes":  16880,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/analyze_route_cost_outcome_stress.py",
+                      "sha256":  "ea31e09639da5739ec7751a9395893f2216bd01b07c3fcdb3d2007e9ad03536d",
+                      "bytes":  6382,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_11/results.jsonl",
+                      "sha256":  "f384019f8f6de12b376e281d33acfea13a7dbd7a380ff438184929fe62f8ad7d",
+                      "bytes":  1224913,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_12/results.jsonl",
+                      "sha256":  "ace56eb164b3f89131a5cf1351eccf75695d1cc8f8b3c686785cd62874ddfa90",
+                      "bytes":  1224901,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_8/results.jsonl",
+                      "sha256":  "470f3177f743054539d91d5d524487f5dcb3e0fba15a16987ec4cfe69010e450",
+                      "bytes":  1224380,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/audit_mechanism_boundary_v1.py",
+                      "sha256":  "53ab3b6b38c421f2ec3333c8801910701004ff2f3724806a7ebb0133154863f8",
+                      "bytes":  4090,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_b3_independent_tasks_v1.py",
+                      "sha256":  "a2bfc5eaf0a813bd0da59db761964877aba86d44e2d0fa05b45a3533d40de301",
+                      "bytes":  16706,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_constraint_sensitivity_scenarios.py",
+                      "sha256":  "d851597d7b6300976be41604e703f64c3e43a16936acc0810f0054fa5dab254b",
+                      "bytes":  16804,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/build_mechanism_boundary_v1.py",
+                      "sha256":  "26ead67d669aebe57923b119fbe3087eb220eaf0f5e98d90ccfd7f263895979f",
+                      "bytes":  6139,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/audit_mechanism_dynamic_scale_v3.py",
+                      "sha256":  "652ac1b6101042e3ec26c6af3d90fa8cd118f70f55d7dfa79d939b448f181358",
+                      "bytes":  7767,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/audit_suffix_grid_formal_run.py",
+                      "sha256":  "fd4b763634f8321cc5dfdf7beac7fd14f72f9e5d5529505757e3cb6c46bc1512",
+                      "bytes":  5086,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/audit_suffix_grid_three_way.py",
+                      "sha256":  "55edb4b1657cb241450d4009511c9813ab9b489894b9aefd2e05bf2e075b508d",
+                      "bytes":  17425,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/summarize_v6_3_preexec_ablation.py",
+                      "sha256":  "85011a57e09efbfd62fe7797eb922ff39200f9d73f5649da35142765e14f43f8",
+                      "bytes":  34958,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/test_offline_stability_control.py",
+                      "sha256":  "2164c65cdeb9465306cc027f90009eb7d57b720540190372acedb786ffd009da",
+                      "bytes":  2917,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/test_suffix_grid_aggregation.py",
+                      "sha256":  "d401c3207330cf3d6bf0dee035b02e7ae8c170369f75837fc4fbd5ae10912154",
+                      "bytes":  2121,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/summarize_constraint_sensitivity.py",
+                      "sha256":  "f3c91f3c0338ce818ff129e11ac639fc8a8abe0f0683ad2f4eddd03c6ccb7afa",
+                      "bytes":  5499,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/summarize_external_repro.py",
+                      "sha256":  "bfe9353a78dabbe620d36c24ab5dee54a86791c5b60a820c30188a3cc58d1c21",
+                      "bytes":  5828,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/summarize_sese_selection_evidence.py",
+                      "sha256":  "99737fe1eca7e4f76ebbfb1e09080ab2caf7dc22f8b1492a44a2152a073ddce7",
+                      "bytes":  11525,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/test_suffix_grid_candidate_constraints.py",
+                      "sha256":  "6187e407cff7b6bb16421aceacd38c51cc3077b0e831d22a5c7ad036eede5f9d",
+                      "bytes":  1988,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/verify_reproducibility_closeout.py",
+                      "sha256":  "4ae2e9adc07e824d0b19634d915725548dc549fd66135ef0b8147ba870d87fd2",
+                      "bytes":  10520,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/README.md",
+                      "sha256":  "5ca5830d0ebf496ecf27b2012dd1335e38d36c5ea323acef8e936d438a2e7816",
+                      "bytes":  10373,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/experiment/docs/FAST_EXPERIMENTS.md",
+                      "sha256":  "e4d1a51def39fe4301721514af2dbb74d15a7614094ea27f70c09bb855717e46",
+                      "bytes":  2680,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/v6_metric_evaluator.py",
+                      "sha256":  "a5a2fb3ec482f87e239523372d08c0bca088801e204fed1494d82e3fded0295d",
+                      "bytes":  6826,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/validate_mechanism_stress_v2.py",
+                      "sha256":  "11e259d7b2571353d1da3e1e86e6fc55308a205a443864387c313ecdca9e415d",
+                      "bytes":  5889,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/validate_v6_repair_witnesses.py",
+                      "sha256":  "d7d3626ff8bd422fe7e7afad6caf9100d29bf2c589852217c27d29ef8d782a5b",
+                      "bytes":  7293,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_agent4drone_baseline.py",
+                      "sha256":  "99d8189a8f085bb4f070a88b744845274c0e942c01714d010fdea44f3743a34e",
+                      "bytes":  12907,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_agent4drone_parallel.py",
+                      "sha256":  "2a14f9f9834601075cf6268b25f4c073a96001fbc9462eaf1f406652e4cd1caa",
+                      "bytes":  15883,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_cds_mr_contract_online.py",
+                      "sha256":  "8f3b36243afe583d93d84b5f64aac625ac333e2c1fc416e6e6233e35cfc8087d",
+                      "bytes":  61413,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/prepare_sese_parallel.py",
+                      "sha256":  "36df355753832f60d294479daf978d60d8cc9de9d6add53f3a94c998b49a327d",
+                      "bytes":  4549,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/probe_mechanism_dynamic_controller.py",
+                      "sha256":  "3cb6f0f55261e9733e7f53e3592939b44c9e8b898692458fab9792298e30d8c2",
+                      "bytes":  1945,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/route_cost_outcome_preregistration_v1.json",
+                      "sha256":  "70774adfb89bbb78f705480fdbe4bda9f589fb2b1f5fe09dde6ab50c7b3e6ef3",
+                      "bytes":  1346,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_role_external_baselines.py",
+                      "sha256":  "9aebbe9033f288ef097e1ff0158c63630880b6dc18df598e6f795534d811c6f5",
+                      "bytes":  15937,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_simple_local_vs_cds_mr.py",
+                      "sha256":  "a3ab395a1992bacf54969c20b17d5a07ba941ae84b07e2fda7da599ef39cc03d",
+                      "bytes":  39915,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_v6_3_preexec_ablation.py",
+                      "sha256":  "6a3569b353c9e500f26e07e19d339364cee080064b7f1b55bb3a655408822fff",
+                      "bytes":  25000,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/summarize_closed_main_comparison.py",
+                      "sha256":  "5aabb88f96b0b7f4385bdbae49c0a5655559a021cc06ee4306cd916105c65ab4",
+                      "bytes":  12834,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_role_external_baselines_h_mrta.py",
+                      "sha256":  "fa1785ba4b8c2d873c7677dc0dc84149bcc4fb8c28d14a9d3382ce8fa3089c2e",
+                      "bytes":  15411,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_role_external_baselines_v2.py",
+                      "sha256":  "9aebbe9033f288ef097e1ff0158c63630880b6dc18df598e6f795534d811c6f5",
+                      "bytes":  15937,
+                      "role":  "unchanged_local_package_copy"
+                  },
+                  {
+                      "path":  "实验数据/code/run_sese_selection_evidence.py",
+                      "sha256":  "ebd68b5ebef611cce93147bbe6a98892d5bcde3bbfbbd02146c5ef1771e1e738",
+                      "bytes":  30934,
+                      "role":  "unchanged_local_package_copy"
+                  }
+              ],
+    "status":  "prepared_not_uploaded_authentication_pending",
+    "excluded_from_local_package":  [
+                                        "paper_applied_intelligence/sn-jnl.cls",
+                                        "paper_applied_intelligence/supplement_zh.tex",
+                                        "paper_applied_intelligence/reports/reference_release_platforms_20261010.md",
+                                        "PACKAGING_CHECK.md",
+                                        "README.md",
+                                        "paper_applied_intelligence/sn-basic.bst",
+                                        "THIRD_PARTY_NOTICES.md",
+                                        "paper_applied_intelligence/main_zh.tex",
+                                        "paper_applied_intelligence/references.bib"
+                                    ],
+    "package_id":  "CDS-MR_public_upload_candidate_20261010",
+    "requested_visibility":  "public"
+}

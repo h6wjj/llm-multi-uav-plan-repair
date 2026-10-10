@@ -1,0 +1,16 @@
+﻿left_raw_method,left_display_method,right_raw_method,right_display_method,condition,metric,metric_label,n,mean_delta_left_minus_right,mean_benefit_delta,benefit_direction,benefit_ci95_low,benefit_ci95_high,exact_p_sign_test_two_sided,cohen_dz
+B0+SeSE+CDS-MR,Proposed full mechanism,H-MRTA-Repair,H-MRTA global-reallocation adapter,recoverable_failure,recovery_success_rate_item,RSR,36,0.0,0.0,left_minus_right,0.0,0.0,1.0,
+B0+SeSE+CDS-MR,Proposed full mechanism,H-MRTA-Repair,H-MRTA global-reallocation adapter,recoverable_failure,contract_satisfaction_rate,CSR,36,0.0,0.0,left_minus_right,0.0,0.0,1.0,
+B0+SeSE+CDS-MR,Proposed full mechanism,H-MRTA-Repair,H-MRTA global-reallocation adapter,recoverable_failure,normalized_plan_stability_distance,NPSD,36,-0.216667,0.216667,right_minus_left,0.160185,0.273148,1.1920928955078125e-07,1.227759
+B0+SeSE+CDS-MR,Proposed full mechanism,H-MRTA-Repair,H-MRTA global-reallocation adapter,recoverable_failure,repair_decision_latency_seconds,Repair latency (s),36,5.302651,-5.302651,right_minus_left,-5.885559,-4.759885,2.9103830456733704e-11,-3.036843
+B0+SeSE+CDS-MR,Proposed full mechanism,H-MRTA-Repair,H-MRTA global-reallocation adapter,recoverable_failure,mission_completion_time_seconds,"Mission time (s), success only",36,0.0,0.0,right_minus_left,0.0,0.0,1.0,
+B0+SeSE+CDS-MR,Proposed full mechanism,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recoverable_failure,recovery_success_rate_item,RSR,36,0.083333,0.083333,left_minus_right,0.0,0.194444,0.25,0.297294
+B0+SeSE+CDS-MR,Proposed full mechanism,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recoverable_failure,contract_satisfaction_rate,CSR,36,0.041667,0.041667,left_minus_right,0.0,0.097222,0.25,0.297294
+B0+SeSE+CDS-MR,Proposed full mechanism,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recoverable_failure,normalized_plan_stability_distance,NPSD,36,-0.325,0.325,right_minus_left,0.235185,0.415741,4.76837158203125e-07,1.15717
+B0+SeSE+CDS-MR,Proposed full mechanism,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recoverable_failure,repair_decision_latency_seconds,Repair latency (s),36,-53.219448,53.219448,right_minus_left,35.891333,78.967258,1.076841726899147e-09,0.783379
+B0+SeSE+CDS-MR,Proposed full mechanism,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recoverable_failure,mission_completion_time_seconds,"Mission time (s), success only",33,-0.598485,0.598485,right_minus_left,0.289394,0.949495,0.001953125,0.606799
+B0+SeSE+CDS-MR,Proposed full mechanism,B0,No-repair execution,recoverable_failure,recovery_success_rate_item,RSR,36,1.0,1.0,left_minus_right,1.0,1.0,2.9103830456733704e-11,
+B0+SeSE+CDS-MR,Proposed full mechanism,B0,No-repair execution,recoverable_failure,contract_satisfaction_rate,CSR,36,0.490741,0.490741,left_minus_right,0.476852,0.5,2.9103830456733704e-11,12.674572
+B0+SeSE+CDS-MR,Proposed full mechanism,B0,No-repair execution,recoverable_failure,normalized_plan_stability_distance,NPSD,0,,,right_minus_left,,,1.0,
+B0+SeSE+CDS-MR,Proposed full mechanism,B0,No-repair execution,recoverable_failure,repair_decision_latency_seconds,Repair latency (s),0,,,right_minus_left,,,1.0,
+B0+SeSE+CDS-MR,Proposed full mechanism,B0,No-repair execution,recoverable_failure,mission_completion_time_seconds,"Mission time (s), success only",0,,,right_minus_left,,,1.0,

@@ -1,0 +1,959 @@
+{
+  "audit": {
+    "scope": "frozen_data/main_comparison",
+    "methods": [
+      "Agent4Drone_no_recovery",
+      "Intent_preserving_repair",
+      "LLM_replanning",
+      "Global_reallocation"
+    ],
+    "file_extensions": [
+      ".json",
+      ".jsonl"
+    ],
+    "generated_at": "2026-09-17T14:14:22.115523+00:00",
+    "read_only": true,
+    "parse_errors": []
+  },
+  "methods": {
+    "Agent4Drone_no_recovery": {
+      "file_count": 6,
+      "files": [
+        {
+          "file": "frozen_data/main_comparison/Agent4Drone_no_recovery/seed_13/b0.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            13
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Agent4Drone_no_recovery/seed_14/b0.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            14
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Agent4Drone_no_recovery/seed_15/b0.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            15
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Agent4Drone_no_recovery/seed_16/b0.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            16
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Agent4Drone_no_recovery/seed_17/b0.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            17
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Agent4Drone_no_recovery/seed_18/b0.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            18
+          ]
+        }
+      ],
+      "record_count": 72,
+      "seed_count": 6,
+      "seed_values": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "seed_sources": {
+        "path_seed_values": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "run_seed_index_values": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "json_fields": [
+        "agent_health",
+        "api_output",
+        "api_success",
+        "bridge_log",
+        "condition",
+        "episode_seed",
+        "gym_metrics",
+        "initial_bridge_metrics",
+        "intermediate_steps",
+        "method",
+        "protocol_version",
+        "run_seed",
+        "run_seed_index",
+        "source_dataset",
+        "source_task_id",
+        "split_seed",
+        "standard_metrics",
+        "task_id",
+        "token_usage",
+        "tool_calls"
+      ],
+      "standard_metrics_fields": [
+        "contract_checks",
+        "contract_satisfaction_rate",
+        "metric_protocol",
+        "mission_completion_time_seconds",
+        "mission_elapsed_until_terminal_seconds",
+        "normalized_plan_stability_distance",
+        "recovery_success_rate_item",
+        "repair_decision_latency_seconds",
+        "runner_wallclock_seconds",
+        "strict_contract_satisfied"
+      ],
+      "task_count": 72,
+      "condition_values": [
+        "nominal",
+        "recoverable_failure"
+      ],
+      "protocol_versions": [
+        "agent4drone_baseline_v1"
+      ]
+    },
+    "Intent_preserving_repair": {
+      "file_count": 6,
+      "files": [
+        {
+          "file": "frozen_data/main_comparison/Intent_preserving_repair/seed_13/cds_mr.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            13
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Intent_preserving_repair/seed_14/cds_mr.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            14
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Intent_preserving_repair/seed_15/cds_mr.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            15
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Intent_preserving_repair/seed_16/cds_mr.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            16
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Intent_preserving_repair/seed_17/cds_mr.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            17
+          ]
+        },
+        {
+          "file": "frozen_data/main_comparison/Intent_preserving_repair/seed_18/cds_mr.jsonl",
+          "format": "jsonl",
+          "record_count": 12,
+          "path_seeds": [
+            18
+          ]
+        }
+      ],
+      "record_count": 72,
+      "seed_count": 6,
+      "seed_values": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "seed_sources": {
+        "path_seed_values": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "run_seed_index_values": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "json_fields": [
+        "candidate_count",
+        "candidates",
+        "condition",
+        "condition_label",
+        "initial_execution_record",
+        "initial_plan_contract_validity",
+        "initial_planning_latency_seconds",
+        "initial_planning_token_cost",
+        "method",
+        "method_definition",
+        "planning_uncertainty",
+        "protocol_version",
+        "repair",
+        "run_seed",
+        "run_seed_index",
+        "runner_status",
+        "selected_candidate_index",
+        "selected_plan",
+        "sese_gate",
+        "source_task_id",
+        "standard_metrics",
+        "task_id"
+      ],
+      "standard_metrics_fields": [
+        "contract_checks",
+        "contract_satisfaction_rate",
+        "metric_protocol",
+        "mission_completion_time_seconds",
+        "mission_elapsed_until_terminal_seconds",
+        "normalized_plan_stability_distance",
+        "recovery_success_rate_item",
+        "repair_decision_latency_seconds",
+        "runner_wallclock_seconds",
+        "strict_contract_satisfied"
+      ],
+      "task_count": 72,
+      "condition_values": [
+        "nominal",
+        "recoverable_failure"
+      ],
+      "protocol_versions": [
+        "v6_3_preexec_ablation_v1"
+      ]
+    },
+    "LLM_replanning": {
+      "file_count": 1,
+      "files": [
+        {
+          "file": "frozen_data/main_comparison/LLM_replanning/llm_ape_final.jsonl",
+          "format": "jsonl",
+          "record_count": 72,
+          "path_seeds": []
+        }
+      ],
+      "record_count": 72,
+      "seed_count": 6,
+      "seed_values": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "seed_sources": {
+        "path_seed_values": [],
+        "run_seed_index_values": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "json_fields": [
+        "condition",
+        "condition_label",
+        "failure_event",
+        "final_execution_record",
+        "implementation_scope",
+        "initial_execution_record",
+        "method",
+        "method_definition",
+        "planning_uncertainty",
+        "protocol_version",
+        "repair",
+        "repair_window",
+        "run_seed",
+        "run_seed_index",
+        "runner_status",
+        "source_task_id",
+        "standard_metrics",
+        "task_id"
+      ],
+      "standard_metrics_fields": [
+        "contract_checks",
+        "contract_satisfaction_rate",
+        "metric_protocol",
+        "mission_completion_time_seconds",
+        "mission_elapsed_until_terminal_seconds",
+        "normalized_plan_stability_distance",
+        "recovery_success_rate_item",
+        "repair_decision_latency_seconds",
+        "runner_wallclock_seconds",
+        "strict_contract_satisfied"
+      ],
+      "task_count": 72,
+      "condition_values": [
+        "nominal",
+        "recoverable_failure"
+      ],
+      "protocol_versions": [
+        "external_role_conflict_paired_v1"
+      ]
+    },
+    "Global_reallocation": {
+      "file_count": 1,
+      "files": [
+        {
+          "file": "frozen_data/main_comparison/Global_reallocation/h_mrta.jsonl",
+          "format": "jsonl",
+          "record_count": 72,
+          "path_seeds": []
+        }
+      ],
+      "record_count": 72,
+      "seed_count": 6,
+      "seed_values": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "seed_sources": {
+        "path_seed_values": [],
+        "run_seed_index_values": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "json_fields": [
+        "condition",
+        "condition_label",
+        "failure_event",
+        "final_execution_record",
+        "implementation_scope",
+        "initial_execution_record",
+        "method",
+        "method_definition",
+        "planning_uncertainty",
+        "protocol_version",
+        "repair",
+        "repair_window",
+        "run_seed",
+        "run_seed_index",
+        "runner_status",
+        "source_task_id",
+        "standard_metrics",
+        "task_id"
+      ],
+      "standard_metrics_fields": [
+        "contract_checks",
+        "contract_satisfaction_rate",
+        "metric_protocol",
+        "mission_completion_time_seconds",
+        "mission_elapsed_until_terminal_seconds",
+        "normalized_plan_stability_distance",
+        "recovery_success_rate_item",
+        "repair_decision_latency_seconds",
+        "runner_wallclock_seconds",
+        "strict_contract_satisfied"
+      ],
+      "task_count": 72,
+      "condition_values": [
+        "nominal",
+        "recoverable_failure"
+      ],
+      "protocol_versions": [
+        "external_role_conflict_paired_v1"
+      ]
+    }
+  },
+  "common_standard_metrics_fields": [
+    "contract_checks",
+    "contract_satisfaction_rate",
+    "metric_protocol",
+    "mission_completion_time_seconds",
+    "mission_elapsed_until_terminal_seconds",
+    "normalized_plan_stability_distance",
+    "recovery_success_rate_item",
+    "repair_decision_latency_seconds",
+    "runner_wallclock_seconds",
+    "strict_contract_satisfied"
+  ],
+  "common_metric_fields": [
+    "contract_satisfaction_rate",
+    "mission_completion_time_seconds",
+    "mission_elapsed_until_terminal_seconds",
+    "normalized_plan_stability_distance",
+    "repair_decision_latency_seconds",
+    "runner_wallclock_seconds"
+  ],
+  "non_numeric_common_standard_fields": [
+    "contract_checks",
+    "metric_protocol",
+    "recovery_success_rate_item",
+    "strict_contract_satisfied"
+  ],
+  "field_statistics": {
+    "contract_checks": {
+      "path": "standard_metrics.contract_checks",
+      "data_type": "object",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": null,
+        "std": null,
+        "sample_count": 0,
+        "data_type": "object",
+        "observed_value_count": 288
+      },
+      "numeric_metric": false
+    },
+    "contract_satisfaction_rate": {
+      "path": "standard_metrics.contract_satisfaction_rate",
+      "data_type": "number",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": 0.6597222083333333,
+          "std": 0.21925590437678696,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": 1.0,
+          "std": 0.0,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": 0.9791666666666666,
+          "std": 0.1006143102973912,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": 1.0,
+          "std": 0.0,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": 0.90972221875,
+        "std": 0.18808384220246532,
+        "sample_count": 288,
+        "data_type": "number",
+        "observed_value_count": 288
+      },
+      "numeric_metric": true
+    },
+    "metric_protocol": {
+      "path": "standard_metrics.metric_protocol",
+      "data_type": "object",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "object",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": null,
+        "std": null,
+        "sample_count": 0,
+        "data_type": "object",
+        "observed_value_count": 288
+      },
+      "numeric_metric": false
+    },
+    "mission_completion_time_seconds": {
+      "path": "standard_metrics.mission_completion_time_seconds",
+      "data_type": "null|number",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": 0.37777777777777777,
+          "std": 0.10662438775633011,
+          "sample_count": 24,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": 0.3388888888888889,
+          "std": 0.06254888542006681,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": 0.6224637681159421,
+          "std": 0.716038405005245,
+          "sample_count": 69,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": 0.3388888888888889,
+          "std": 0.06254888542006681,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": 0.42538677918424755,
+        "std": 0.4090765206754993,
+        "sample_count": 237,
+        "data_type": "null|number",
+        "observed_value_count": 288
+      },
+      "numeric_metric": true
+    },
+    "mission_elapsed_until_terminal_seconds": {
+      "path": "standard_metrics.mission_elapsed_until_terminal_seconds",
+      "data_type": "number",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": 7.937037037037037,
+          "std": 19.82624113188325,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": 0.3388888888888889,
+          "std": 0.06254888542006681,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": 3.9298611111111112,
+          "std": 15.988395864746908,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": 0.3388888888888889,
+          "std": 0.06254888542006681,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": 3.1361689814814815,
+        "std": 13.051822861461279,
+        "sample_count": 288,
+        "data_type": "number",
+        "observed_value_count": 288
+      },
+      "numeric_metric": true
+    },
+    "normalized_plan_stability_distance": {
+      "path": "standard_metrics.normalized_plan_stability_distance",
+      "data_type": "null|number",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "null",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": 0.43333333333333335,
+          "std": 0.04780914437337574,
+          "sample_count": 36,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": 0.7583333611111112,
+          "std": 0.2575063466624411,
+          "sample_count": 36,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": 0.6500001666666667,
+          "std": 0.1889822516232675,
+          "sample_count": 36,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": 0.6138889537037037,
+        "std": 0.22923074810653962,
+        "sample_count": 108,
+        "data_type": "null|number",
+        "observed_value_count": 288
+      },
+      "numeric_metric": true
+    },
+    "recovery_success_rate_item": {
+      "path": "standard_metrics.recovery_success_rate_item",
+      "data_type": "boolean|null",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean|null",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean|null",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean|null",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean|null",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": null,
+        "std": null,
+        "sample_count": 0,
+        "data_type": "boolean|null",
+        "observed_value_count": 288
+      },
+      "numeric_metric": false
+    },
+    "repair_decision_latency_seconds": {
+      "path": "standard_metrics.repair_decision_latency_seconds",
+      "data_type": "null|number",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "null",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": 5.310742,
+          "std": 1.7461933116999389,
+          "sample_count": 36,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": 58.5301895,
+          "std": 67.76698985215256,
+          "sample_count": 36,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": 0.008090555555555556,
+          "std": 0.0010365817573556558,
+          "sample_count": 36,
+          "data_type": "null|number",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": 21.28300735185185,
+        "std": 46.99002269672569,
+        "sample_count": 108,
+        "data_type": "null|number",
+        "observed_value_count": 288
+      },
+      "numeric_metric": true
+    },
+    "runner_wallclock_seconds": {
+      "path": "standard_metrics.runner_wallclock_seconds",
+      "data_type": "number",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": 120.6796272433696,
+          "std": 55.86888415681091,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": 57.38243293055555,
+          "std": 12.363207119358167,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": 25.72802975,
+          "std": 31.75191105517366,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": 1.056446013888889,
+          "std": 0.11983120260629213,
+          "sample_count": 72,
+          "data_type": "number",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": 51.21163398445351,
+        "std": 55.44012227685162,
+        "sample_count": 288,
+        "data_type": "number",
+        "observed_value_count": 288
+      },
+      "numeric_metric": true
+    },
+    "strict_contract_satisfied": {
+      "path": "standard_metrics.strict_contract_satisfied",
+      "data_type": "boolean",
+      "per_method": {
+        "Agent4Drone_no_recovery": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean",
+          "observed_value_count": 72
+        },
+        "Intent_preserving_repair": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean",
+          "observed_value_count": 72
+        },
+        "LLM_replanning": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean",
+          "observed_value_count": 72
+        },
+        "Global_reallocation": {
+          "mean": null,
+          "std": null,
+          "sample_count": 0,
+          "data_type": "boolean",
+          "observed_value_count": 72
+        }
+      },
+      "pooled": {
+        "mean": null,
+        "std": null,
+        "sample_count": 0,
+        "data_type": "boolean",
+        "observed_value_count": 288
+      },
+      "numeric_metric": false
+    }
+  },
+  "fair_comparison": {
+    "can_be_fairly_compared_across_all_common_metrics": false,
+    "verdict": "not_fully_fair_across_all_common_metrics",
+    "checks": {
+      "record_counts_equal": true,
+      "record_counts": {
+        "Agent4Drone_no_recovery": 72,
+        "Intent_preserving_repair": 72,
+        "LLM_replanning": 72,
+        "Global_reallocation": 72
+      },
+      "seed_sets_equal": true,
+      "seed_sets": {
+        "Agent4Drone_no_recovery": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "Intent_preserving_repair": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "LLM_replanning": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "Global_reallocation": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "task_id_sets_equal": true,
+      "task_counts": {
+        "Agent4Drone_no_recovery": 72,
+        "Intent_preserving_repair": 72,
+        "LLM_replanning": 72,
+        "Global_reallocation": 72
+      },
+      "common_metric_numeric_sample_coverage": {
+        "contract_satisfaction_rate": {
+          "Agent4Drone_no_recovery": 72,
+          "Intent_preserving_repair": 72,
+          "LLM_replanning": 72,
+          "Global_reallocation": 72
+        },
+        "mission_completion_time_seconds": {
+          "Agent4Drone_no_recovery": 24,
+          "Intent_preserving_repair": 72,
+          "LLM_replanning": 69,
+          "Global_reallocation": 72
+        },
+        "mission_elapsed_until_terminal_seconds": {
+          "Agent4Drone_no_recovery": 72,
+          "Intent_preserving_repair": 72,
+          "LLM_replanning": 72,
+          "Global_reallocation": 72
+        },
+        "normalized_plan_stability_distance": {
+          "Agent4Drone_no_recovery": 0,
+          "Intent_preserving_repair": 36,
+          "LLM_replanning": 36,
+          "Global_reallocation": 36
+        },
+        "repair_decision_latency_seconds": {
+          "Agent4Drone_no_recovery": 0,
+          "Intent_preserving_repair": 36,
+          "LLM_replanning": 36,
+          "Global_reallocation": 36
+        },
+        "runner_wallclock_seconds": {
+          "Agent4Drone_no_recovery": 72,
+          "Intent_preserving_repair": 72,
+          "LLM_replanning": 72,
+          "Global_reallocation": 72
+        }
+      },
+      "equal_numeric_sample_coverage_for_all_common_metrics": false,
+      "parse_errors": 0
+    },
+    "limitations": [
+      "At least one common standard metric has unequal numeric sample coverage; null/non-numeric values are not imputed."
+    ],
+    "rule": "Fairness requires equal records, equal seed sets, equal task-id sets, and equal positive numeric coverage for every common metric; null values are retained and excluded from numeric statistics."
+  }
+}

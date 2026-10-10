@@ -1,0 +1,25 @@
+{
+  "protocol": "outcome_discriminating_stress_v1",
+  "purpose": "Test whether suffix-level decisions can avoid a downstream deadline violation caused by a direct-scope greedy owner choice.",
+  "cases": [
+    "route competition",
+    "geometric mirror of route competition",
+    "branch dependency"
+  ],
+  "comparison": [
+    "Simple-local-reassignment",
+    "CDS-MR"
+  ],
+  "geometry_frozen_before_calibration": true,
+  "calibration_rule": "Run both methods with loose deadlines. For each fixed geometry, require CDS-MR B3 completion step < Simple-local B3 completion step. Set the final B3 deadline step to floor((CDS step + Simple-local step)/2). Geometry, candidate sets, failure state, and algorithms remain unchanged.",
+  "primary_success_criterion": "For at least the route case and its mirror: same paired failure state; Simple-local selects U2 and fails only the B3 deadline check or terminal execution because of that deadline; CDS-MR selects U3, completes the task, and passes all six contract checks.",
+  "secondary_success_criterion": "The branch case shows the same outcome separation.",
+  "anti_claims": [
+    "not a population-level performance sample",
+    "not evidence that CDS-MR explicitly optimizes deadlines",
+    "not evidence of global optimality",
+    "not evidence of lower NPSD in general"
+  ],
+  "builder_sha256": "dd9f7893d9b76c8f3d88376a6a900473bdb75297992bd5afaef51aebacb1da14",
+  "status": "frozen_before_calibration"
+}

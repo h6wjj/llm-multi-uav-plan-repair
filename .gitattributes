@@ -1,0 +1,2 @@
+# Preserve frozen JSONL, manifests, and source bytes on every platform.
+* -text

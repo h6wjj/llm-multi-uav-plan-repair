@@ -1,0 +1,37 @@
+{
+  "protocol_version": "simple_local_vs_cds_mr_paired_v1",
+  "task_count": 36,
+  "method_rows": {
+    "Simple-local-reassignment": {
+      "rows": 36,
+      "runner_completed": 36,
+      "recoverable_success_count": 36,
+      "recoverable_success_rate": 1.0,
+      "contract_satisfaction_rate_mean": 1.0,
+      "npsd_mean": 0.433333333,
+      "repair_latency_mean_s": 0.007067194,
+      "mission_completion_time_mean_s_success_only": 0.338888889,
+      "mission_completion_time_success_n": 36,
+      "strict_contract_satisfied_count": 36
+    },
+    "CDS-MR": {
+      "rows": 36,
+      "runner_completed": 36,
+      "recoverable_success_count": 36,
+      "recoverable_success_rate": 1.0,
+      "contract_satisfaction_rate_mean": 1.0,
+      "npsd_mean": 0.433333333,
+      "repair_latency_mean_s": 0.007640611,
+      "mission_completion_time_mean_s_success_only": 0.338888889,
+      "mission_completion_time_success_n": 36,
+      "strict_contract_satisfied_count": 36
+    }
+  },
+  "paired_state_audit": {
+    "expected_pairs": 36,
+    "complete_pairs": 36,
+    "same_failure_time_state_count": 36,
+    "state_mismatch_task_ids": [],
+    "status": "PASS"
+  }
+}

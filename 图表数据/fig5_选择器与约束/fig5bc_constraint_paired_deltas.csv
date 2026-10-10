@@ -1,0 +1,13 @@
+﻿constraint_tightness,comparison,metric,metric_label,n,mean_delta,std_delta
+loose,minimal_repair_minus_global_reallocation,recovery_success_rate_item,RSR,6,0.0,0.0
+loose,minimal_repair_minus_global_reallocation,contract_satisfaction_rate,CSR,6,0.0,0.0
+loose,minimal_repair_minus_global_reallocation,normalized_plan_stability_distance,NPSD,6,-0.216667,0.190613
+loose,minimal_repair_minus_global_reallocation,repair_decision_latency_seconds,Repair latency (s),6,-0.000848,0.001125
+medium,minimal_repair_minus_global_reallocation,recovery_success_rate_item,RSR,6,0.0,0.0
+medium,minimal_repair_minus_global_reallocation,contract_satisfaction_rate,CSR,6,0.0,0.0
+medium,minimal_repair_minus_global_reallocation,normalized_plan_stability_distance,NPSD,6,-0.05,0.122474
+medium,minimal_repair_minus_global_reallocation,repair_decision_latency_seconds,Repair latency (s),6,-0.001208,0.002379
+tight,minimal_repair_minus_global_reallocation,recovery_success_rate_item,RSR,6,0.0,0.0
+tight,minimal_repair_minus_global_reallocation,contract_satisfaction_rate,CSR,6,0.0,0.0
+tight,minimal_repair_minus_global_reallocation,normalized_plan_stability_distance,NPSD,6,0.0,0.0
+tight,minimal_repair_minus_global_reallocation,repair_decision_latency_seconds,Repair latency (s),4,0.000783,0.000454

@@ -1,0 +1,69 @@
+{
+  "protocol": "offline_stability_control_v1",
+  "evaluation_type": "posthoc_offline_frozen_snapshot_enumeration",
+  "selection_inputs": [
+    "task_contract",
+    "initial_failure_metrics"
+  ],
+  "selection_uses_simulator_outcome": false,
+  "new_simulation_performed": false,
+  "runtime_success_and_time_for_new_control": "not_measured",
+  "optimality_scope": "static_compatible_owner_assignments_fixed_suffix_and_topological_order; no dynamic deadline/budget search",
+  "edit_objective": [
+    "bundle_edits",
+    "action_edits",
+    "route_cost",
+    "downstream_overlap",
+    "owner_tuple"
+  ],
+  "npsd_objective": [
+    "planned_npsd",
+    "route_cost",
+    "downstream_overlap",
+    "owner_tuple"
+  ],
+  "datasets": {
+    "suffix_grid_three_way_formal_v1": {
+      "n": 90,
+      "same_assignment_edit_first": 90,
+      "same_objective_edit_first": 90,
+      "same_assignment_npsd_first": 90,
+      "cds_replay_matches": 90,
+      "route_replay_matches": 90,
+      "planned_npsd_matches_recorded_cds": 90,
+      "global_candidate_counts": {
+        "8": 90
+      },
+      "cds_candidate_counts": {
+        "2": 90
+      }
+    },
+    "b3_independent_task_distribution_formal_v1": {
+      "n": 90,
+      "same_assignment_edit_first": 90,
+      "same_objective_edit_first": 90,
+      "same_assignment_npsd_first": 90,
+      "cds_replay_matches": 90,
+      "route_replay_matches": 90,
+      "planned_npsd_matches_recorded_cds": 90,
+      "global_candidate_counts": {
+        "8": 90
+      },
+      "cds_candidate_counts": {
+        "2": 90
+      }
+    }
+  },
+  "input_sha256": {
+    "实验数据\\results\\suffix_grid_three_way_formal_v1\\tasks_recoverable_failure_v1.jsonl": "5e892889909d80c706b88f949f2819d647aa551fde3fd8016d1efcbb085f5878",
+    "实验数据\\results\\suffix_grid_three_way_formal_v1\\CDS_MR.jsonl": "f95a862753b410d707eb574e4819939fb4d040130d3f7864aeb699e67dcc1bce",
+    "实验数据\\results\\suffix_grid_three_way_formal_v1\\Global_total_route_reallocation.jsonl": "da788b1e9181aba51ad92698ddf11d208cba314bfe61f697a3cb0f475dc3a28e",
+    "实验数据\\results\\b3_independent_task_distribution_formal_v1\\tasks_recoverable_failure_v1.jsonl": "ab179ac3f37fdee61c397edc55e3b6fa39e17bac39e924e14d0d88def7aa516e",
+    "实验数据\\results\\b3_independent_task_distribution_formal_v1\\CDS_MR.jsonl": "80a70382b112d60a8fb71c81afad5dbf3e199a4f0ef21975ff92c243efb17572",
+    "实验数据\\results\\b3_independent_task_distribution_formal_v1\\Global_total_route_reallocation.jsonl": "440d73ea007aa28f28e1013f70818d3ba75c0b361b2ade392a312a9f4b32487f"
+  },
+  "code_sha256": {
+    "实验数据\\code\\offline_stability_control.py": "007119237a7e034ea4dbcd93093291610e2425649a4e436cfd5f70ec70c7d9a5",
+    "实验数据\\code\\run_cds_mr_contract_online.py": "8f3b36243afe583d93d84b5f64aac625ac333e2c1fc416e6e6233e35cfc8087d"
+  }
+}

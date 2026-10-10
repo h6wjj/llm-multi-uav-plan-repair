@@ -1,0 +1,26 @@
+{
+  "protocol_version": "v6_4_shared_pool_ablation_v1",
+  "input": "data/processed/v1/v6_3_preexec_scenarios_v3/seed_0_tasks.jsonl",
+  "input_sha256": "a430f303f9515457a2498edd66aecf46e77cfc82dbb3e5fd834a1d99efcf2132",
+  "output": "data/processed/v1/v6_4_main_comparison_seed13_18/seed_17_all_tasks.jsonl",
+  "seed_index": 17,
+  "source_task_ids": [
+    "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+    "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+    "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+    "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+    "uavbench_Forest_Fog_Swarm_Coordination_012674",
+    "uavbench_Urban_Snowfall_Swarm_Coordination_038984"
+  ],
+  "condition_labels": [
+    "nominal_deterministic",
+    "nominal_uncertain",
+    "recoverable_failure_deterministic",
+    "recoverable_failure_uncertain"
+  ],
+  "rows": 24,
+  "planning_uncertainty_is_metadata_factor": true,
+  "candidate_selection_before_execution": true,
+  "candidate_pool_generated_once_per_task_seed": true,
+  "method_output_excluded_from_task_selection": true
+}

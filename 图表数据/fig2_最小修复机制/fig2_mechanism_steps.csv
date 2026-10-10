@@ -1,0 +1,7 @@
+﻿order,stage,input,operation,output,online_mutation
+1,状态固化,P0 + bridge state,锁定完成前缀并截取剩余后缀,"A_f, C_keep, R_f",False
+2,影响检查,R_f + dependency DAG,构造直接影响与依赖检查范围,"C_dir, C_check",False
+3,编辑定位,C_check + owner state,仅标记原拥有者离线或资格失效任务,C_aff,False
+4,候选构造,C_aff + UAV role/capability/state,枚举兼容替代并静态检查硬约束,F_static(s_f),False
+5,最小扰动选择,F_static(s_f),按词典序代价选择唯一方案,P_sel,False
+6,继续执行,P_sel,单次提交在线桥并执行运行时检查,success or failure,True

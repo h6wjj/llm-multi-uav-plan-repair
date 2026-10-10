@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": {
+    "main_row_count": true,
+    "main_each_method_n36": true,
+    "main_shared_pair_keys": true,
+    "main_summary_matches_closed_overlay": true,
+    "selector_row_count": true,
+    "selector_shared_30_pools_K5": true,
+    "constraint_row_count": true,
+    "constraint_shared_18_pair_keys": true,
+    "simple_local_36_same_state_pairs": true
+  },
+  "record_counts": {
+    "fig3_main_rows": 144,
+    "fig5_selector_rows": 60,
+    "fig5_constraint_rows": 36,
+    "table5_simple_local_pairs": 36
+  }
+}

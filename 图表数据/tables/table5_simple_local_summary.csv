@@ -1,0 +1,3 @@
+﻿raw_method,display_method,rows,runner_completed,recoverable_success_count,recoverable_success_rate,contract_satisfaction_rate_mean,npsd_mean,repair_latency_mean_s,mission_completion_time_mean_s_success_only,mission_completion_time_success_n,strict_contract_satisfied_count
+Simple-local-reassignment,Simple local reassignment,36,36,36,1.0,1.0,0.433333333,0.007067194,0.338888889,36,36
+CDS-MR,Structured minimal repair,36,36,36,1.0,1.0,0.433333333,0.007640611,0.338888889,36,36

@@ -1,0 +1,775 @@
+{
+  "protocol": "b3_independent_task_distribution_analysis_v1",
+  "scope": "descriptive for the preregistered synthetic random-layout generator, not real-world prevalence",
+  "n_tasks": 90,
+  "input_sha256": "e6aa209faa87ca6f918a9209c74a124f6bced16860cfd7b15a268d34005ffb98",
+  "formal_audit_sha256": "495e4d939d8b6b79aff9259a88c0681e1595367b14816f8a8c34efa53d5abea7",
+  "result_sha256": {
+    "Immediate local": "9facbf917a23be42111c9ea4e02334893afa6ff84896f49d623d00deaf65538f",
+    "CDS-MR": "80a70382b112d60a8fb71c81afad5dbf3e199a4f0ef21975ff92c243efb17572",
+    "Global total-route": "440d73ea007aa28f28e1013f70818d3ba75c0b361b2ade392a312a9f4b32487f"
+  },
+  "analysis_script_sha256": "2d87337a0062bc008cc20461093bef38f344a9520f666b38c3933b9371eccc4a",
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 20289999,
+  "practical_path_margin_relative": 0.01,
+  "method_summary": {
+    "Immediate local": {
+      "n_expected": 90,
+      "n_present": 90,
+      "n_runner_completed": 90,
+      "n_recovered_and_strict": 90,
+      "recovery_strict_rate_over_all_expected": 1.0,
+      "n_strict_pass": 90,
+      "metrics": {
+        "executed_suffix_path_length_m": {
+          "n": 90,
+          "mean": 6.081429849855556,
+          "sd": 1.5466147005573792,
+          "median": 6.145571394999999,
+          "p25": 4.802162202749999,
+          "p75": 7.19090075275
+        },
+        "mission_completion_time_seconds": {
+          "n": 90,
+          "mean": 99.3988425925926,
+          "sd": 21.15850528526513,
+          "median": 98.6875,
+          "p25": 81.47395833333333,
+          "p75": 114.91145833333333
+        },
+        "estimated_full_suffix_route_cost": {
+          "n": 90,
+          "mean": 6.476049822855556,
+          "sd": 1.532801592209464,
+          "median": 6.4347188205000005,
+          "p25": 5.148700553,
+          "p75": 7.6535434505
+        },
+        "normalized_plan_stability_distance": {
+          "n": 90,
+          "mean": 0.3355552333333333,
+          "sd": 0.012034135800838956,
+          "median": 0.333333,
+          "p25": 0.333333,
+          "p75": 0.333333
+        },
+        "repair_solver_wallclock_seconds": {
+          "n": 90,
+          "mean": 8.739081111111111e-05,
+          "sd": 1.9752491867202987e-05,
+          "median": 7.95115e-05,
+          "p25": 7.809350000000001e-05,
+          "p75": 8.623725e-05
+        },
+        "repair_decision_latency_seconds": {
+          "n": 90,
+          "mean": 0.007976922222222222,
+          "sd": 0.000799476151913334,
+          "median": 0.0078555,
+          "p25": 0.007390750000000001,
+          "p75": 0.008395000000000001
+        }
+      },
+      "selected_B2_owner_counts": {
+        "uav_3": 42,
+        "uav_2": 48
+      },
+      "runner_error_or_missing_ids": []
+    },
+    "CDS-MR": {
+      "n_expected": 90,
+      "n_present": 90,
+      "n_runner_completed": 90,
+      "n_recovered_and_strict": 90,
+      "recovery_strict_rate_over_all_expected": 1.0,
+      "n_strict_pass": 90,
+      "metrics": {
+        "executed_suffix_path_length_m": {
+          "n": 90,
+          "mean": 5.547066429811111,
+          "sd": 1.404852935473425,
+          "median": 5.261298608000001,
+          "p25": 4.657529959250001,
+          "p75": 6.2634989715
+        },
+        "mission_completion_time_seconds": {
+          "n": 90,
+          "mean": 92.39861111111111,
+          "sd": 19.68690294459587,
+          "median": 86.71875,
+          "p25": 78.70833333333333,
+          "p75": 103.19270833333333
+        },
+        "estimated_full_suffix_route_cost": {
+          "n": 90,
+          "mean": 5.894380886311111,
+          "sd": 1.379204514017664,
+          "median": 5.555526437,
+          "p25": 5.000199489749999,
+          "p75": 6.648344305
+        },
+        "normalized_plan_stability_distance": {
+          "n": 90,
+          "mean": 0.3355552333333333,
+          "sd": 0.012034135800838956,
+          "median": 0.333333,
+          "p25": 0.333333,
+          "p75": 0.333333
+        },
+        "repair_solver_wallclock_seconds": {
+          "n": 90,
+          "mean": 0.00012797827777777778,
+          "sd": 6.230938764087157e-05,
+          "median": 0.00010989100000000001,
+          "p25": 0.00010664725,
+          "p75": 0.00011920525
+        },
+        "repair_decision_latency_seconds": {
+          "n": 90,
+          "mean": 0.008133555555555555,
+          "sd": 0.0012496933116902707,
+          "median": 0.007953499999999999,
+          "p25": 0.00742025,
+          "p75": 0.00840225
+        }
+      },
+      "selected_B2_owner_counts": {
+        "uav_2": 40,
+        "uav_3": 50
+      },
+      "runner_error_or_missing_ids": []
+    },
+    "Global total-route": {
+      "n_expected": 90,
+      "n_present": 90,
+      "n_runner_completed": 90,
+      "n_recovered_and_strict": 90,
+      "recovery_strict_rate_over_all_expected": 1.0,
+      "n_strict_pass": 90,
+      "metrics": {
+        "executed_suffix_path_length_m": {
+          "n": 90,
+          "mean": 5.130446765288889,
+          "sd": 0.9796808281267665,
+          "median": 5.0121680365,
+          "p25": 4.593077747250001,
+          "p75": 5.76392398
+        },
+        "mission_completion_time_seconds": {
+          "n": 90,
+          "mean": 86.75972222222222,
+          "sd": 13.834677549643928,
+          "median": 85.22916666666666,
+          "p25": 77.83854166666667,
+          "p75": 95.92708333333333
+        },
+        "estimated_full_suffix_route_cost": {
+          "n": 90,
+          "mean": 5.483518106477778,
+          "sd": 0.9684796782425178,
+          "median": 5.3797935315,
+          "p25": 4.8561387605,
+          "p75": 6.09186696025
+        },
+        "normalized_plan_stability_distance": {
+          "n": 90,
+          "mean": 0.5114812777777777,
+          "sd": 0.24679792289539992,
+          "median": 0.333333,
+          "p25": 0.333333,
+          "p75": 0.75
+        },
+        "repair_solver_wallclock_seconds": {
+          "n": 90,
+          "mean": 0.00015501572222222223,
+          "sd": 4.104183807512639e-05,
+          "median": 0.00014327600000000002,
+          "p25": 0.00013924549999999998,
+          "p75": 0.00015437925
+        },
+        "repair_decision_latency_seconds": {
+          "n": 90,
+          "mean": 0.008042377777777778,
+          "sd": 0.0010052131707263628,
+          "median": 0.00782,
+          "p25": 0.007372000000000001,
+          "p75": 0.00849475
+        }
+      },
+      "selected_B2_owner_counts": {
+        "uav_2": 42,
+        "uav_3": 48
+      },
+      "runner_error_or_missing_ids": []
+    }
+  },
+  "comparisons": {
+    "CDS-MR vs Immediate local": {
+      "baseline": "Immediate local",
+      "challenger": "CDS-MR",
+      "categories": {
+        "benefit": {
+          "count": 30,
+          "proportion_all_90": 0.3333333333333333,
+          "wilson_95_ci": [
+            0.24453505279444637,
+            0.4357768223936625
+          ]
+        },
+        "practical_tie": {
+          "count": 59,
+          "proportion_all_90": 0.6555555555555556,
+          "wilson_95_ci": [
+            0.5528347234071513,
+            0.7455408597506137
+          ]
+        },
+        "regression": {
+          "count": 1,
+          "proportion_all_90": 0.011111111111111112,
+          "wilson_95_ci": [
+            0.001964084100918341,
+            0.06028408311753452
+          ]
+        },
+        "joint_failure": {
+          "count": 0,
+          "proportion_all_90": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "missing_or_invalid": {
+          "count": 0,
+          "proportion_all_90": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.04093562556432678
+          ]
+        }
+      },
+      "by_structure": {
+        "branch": {
+          "n": 30,
+          "benefit": 13,
+          "practical_tie": 17,
+          "regression": 0,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        },
+        "chain": {
+          "n": 30,
+          "benefit": 5,
+          "practical_tie": 24,
+          "regression": 1,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        },
+        "merge": {
+          "n": 30,
+          "benefit": 12,
+          "practical_tie": 18,
+          "regression": 0,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        }
+      },
+      "paired": {
+        "executed_suffix_path_length_m": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.5343634200444445,
+            "sd": 0.8880587414052545,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 1.0516590832500001
+          },
+          "paired_bootstrap_95_ci": [
+            0.35902734654333324,
+            0.7195258335972222
+          ],
+          "n_strict_pairs": 90
+        },
+        "mission_completion_time_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 7.000231481481482,
+            "sd": 11.626648735342451,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 13.864583333333332
+          },
+          "paired_bootstrap_95_ci": [
+            4.6726331018518525,
+            9.488304398148145
+          ],
+          "n_strict_pairs": 90
+        },
+        "estimated_full_suffix_route_cost": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.5816689365444445,
+            "sd": 0.9600712051421283,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 1.177775004
+          },
+          "paired_bootstrap_95_ci": [
+            0.3936483807263889,
+            0.7831631608691664
+          ],
+          "n_strict_pairs": 90
+        },
+        "normalized_plan_stability_distance": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.0,
+            "sd": 0.0,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 0.0
+          },
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "n_strict_pairs": 90
+        },
+        "repair_solver_wallclock_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -4.0587466666666664e-05,
+            "sd": 6.566866734971588e-05,
+            "median": -2.9105499999999994e-05,
+            "p25": -3.818275e-05,
+            "p75": -2.36795e-05
+          },
+          "paired_bootstrap_95_ci": [
+            -5.6090970277777774e-05,
+            -2.9011196666666663e-05
+          ],
+          "n_strict_pairs": 90
+        },
+        "repair_decision_latency_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -0.00015663333333333323,
+            "sd": 0.0014659162295761758,
+            "median": -7.649999999999931e-05,
+            "p25": -0.0007587499999999999,
+            "p75": 0.0006142500000000002
+          },
+          "paired_bootstrap_95_ci": [
+            -0.0004680952777777777,
+            0.000141633611111111
+          ],
+          "n_strict_pairs": 90
+        },
+        "relative_path_reduction": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.07615194547710466,
+            "sd": 0.122483805029187,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 0.15067123063465546
+          },
+          "paired_bootstrap_95_ci": [
+            0.05145166627873234,
+            0.10184853478619318
+          ],
+          "n_strict_pairs": 90,
+          "positive_favors_challenger": true
+        }
+      },
+      "identical_assignment_tuple_count": 48
+    },
+    "Global total-route vs Immediate local": {
+      "baseline": "Immediate local",
+      "challenger": "Global total-route",
+      "categories": {
+        "benefit": {
+          "count": 56,
+          "proportion_all_90": 0.6222222222222222,
+          "wilson_95_ci": [
+            0.5189976405818348,
+            0.715440317613552
+          ]
+        },
+        "practical_tie": {
+          "count": 33,
+          "proportion_all_90": 0.36666666666666664,
+          "wilson_95_ci": [
+            0.27447254779029884,
+            0.46977695236018824
+          ]
+        },
+        "regression": {
+          "count": 1,
+          "proportion_all_90": 0.011111111111111112,
+          "wilson_95_ci": [
+            0.001964084100918341,
+            0.06028408311753452
+          ]
+        },
+        "joint_failure": {
+          "count": 0,
+          "proportion_all_90": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "missing_or_invalid": {
+          "count": 0,
+          "proportion_all_90": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.04093562556432678
+          ]
+        }
+      },
+      "by_structure": {
+        "branch": {
+          "n": 30,
+          "benefit": 18,
+          "practical_tie": 11,
+          "regression": 1,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        },
+        "chain": {
+          "n": 30,
+          "benefit": 16,
+          "practical_tie": 14,
+          "regression": 0,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        },
+        "merge": {
+          "n": 30,
+          "benefit": 22,
+          "practical_tie": 8,
+          "regression": 0,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        }
+      },
+      "paired": {
+        "executed_suffix_path_length_m": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.9509830845666667,
+            "sd": 0.9742794724854695,
+            "median": 0.7858958089999999,
+            "p25": 0.0,
+            "p75": 1.7881833055
+          },
+          "paired_bootstrap_95_ci": [
+            0.7515002164491668,
+            1.154966508238889
+          ],
+          "n_strict_pairs": 90
+        },
+        "mission_completion_time_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 12.63912037037037,
+            "sd": 12.928013481362845,
+            "median": 10.375,
+            "p25": 0.0,
+            "p75": 22.770833333333336
+          },
+          "paired_bootstrap_95_ci": [
+            10.048344907407406,
+            15.259363425925923
+          ],
+          "n_strict_pairs": 90
+        },
+        "estimated_full_suffix_route_cost": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.9925317163777778,
+            "sd": 1.0191906080879642,
+            "median": 0.7437620489999999,
+            "p25": 0.0,
+            "p75": 1.8796303697499999
+          },
+          "paired_bootstrap_95_ci": [
+            0.7884187230083334,
+            1.2023676385350002
+          ],
+          "n_strict_pairs": 90
+        },
+        "normalized_plan_stability_distance": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -0.17592604444444446,
+            "sd": 0.2481029567051564,
+            "median": 0.0,
+            "p25": -0.416667,
+            "p75": 0.0
+          },
+          "paired_bootstrap_95_ci": [
+            -0.2277779222222222,
+            -0.12592601111111112
+          ],
+          "n_strict_pairs": 90
+        },
+        "repair_solver_wallclock_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -6.762491111111112e-05,
+            "sd": 4.602470889303527e-05,
+            "median": -6.16765e-05,
+            "p25": -7.433475e-05,
+            "p75": -5.464650000000001e-05
+          },
+          "paired_bootstrap_95_ci": [
+            -7.843743138888889e-05,
+            -5.921114805555557e-05
+          ],
+          "n_strict_pairs": 90
+        },
+        "repair_decision_latency_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -6.545555555555546e-05,
+            "sd": 0.0012799556274007535,
+            "median": 1.1500000000000225e-05,
+            "p25": -0.0007302499999999996,
+            "p75": 0.0007182499999999999
+          },
+          "paired_bootstrap_95_ci": [
+            -0.00033255805555555554,
+            0.00019460333333333338
+          ],
+          "n_strict_pairs": 90
+        },
+        "relative_path_reduction": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.1334333198226753,
+            "sd": 0.13071466150223607,
+            "median": 0.1165019267898634,
+            "p25": 0.0,
+            "p75": 0.26414103132337335
+          },
+          "paired_bootstrap_95_ci": [
+            0.10674922716978694,
+            0.1606681344537981
+          ],
+          "n_strict_pairs": 90,
+          "positive_favors_challenger": true
+        }
+      },
+      "identical_assignment_tuple_count": 33
+    },
+    "Global total-route vs CDS-MR": {
+      "baseline": "CDS-MR",
+      "challenger": "Global total-route",
+      "categories": {
+        "benefit": {
+          "count": 30,
+          "proportion_all_90": 0.3333333333333333,
+          "wilson_95_ci": [
+            0.24453505279444637,
+            0.4357768223936625
+          ]
+        },
+        "practical_tie": {
+          "count": 59,
+          "proportion_all_90": 0.6555555555555556,
+          "wilson_95_ci": [
+            0.5528347234071513,
+            0.7455408597506137
+          ]
+        },
+        "regression": {
+          "count": 1,
+          "proportion_all_90": 0.011111111111111112,
+          "wilson_95_ci": [
+            0.001964084100918341,
+            0.06028408311753452
+          ]
+        },
+        "joint_failure": {
+          "count": 0,
+          "proportion_all_90": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "missing_or_invalid": {
+          "count": 0,
+          "proportion_all_90": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.04093562556432678
+          ]
+        }
+      },
+      "by_structure": {
+        "branch": {
+          "n": 30,
+          "benefit": 6,
+          "practical_tie": 23,
+          "regression": 1,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        },
+        "chain": {
+          "n": 30,
+          "benefit": 12,
+          "practical_tie": 18,
+          "regression": 0,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        },
+        "merge": {
+          "n": 30,
+          "benefit": 12,
+          "practical_tie": 18,
+          "regression": 0,
+          "joint_failure": 0,
+          "missing_or_invalid": 0
+        }
+      },
+      "paired": {
+        "executed_suffix_path_length_m": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.41661966452222227,
+            "sd": 0.7454955519278882,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 0.6900006115000001
+          },
+          "paired_bootstrap_95_ci": [
+            0.2670491592077777,
+            0.5771751996880555
+          ],
+          "n_strict_pairs": 90
+        },
+        "mission_completion_time_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 5.638888888888889,
+            "sd": 10.020450569671304,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 10.036458333333332
+          },
+          "paired_bootstrap_95_ci": [
+            3.658483796296297,
+            7.74913773148148
+          ],
+          "n_strict_pairs": 90
+        },
+        "estimated_full_suffix_route_cost": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.41086277983333336,
+            "sd": 0.7395126512151937,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 0.6531775965
+          },
+          "paired_bootstrap_95_ci": [
+            0.26566001121666666,
+            0.5738201592038887
+          ],
+          "n_strict_pairs": 90
+        },
+        "normalized_plan_stability_distance": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -0.17592604444444446,
+            "sd": 0.2481029567051564,
+            "median": 0.0,
+            "p25": -0.416667,
+            "p75": 0.0
+          },
+          "paired_bootstrap_95_ci": [
+            -0.2277779222222222,
+            -0.12592601111111112
+          ],
+          "n_strict_pairs": 90
+        },
+        "repair_solver_wallclock_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": -2.703744444444445e-05,
+            "sd": 7.21869151959558e-05,
+            "median": -3.2687999999999996e-05,
+            "p25": -4.172375e-05,
+            "p75": -2.3712000000000003e-05
+          },
+          "paired_bootstrap_95_ci": [
+            -4.143470833333334e-05,
+            -1.1414133611111125e-05
+          ],
+          "n_strict_pairs": 90
+        },
+        "repair_decision_latency_seconds": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 9.11777777777778e-05,
+            "sd": 0.0016125112355868665,
+            "median": -8.69999999999994e-05,
+            "p25": -0.0007157499999999996,
+            "p75": 0.0006007499999999999
+          },
+          "paired_bootstrap_95_ci": [
+            -0.0002390794444444445,
+            0.00043440083333333326
+          ],
+          "n_strict_pairs": 90
+        },
+        "relative_path_reduction": {
+          "baseline_minus_challenger": {
+            "n": 90,
+            "mean": 0.05789638413109724,
+            "sd": 0.09986040276721775,
+            "median": 0.0,
+            "p25": 0.0,
+            "p75": 0.10968144419001714
+          },
+          "paired_bootstrap_95_ci": [
+            0.03855287622983395,
+            0.07891342842735463
+          ],
+          "n_strict_pairs": 90,
+          "positive_favors_challenger": true
+        }
+      },
+      "identical_assignment_tuple_count": 58
+    }
+  },
+  "local_edit_failures": {
+    "count": 0,
+    "by_structure": {},
+    "failed_contract_checks": {},
+    "cases": []
+  },
+  "duplicate_or_nonunique_ids": {
+    "Immediate local": [],
+    "CDS-MR": [],
+    "Global total-route": []
+  },
+  "method_id_sets_equal_frozen_input": {
+    "Immediate local": true,
+    "CDS-MR": true,
+    "Global total-route": true
+  },
+  "formal_integrity_audit_verdict": "PASS",
+  "analysis_checks": {
+    "90_tasks": true,
+    "all_three_method_id_sets_match": true,
+    "formal_audit_pass": true,
+    "analysis_complete": true
+  }
+}

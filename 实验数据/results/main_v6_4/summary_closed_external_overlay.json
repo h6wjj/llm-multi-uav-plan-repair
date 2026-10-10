@@ -1,0 +1,702 @@
+{
+  "protocol_version": "v6_4_closed_external_overlay_v2_task_nested",
+  "main_scenario": "v6.4 six-task UAVBench-derived bridge protocol, run indices 13-18",
+  "methods": [
+    "B0",
+    "LLM-Assisted Plan Execution",
+    "H-MRTA-Repair",
+    "B0+SeSE+CDS-MR"
+  ],
+  "conditions": [
+    "nominal",
+    "recoverable_failure"
+  ],
+  "paired_key": "source_task_id + condition + run_seed_index",
+  "method_row_counts": {
+    "B0": 72,
+    "LLM-Assisted Plan Execution": 72,
+    "H-MRTA-Repair": 72,
+    "B0+SeSE+CDS-MR": 72
+  },
+  "shared_key_set": true,
+  "metrics": [
+    "recovery_success_rate_item",
+    "contract_satisfaction_rate",
+    "normalized_plan_stability_distance",
+    "repair_decision_latency_seconds",
+    "mission_completion_time_seconds"
+  ],
+  "summary": {
+    "B0": {
+      "nominal": {
+        "recovery_success_rate_item": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 0.810185,
+          "std": 0.222371
+        },
+        "normalized_plan_stability_distance": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "repair_decision_latency_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "mission_completion_time_seconds": {
+          "n": 24,
+          "mean": 0.377778,
+          "std": 0.106624
+        },
+        "rows": 36
+      },
+      "recoverable_failure": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 0.509259,
+          "std": 0.038719
+        },
+        "normalized_plan_stability_distance": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "repair_decision_latency_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "mission_completion_time_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "rows": 36
+      },
+      "all": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 72,
+          "mean": 0.659722,
+          "std": 0.219256
+        },
+        "normalized_plan_stability_distance": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "repair_decision_latency_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "mission_completion_time_seconds": {
+          "n": 24,
+          "mean": 0.377778,
+          "std": 0.106624
+        },
+        "rows": 72
+      }
+    },
+    "LLM-Assisted Plan Execution": {
+      "nominal": {
+        "recovery_success_rate_item": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "repair_decision_latency_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "mission_completion_time_seconds": {
+          "n": 36,
+          "mean": 0.338889,
+          "std": 0.062994
+        },
+        "rows": 36
+      },
+      "recoverable_failure": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 0.916667,
+          "std": 0.280306
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 0.958333,
+          "std": 0.140153
+        },
+        "normalized_plan_stability_distance": {
+          "n": 36,
+          "mean": 0.758333,
+          "std": 0.257506
+        },
+        "repair_decision_latency_seconds": {
+          "n": 36,
+          "mean": 58.53019,
+          "std": 67.76699
+        },
+        "mission_completion_time_seconds": {
+          "n": 33,
+          "mean": 0.931818,
+          "std": 0.94658
+        },
+        "rows": 36
+      },
+      "all": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 0.916667,
+          "std": 0.280306
+        },
+        "contract_satisfaction_rate": {
+          "n": 72,
+          "mean": 0.979167,
+          "std": 0.100614
+        },
+        "normalized_plan_stability_distance": {
+          "n": 36,
+          "mean": 0.758333,
+          "std": 0.257506
+        },
+        "repair_decision_latency_seconds": {
+          "n": 36,
+          "mean": 58.53019,
+          "std": 67.76699
+        },
+        "mission_completion_time_seconds": {
+          "n": 69,
+          "mean": 0.622464,
+          "std": 0.716038
+        },
+        "rows": 72
+      }
+    },
+    "H-MRTA-Repair": {
+      "nominal": {
+        "recovery_success_rate_item": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "repair_decision_latency_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "mission_completion_time_seconds": {
+          "n": 36,
+          "mean": 0.338889,
+          "std": 0.062994
+        },
+        "rows": 36
+      },
+      "recoverable_failure": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 36,
+          "mean": 0.65,
+          "std": 0.188982
+        },
+        "repair_decision_latency_seconds": {
+          "n": 36,
+          "mean": 0.008091,
+          "std": 0.001037
+        },
+        "mission_completion_time_seconds": {
+          "n": 36,
+          "mean": 0.338889,
+          "std": 0.062994
+        },
+        "rows": 36
+      },
+      "all": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 72,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 36,
+          "mean": 0.65,
+          "std": 0.188982
+        },
+        "repair_decision_latency_seconds": {
+          "n": 36,
+          "mean": 0.008091,
+          "std": 0.001037
+        },
+        "mission_completion_time_seconds": {
+          "n": 72,
+          "mean": 0.338889,
+          "std": 0.062549
+        },
+        "rows": 72
+      }
+    },
+    "B0+SeSE+CDS-MR": {
+      "nominal": {
+        "recovery_success_rate_item": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "repair_decision_latency_seconds": {
+          "n": 0,
+          "mean": null,
+          "std": null
+        },
+        "mission_completion_time_seconds": {
+          "n": 36,
+          "mean": 0.338889,
+          "std": 0.062994
+        },
+        "rows": 36
+      },
+      "recoverable_failure": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 36,
+          "mean": 0.433333,
+          "std": 0.047809
+        },
+        "repair_decision_latency_seconds": {
+          "n": 36,
+          "mean": 5.310742,
+          "std": 1.746193
+        },
+        "mission_completion_time_seconds": {
+          "n": 36,
+          "mean": 0.338889,
+          "std": 0.062994
+        },
+        "rows": 36
+      },
+      "all": {
+        "recovery_success_rate_item": {
+          "n": 36,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 72,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 36,
+          "mean": 0.433333,
+          "std": 0.047809
+        },
+        "repair_decision_latency_seconds": {
+          "n": 36,
+          "mean": 5.310742,
+          "std": 1.746193
+        },
+        "mission_completion_time_seconds": {
+          "n": 72,
+          "mean": 0.338889,
+          "std": 0.062549
+        },
+        "rows": 72
+      }
+    }
+  },
+  "external_baseline_source": "results/external_baseline_repro_v1/",
+  "frozen_aggregate_preserved": "results/main_v6_4/summary_main_comparison_v6_4_seed13_18.json",
+  "interpretation": "Use this overlay for current baseline comparison; it does not silently rewrite the frozen v6.4 aggregate.",
+  "task_nested_descriptive_comparisons": [
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "H-MRTA-Repair",
+      "condition": "recoverable_failure",
+      "metric": "recovery_success_rate_item",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 0.0,
+      "row_level_mean_benefit_delta": 0.0,
+      "difference_std": 0.0,
+      "benefit_direction": "left_minus_right",
+      "task_level_benefit_mean": 0.0,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 6,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "H-MRTA-Repair",
+      "condition": "recoverable_failure",
+      "metric": "contract_satisfaction_rate",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 0.0,
+      "row_level_mean_benefit_delta": 0.0,
+      "difference_std": 0.0,
+      "benefit_direction": "left_minus_right",
+      "task_level_benefit_mean": 0.0,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 6,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "H-MRTA-Repair",
+      "condition": "recoverable_failure",
+      "metric": "normalized_plan_stability_distance",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": -0.216667,
+      "row_level_mean_benefit_delta": 0.216667,
+      "difference_std": 0.176473,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": 0.216667,
+      "task_level_direction_counts": {
+        "improved": 4,
+        "tied": 2,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.125,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "H-MRTA-Repair",
+      "condition": "recoverable_failure",
+      "metric": "repair_decision_latency_seconds",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 5.302651,
+      "row_level_mean_benefit_delta": -5.302651,
+      "difference_std": 1.746107,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": -5.302651,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 0,
+        "worsened": 6
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.03125,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "H-MRTA-Repair",
+      "condition": "recoverable_failure",
+      "metric": "mission_completion_time_seconds",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 0.0,
+      "row_level_mean_benefit_delta": 0.0,
+      "difference_std": 0.0,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": 0.0,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 6,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "LLM-Assisted Plan Execution",
+      "condition": "recoverable_failure",
+      "metric": "recovery_success_rate_item",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 0.083333,
+      "row_level_mean_benefit_delta": 0.083333,
+      "difference_std": 0.280306,
+      "benefit_direction": "left_minus_right",
+      "task_level_benefit_mean": 0.083333,
+      "task_level_direction_counts": {
+        "improved": 1,
+        "tied": 5,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "LLM-Assisted Plan Execution",
+      "condition": "recoverable_failure",
+      "metric": "contract_satisfaction_rate",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 0.041667,
+      "row_level_mean_benefit_delta": 0.041667,
+      "difference_std": 0.140153,
+      "benefit_direction": "left_minus_right",
+      "task_level_benefit_mean": 0.041667,
+      "task_level_direction_counts": {
+        "improved": 1,
+        "tied": 5,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "LLM-Assisted Plan Execution",
+      "condition": "recoverable_failure",
+      "metric": "normalized_plan_stability_distance",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": -0.325,
+      "row_level_mean_benefit_delta": 0.325,
+      "difference_std": 0.280858,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": 0.325,
+      "task_level_direction_counts": {
+        "improved": 5,
+        "tied": 1,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.0625,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "LLM-Assisted Plan Execution",
+      "condition": "recoverable_failure",
+      "metric": "repair_decision_latency_seconds",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": -53.219448,
+      "row_level_mean_benefit_delta": 53.219448,
+      "difference_std": 67.935775,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": 53.219448,
+      "task_level_direction_counts": {
+        "improved": 6,
+        "tied": 0,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.03125,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "LLM-Assisted Plan Execution",
+      "condition": "recoverable_failure",
+      "metric": "mission_completion_time_seconds",
+      "n_row_pairs": 33,
+      "n_source_tasks": 6,
+      "paired_key_count": 33,
+      "mean_delta_left_minus_right": -0.598485,
+      "row_level_mean_benefit_delta": 0.598485,
+      "difference_std": 0.986298,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": 0.548611,
+      "task_level_direction_counts": {
+        "improved": 3,
+        "tied": 3,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.25,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "B0",
+      "condition": "recoverable_failure",
+      "metric": "recovery_success_rate_item",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 1.0,
+      "row_level_mean_benefit_delta": 1.0,
+      "difference_std": 0.0,
+      "benefit_direction": "left_minus_right",
+      "task_level_benefit_mean": 1.0,
+      "task_level_direction_counts": {
+        "improved": 6,
+        "tied": 0,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.03125,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "B0",
+      "condition": "recoverable_failure",
+      "metric": "contract_satisfaction_rate",
+      "n_row_pairs": 36,
+      "n_source_tasks": 6,
+      "paired_key_count": 36,
+      "mean_delta_left_minus_right": 0.490741,
+      "row_level_mean_benefit_delta": 0.490741,
+      "difference_std": 0.038719,
+      "benefit_direction": "left_minus_right",
+      "task_level_benefit_mean": 0.490741,
+      "task_level_direction_counts": {
+        "improved": 6,
+        "tied": 0,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 0.03125,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "B0",
+      "condition": "recoverable_failure",
+      "metric": "normalized_plan_stability_distance",
+      "n_row_pairs": 0,
+      "n_source_tasks": 0,
+      "paired_key_count": 0,
+      "mean_delta_left_minus_right": null,
+      "row_level_mean_benefit_delta": null,
+      "difference_std": null,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": null,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 0,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "B0",
+      "condition": "recoverable_failure",
+      "metric": "repair_decision_latency_seconds",
+      "n_row_pairs": 0,
+      "n_source_tasks": 0,
+      "paired_key_count": 0,
+      "mean_delta_left_minus_right": null,
+      "row_level_mean_benefit_delta": null,
+      "difference_std": null,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": null,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 0,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    },
+    {
+      "left_method": "B0+SeSE+CDS-MR",
+      "right_method": "B0",
+      "condition": "recoverable_failure",
+      "metric": "mission_completion_time_seconds",
+      "n_row_pairs": 0,
+      "n_source_tasks": 0,
+      "paired_key_count": 0,
+      "mean_delta_left_minus_right": null,
+      "row_level_mean_benefit_delta": null,
+      "difference_std": null,
+      "benefit_direction": "right_minus_left",
+      "task_level_benefit_mean": null,
+      "task_level_direction_counts": {
+        "improved": 0,
+        "tied": 0,
+        "worsened": 0
+      },
+      "task_level_exact_p_sign_test_two_sided": 1.0,
+      "analysis_note": "Run-index rows are nested within source tasks; no row-level CI or effect size is reported."
+    }
+  ],
+  "comparison_protocol": {
+    "condition": "recoverable_failure",
+    "difference": "full_method - comparator for raw metric; benefit direction reverses for lower-is-better metrics",
+    "row_pairing": "source_task_id + condition + run_seed_index",
+    "independent_unit_for_direction_summary": "source_task_id",
+    "inference_scope": "descriptive six-task evidence; run-index rows are nested repeats"
+  }
+}

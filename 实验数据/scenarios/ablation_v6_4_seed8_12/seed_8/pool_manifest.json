@@ -1,0 +1,9 @@
+{
+  "protocol_version": "v6_4_shared_candidate_pool_v1",
+  "tasks": 6,
+  "rows": 6,
+  "candidate_count": 3,
+  "candidate_pool_generated_once": true,
+  "task_selection": "frozen input order; no result-based filtering",
+  "output": "/home/h/uav_exp/data/processed/v1/v6_4_ablation_formal/seed_8/candidate_pools.jsonl"
+}

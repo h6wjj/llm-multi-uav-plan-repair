@@ -1,0 +1,108 @@
+{
+  "experiment_id": "B_heterogeneous_capability_exclusion_v1",
+  "input": "/home/h/uav_exp/data/processed/v1/uavbench_comparative_repair_v6_2_scenarios.jsonl",
+  "output": "/home/h/uav_exp/experiment/results/heterogeneous_capability_exclusion_20260919/tasks.jsonl",
+  "source_task_count": 6,
+  "record_count": 12,
+  "conditions": [
+    "nominal",
+    "recoverable_failure"
+  ],
+  "selected_source_task_ids": [
+    "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+    "uavbench_Forest_Fog_Swarm_Coordination_012674",
+    "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+    "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+    "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+    "uavbench_Suburban_Swarm_Delivery_Coordination_034440"
+  ],
+  "profiles": {
+    "uav_0": {
+      "role": "mapping_specialist",
+      "capabilities": [
+        "gnss",
+        "imu",
+        "camera_rgb"
+      ]
+    },
+    "uav_1": {
+      "role": "thermal_specialist",
+      "capabilities": [
+        "gnss",
+        "imu",
+        "camera_thermal"
+      ]
+    },
+    "uav_2": {
+      "role": "payload_specialist",
+      "capabilities": [
+        "gnss",
+        "imu",
+        "camera_thermal",
+        "high_payload"
+      ]
+    },
+    "uav_3": {
+      "role": "endurance_specialist",
+      "capabilities": [
+        "gnss",
+        "imu",
+        "camera_rgb",
+        "long_endurance"
+      ]
+    }
+  },
+  "bundle_requirements": {
+    "bundle_1": {
+      "required_capability": "camera_rgb",
+      "eligible_roles": [
+        "mapping_specialist",
+        "endurance_specialist"
+      ],
+      "eligible_drone_ids": [
+        "uav_0",
+        "uav_3"
+      ]
+    },
+    "bundle_2": {
+      "required_capability": "camera_thermal",
+      "eligible_roles": [
+        "thermal_specialist",
+        "payload_specialist"
+      ],
+      "eligible_drone_ids": [
+        "uav_1",
+        "uav_2"
+      ]
+    },
+    "bundle_3": {
+      "required_capability": "high_payload",
+      "eligible_roles": [
+        "payload_specialist"
+      ],
+      "eligible_drone_ids": [
+        "uav_2"
+      ]
+    },
+    "bundle_4": {
+      "required_capability": "long_endurance",
+      "eligible_roles": [
+        "endurance_specialist"
+      ],
+      "eligible_drone_ids": [
+        "uav_3"
+      ]
+    }
+  },
+  "failure_target": {
+    "drone_id": "uav_1",
+    "bundle_id": "bundle_2",
+    "replacement_candidates": [
+      "uav_2"
+    ]
+  },
+  "limitations": [
+    "Capability and role heterogeneity are explicit contract constraints; the bridge still uses the common CF2X motion model.",
+    "The protocol tests a thermal-capability failure with a payload-capable thermal replacement; it is not a complete vehicle-dynamics study."
+  ]
+}

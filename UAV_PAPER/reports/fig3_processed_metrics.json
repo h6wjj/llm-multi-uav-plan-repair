@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "source": "frozen_data/main_comparison",
+    "purpose": "Fig.3 quantitative comparison"
+  },
+  "methods": {
+    "Agent4Drone_no_recovery": {
+      "display_name": "Agent4Drone (no recovery)",
+      "experiment_label": "B0",
+      "CSR": {
+        "mean": 0.6597222083333334,
+        "std": 0.21925590437678696,
+        "n": 72
+      },
+      "NPSD": {
+        "mean": null,
+        "std": null,
+        "n": 0
+      },
+      "repair_latency": {
+        "mean": null,
+        "std": null,
+        "n": 0
+      }
+    },
+    "Intent_preserving_repair": {
+      "display_name": "Intent-preserving repair",
+      "experiment_label": "B0+SeSE+CDS-MR",
+      "CSR": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n": 72
+      },
+      "NPSD": {
+        "mean": 0.43333333333333335,
+        "std": 0.04780914437337574,
+        "n": 36
+      },
+      "repair_latency": {
+        "mean": 5.310742,
+        "std": 1.7461933116999389,
+        "n": 36
+      }
+    },
+    "LLM_replanning": {
+      "display_name": "LLM replanning",
+      "experiment_label": "LLM-APE",
+      "CSR": {
+        "mean": 0.9791666666666666,
+        "std": 0.1006143102973912,
+        "n": 72
+      },
+      "NPSD": {
+        "mean": 0.7583333611111112,
+        "std": 0.2575063466624411,
+        "n": 36
+      },
+      "repair_latency": {
+        "mean": 58.530189500000006,
+        "std": 67.76698985215256,
+        "n": 36
+      }
+    },
+    "Global_reallocation": {
+      "display_name": "Global reallocation",
+      "experiment_label": "H-MRTA",
+      "CSR": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n": 72
+      },
+      "NPSD": {
+        "mean": 0.6500001666666667,
+        "std": 0.1889822516232675,
+        "n": 36
+      },
+      "repair_latency": {
+        "mean": 0.008090555555555556,
+        "std": 0.0010365817573556558,
+        "n": 36
+      }
+    }
+  }
+}

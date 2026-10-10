@@ -1,0 +1,103 @@
+﻿source_task_id,task_label,raw_method,display_method,metric,metric_label,n_seeds,mean,std
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0,No-repair execution,contract_satisfaction_rate,CSR,6,0.5,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0,No-repair execution,recovery_success_rate_item,RSR,6,0.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0+SeSE+CDS-MR,Proposed full mechanism,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0+SeSE+CDS-MR,Proposed full mechanism,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0+SeSE+CDS-MR,Proposed full mechanism,normalized_plan_stability_distance,NPSD,6,0.4,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0+SeSE+CDS-MR,Proposed full mechanism,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,B0+SeSE+CDS-MR,Proposed full mechanism,repair_decision_latency_seconds,Repair latency (s),6,5.185265666666667,1.0423497985990438
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,H-MRTA-Repair,H-MRTA global-reallocation adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,H-MRTA-Repair,H-MRTA global-reallocation adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,H-MRTA-Repair,H-MRTA global-reallocation adapter,normalized_plan_stability_distance,NPSD,6,0.666667,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,H-MRTA-Repair,H-MRTA global-reallocation adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,H-MRTA-Repair,H-MRTA global-reallocation adapter,repair_decision_latency_seconds,Repair latency (s),6,0.007323166666666667,0.0005127191889003828
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,normalized_plan_stability_distance,NPSD,6,0.9444445,0.13608262740519084
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470,Arctic lightning,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,repair_decision_latency_seconds,Repair latency (s),6,35.7670215,21.415058487540104
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0,No-repair execution,contract_satisfaction_rate,CSR,6,0.5277778333333334,0.06804151782674066
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0,No-repair execution,recovery_success_rate_item,RSR,6,0.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0+SeSE+CDS-MR,Proposed full mechanism,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0+SeSE+CDS-MR,Proposed full mechanism,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0+SeSE+CDS-MR,Proposed full mechanism,normalized_plan_stability_distance,NPSD,6,0.4,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0+SeSE+CDS-MR,Proposed full mechanism,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,B0+SeSE+CDS-MR,Proposed full mechanism,repair_decision_latency_seconds,Repair latency (s),6,4.365446,1.513452067162089
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,H-MRTA-Repair,H-MRTA global-reallocation adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,H-MRTA-Repair,H-MRTA global-reallocation adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,H-MRTA-Repair,H-MRTA global-reallocation adapter,normalized_plan_stability_distance,NPSD,6,0.666667,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,H-MRTA-Repair,H-MRTA global-reallocation adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,H-MRTA-Repair,H-MRTA global-reallocation adapter,repair_decision_latency_seconds,Repair latency (s),6,0.007983166666666666,0.000766147092056523
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,normalized_plan_stability_distance,NPSD,6,0.9,0.2449489742783178
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Forest_Fog_Swarm_Coordination_012674,Forest fog,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,repair_decision_latency_seconds,Repair latency (s),6,71.38146366666666,23.519754147926026
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0,No-repair execution,contract_satisfaction_rate,CSR,6,0.5,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0,No-repair execution,recovery_success_rate_item,RSR,6,0.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0+SeSE+CDS-MR,Proposed full mechanism,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0+SeSE+CDS-MR,Proposed full mechanism,mission_completion_time_seconds,"Mission time (s), success only",6,0.26666666666666666,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0+SeSE+CDS-MR,Proposed full mechanism,normalized_plan_stability_distance,NPSD,6,0.5,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0+SeSE+CDS-MR,Proposed full mechanism,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,B0+SeSE+CDS-MR,Proposed full mechanism,repair_decision_latency_seconds,Repair latency (s),6,6.028719166666667,1.3527530656635625
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,H-MRTA-Repair,H-MRTA global-reallocation adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,H-MRTA-Repair,H-MRTA global-reallocation adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.26666666666666666,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,H-MRTA-Repair,H-MRTA global-reallocation adapter,normalized_plan_stability_distance,NPSD,6,0.5,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,H-MRTA-Repair,H-MRTA global-reallocation adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,H-MRTA-Repair,H-MRTA global-reallocation adapter,repair_decision_latency_seconds,Repair latency (s),6,0.008461,0.0015705961925332687
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,mission_completion_time_seconds,"Mission time (s), success only",6,2.7333333333333334,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,normalized_plan_stability_distance,NPSD,6,0.5,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_HarborSwarmDelivery_Quadrotor_015740,Harbor delivery,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,repair_decision_latency_seconds,Repair latency (s),6,39.08014716666667,19.954194297054777
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0,No-repair execution,contract_satisfaction_rate,CSR,6,0.5277778333333334,0.06804151782674066
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0,No-repair execution,recovery_success_rate_item,RSR,6,0.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0+SeSE+CDS-MR,Proposed full mechanism,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0+SeSE+CDS-MR,Proposed full mechanism,mission_completion_time_seconds,"Mission time (s), success only",6,0.3,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0+SeSE+CDS-MR,Proposed full mechanism,normalized_plan_stability_distance,NPSD,6,0.4,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0+SeSE+CDS-MR,Proposed full mechanism,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,B0+SeSE+CDS-MR,Proposed full mechanism,repair_decision_latency_seconds,Repair latency (s),6,4.505157666666666,0.7807208840215988
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,H-MRTA-Repair,H-MRTA global-reallocation adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,H-MRTA-Repair,H-MRTA global-reallocation adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.3,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,H-MRTA-Repair,H-MRTA global-reallocation adapter,normalized_plan_stability_distance,NPSD,6,0.666667,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,H-MRTA-Repair,H-MRTA global-reallocation adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,H-MRTA-Repair,H-MRTA global-reallocation adapter,repair_decision_latency_seconds,Repair latency (s),6,0.008659833333333334,0.0012361777245471892
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.425,0.3061862178478973
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,normalized_plan_stability_distance,NPSD,6,0.7444445,0.2963981131544194
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Harbor_Swarm_Coordination_with_Gusts_017664,Harbor gusts,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,repair_decision_latency_seconds,Repair latency (s),6,113.70758633333332,153.75583402671802
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0,No-repair execution,contract_satisfaction_rate,CSR,6,0.5,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0,No-repair execution,recovery_success_rate_item,RSR,6,0.0,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0+SeSE+CDS-MR,Proposed full mechanism,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0+SeSE+CDS-MR,Proposed full mechanism,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0+SeSE+CDS-MR,Proposed full mechanism,normalized_plan_stability_distance,NPSD,6,0.4,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0+SeSE+CDS-MR,Proposed full mechanism,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,B0+SeSE+CDS-MR,Proposed full mechanism,repair_decision_latency_seconds,Repair latency (s),6,4.631201333333333,0.98651362112921
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,H-MRTA-Repair,H-MRTA global-reallocation adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,H-MRTA-Repair,H-MRTA global-reallocation adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.4,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,H-MRTA-Repair,H-MRTA global-reallocation adapter,normalized_plan_stability_distance,NPSD,6,0.4,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,H-MRTA-Repair,H-MRTA global-reallocation adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,H-MRTA-Repair,H-MRTA global-reallocation adapter,repair_decision_latency_seconds,Repair latency (s),6,0.008145,0.0010356427955622535
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,contract_satisfaction_rate,CSR,6,0.75,0.27386127875258304
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,mission_completion_time_seconds,"Mission time (s), success only",3,0.4,0.0
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,normalized_plan_stability_distance,NPSD,6,0.7444445,0.2963981131544194
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recovery_success_rate_item,RSR,6,0.5,0.5477225575051661
+uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427,Suburban microburst,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,repair_decision_latency_seconds,Repair latency (s),6,68.0585625,21.32335566955243
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0,No-repair execution,contract_satisfaction_rate,CSR,6,0.5,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0,No-repair execution,recovery_success_rate_item,RSR,6,0.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0+SeSE+CDS-MR,Proposed full mechanism,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0+SeSE+CDS-MR,Proposed full mechanism,mission_completion_time_seconds,"Mission time (s), success only",6,0.26666666666666666,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0+SeSE+CDS-MR,Proposed full mechanism,normalized_plan_stability_distance,NPSD,6,0.5,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0+SeSE+CDS-MR,Proposed full mechanism,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,B0+SeSE+CDS-MR,Proposed full mechanism,repair_decision_latency_seconds,Repair latency (s),6,7.148662166666666,2.7310103553548393
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,H-MRTA-Repair,H-MRTA global-reallocation adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,H-MRTA-Repair,H-MRTA global-reallocation adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.26666666666666666,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,H-MRTA-Repair,H-MRTA global-reallocation adapter,normalized_plan_stability_distance,NPSD,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,H-MRTA-Repair,H-MRTA global-reallocation adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,H-MRTA-Repair,H-MRTA global-reallocation adapter,repair_decision_latency_seconds,Repair latency (s),6,0.007971166666666666,0.00055628712610186
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,contract_satisfaction_rate,CSR,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,mission_completion_time_seconds,"Mission time (s), success only",6,0.9666666666666667,0.7668115805072326
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,normalized_plan_stability_distance,NPSD,6,0.7166666666666667,0.248327740429189
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,recovery_success_rate_item,RSR,6,1.0,0.0
+uavbench_Urban_Snowfall_Swarm_Coordination_038984,Urban snowfall,LLM-Assisted Plan Execution,LLM-assisted replanning adapter,repair_decision_latency_seconds,Repair latency (s),6,23.186355833333334,10.28044754334879

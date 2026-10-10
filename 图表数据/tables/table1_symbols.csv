@@ -1,0 +1,15 @@
+﻿symbol,definition_cn,source
+U,无人机集合,problem definition
+"r_u, K_u",无人机角色与能力集合,task contract
+"G=(V,E)",任务束依赖有向无环图,task contract
+P_0,进入执行的初始结构化计划,LLM planning output
+s_f,仿真执行中记录的失效时状态,bridge snapshot
+A_f,不可重放的已完成动作前缀,bridge progress
+R_f,失效时剩余任务束集合,bridge progress
+C_dir,直接受失效影响的任务束,owner availability
+C_check,依赖传播后的检查范围,dependency DAG
+C_aff,实际需要改变拥有者的编辑集合,state decision
+U_i^comp,任务束i的在线兼容候选UAV集合,role/capability/state
+F_static(s_f),通过静态硬约束预检的有限候选计划集合,candidate enumeration
+P_sel,按词典序目标选出的唯一待提交方案,minimal-repair selector
+NPSD,原剩余动作集合与修复动作集合的Jaccard距离,shared evaluator

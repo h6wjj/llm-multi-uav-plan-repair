@@ -1,0 +1,37 @@
+{
+    "policy":  [
+                   "No old main aggregates / incomplete external alternatives / pilot runs / early mechanism probes",
+                   "No logs, secrets, caches, virtual environments, zero-byte stubs",
+                   "Historical records are provenance; current author-confirmed nine-case implementation takes precedence"
+               ],
+    "individual":  [
+                       {
+                           "path":  "uav_exp/_paper_evidence_audit/uav_exp_AB_export_20260920.tar.gz",
+                           "reason":  "redundant nested archive; required A/B files packaged directly"
+                       },
+                       {
+                           "path":  "实验数据/code/build_v6_4_robustness_timing.py",
+                           "reason":  "empty historical stub; not a runnable entry"
+                       },
+                       {
+                           "path":  "实验数据/code/build_v6_4_shared_pool_scenarios.py",
+                           "reason":  "empty historical stub; not a runnable entry"
+                       },
+                       {
+                           "path":  "实验数据/code/experiment/scripts/run_real_external_baselines.py",
+                           "reason":  "empty historical stub; not a runnable entry"
+                       },
+                       {
+                           "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/control/__init__.py",
+                           "reason":  "empty historical stub; not a runnable entry"
+                       },
+                       {
+                           "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/examples/__init__.py",
+                           "reason":  "empty historical stub; not a runnable entry"
+                       },
+                       {
+                           "path":  "实验数据/platform/gym-pybullet-drones/gym_pybullet_drones/utils/__init__.py",
+                           "reason":  "empty historical stub; not a runnable entry"
+                       }
+                   ]
+}

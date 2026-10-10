@@ -1,0 +1,91 @@
+{
+  "sources": [
+    {
+      "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/Simple_local_reassignment.jsonl",
+      "sha256": "b7857ed2a1ec06dd282b27764643dbe7c7dac811d47404bee8b9159a0e19dcca"
+    },
+    {
+      "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/CDS_MR.jsonl",
+      "sha256": "f95a862753b410d707eb574e4819939fb4d040130d3f7864aeb699e67dcc1bce"
+    },
+    {
+      "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/Global_total_route_reallocation.jsonl",
+      "sha256": "da788b1e9181aba51ad92698ddf11d208cba314bfe61f697a3cb0f475dc3a28e"
+    },
+    {
+      "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/formal_metric_audit.json",
+      "sha256": "0dc9bc1784aa5ce5831edfbed6d6222a5833a8e8ed5d616f51bee030e7dd9f23"
+    },
+    {
+      "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/Simple_local_reassignment.jsonl",
+      "sha256": "9facbf917a23be42111c9ea4e02334893afa6ff84896f49d623d00deaf65538f"
+    },
+    {
+      "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/CDS_MR.jsonl",
+      "sha256": "80a70382b112d60a8fb71c81afad5dbf3e199a4f0ef21975ff92c243efb17572"
+    },
+    {
+      "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/Global_total_route_reallocation.jsonl",
+      "sha256": "440d73ea007aa28f28e1013f70818d3ba75c0b361b2ade392a312a9f4b32487f"
+    },
+    {
+      "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/formal_metric_audit.json",
+      "sha256": "495e4d939d8b6b79aff9259a88c0681e1595367b14816f8a8c34efa53d5abea7"
+    },
+    {
+      "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/B3_ANALYSIS.json",
+      "sha256": "89c7842ff85517c150538751e52b22ac805aedef920bc1fafaefc36fa832f81a"
+    },
+    {
+      "relative_path": "UAV_PAPER/scripts/plot_suffix_results.py",
+      "sha256": "bbbfe3b889507bc63363799a9a12c9c9c1db037faa816d4b34d6cc6e88aafc13"
+    }
+  ],
+  "generated": [
+    {
+      "relative_path": "图表数据/suffix_results/formal_metrics.csv",
+      "sha256": "f461ff5dc95725f40a90ce5dc437f9b87c346b93c95c504c471e4875018e36dc"
+    },
+    {
+      "relative_path": "图表数据/suffix_results/grid_paired_effects.csv",
+      "sha256": "eab88ff25a797d89d38fce0596b087800471528ab5dcdcc2e79a689a565fe828"
+    },
+    {
+      "relative_path": "图表数据/suffix_results/random_paired_outcomes.csv",
+      "sha256": "17616422c9a1ab8c4dc40cabef5dfd45d4321cd99e0bf2ae60eeeeef147a4bb3"
+    }
+  ],
+  "checks": {
+    "tasks_per_block": 90,
+    "strict_pass_per_method_per_block": 90,
+    "b3_categories": [
+      30,
+      59,
+      1
+    ]
+  },
+  "scope": "repair-UAV path only; B2 designed grid and B3 random geometry reported separately",
+  "publication_labels": {
+    "Immediate local": "Local",
+    "CDS-MR": "Minimal repair",
+    "Global total-route": "Global"
+  },
+  "figure_outputs": [
+    {
+      "relative_path": "paper_applied_intelligence/figures/Fig7.pdf",
+      "sha256": "3d637107915b1dbd32d89d4dcc37047f24d9032d72a3f9b411d63d600e9c1148"
+    },
+    {
+      "relative_path": "UAV_PAPER/figures/source/fig7/Fig7_suffix_results.pdf",
+      "sha256": "3d637107915b1dbd32d89d4dcc37047f24d9032d72a3f9b411d63d600e9c1148"
+    },
+    {
+      "relative_path": "UAV_PAPER/figures/source/fig7/Fig7_suffix_results.svg",
+      "sha256": "11574def1718817a5a0c86492b5aac4f8e9a42587d48d00e8f1fb73f8d7cf327"
+    },
+    {
+      "relative_path": "UAV_PAPER/figures/source/fig7/Fig7_suffix_results.png",
+      "sha256": "56cad93c061d7313f7eda8931d9b3911b08319f582a5076e4d25d2ce87257693"
+    }
+  ]
+}

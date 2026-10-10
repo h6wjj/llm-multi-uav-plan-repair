@@ -1,0 +1,1109 @@
+{
+  "protocol": "v6_4_shared_candidate_pool_v1",
+  "scope": "heldout seed 8-12; recoverable_failure_uncertain only",
+  "rows": 120,
+  "task_seed_pairs": 30,
+  "methods": [
+    "Blind+Global-Replan",
+    "SeSE+Global-Replan",
+    "Blind+CDS-MR",
+    "SeSE+CDS-MR"
+  ],
+  "metrics": {
+    "recovery_success_rate_item": "RSR",
+    "contract_satisfaction_rate": "CSR",
+    "normalized_plan_stability_distance": "NPSD",
+    "repair_decision_latency_seconds": "Repair latency (s)",
+    "mission_completion_time_seconds": "Mission time (s)"
+  },
+  "summary": {
+    "Blind+Global-Replan": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.65,
+        "std": 0.189525,
+        "ci95_bootstrap_mean": [
+          0.585556,
+          0.718889
+        ]
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.011542,
+        "std": 0.005124,
+        "ci95_bootstrap_mean": [
+          0.009883,
+          0.01348
+        ]
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175,
+        "ci95_bootstrap_mean": [
+          0.316667,
+          0.361111
+        ]
+      }
+    },
+    "SeSE+Global-Replan": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.65,
+        "std": 0.189525,
+        "ci95_bootstrap_mean": [
+          0.585556,
+          0.718889
+        ]
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.010996,
+        "std": 0.006241,
+        "ci95_bootstrap_mean": [
+          0.009004,
+          0.013369
+        ]
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175,
+        "ci95_bootstrap_mean": [
+          0.316667,
+          0.361111
+        ]
+      }
+    },
+    "Blind+CDS-MR": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.433333,
+        "std": 0.047946,
+        "ci95_bootstrap_mean": [
+          0.416667,
+          0.45
+        ]
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.010888,
+        "std": 0.005411,
+        "ci95_bootstrap_mean": [
+          0.009208,
+          0.012991
+        ]
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175,
+        "ci95_bootstrap_mean": [
+          0.316667,
+          0.361111
+        ]
+      }
+    },
+    "SeSE+CDS-MR": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0,
+        "ci95_bootstrap_mean": [
+          1.0,
+          1.0
+        ]
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.433333,
+        "std": 0.047946,
+        "ci95_bootstrap_mean": [
+          0.416667,
+          0.45
+        ]
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.009885,
+        "std": 0.004494,
+        "ci95_bootstrap_mean": [
+          0.008576,
+          0.011699
+        ]
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175,
+        "ci95_bootstrap_mean": [
+          0.316667,
+          0.361111
+        ]
+      }
+    }
+  },
+  "paired_comparisons": {
+    "SeSE_vs_Blind_Global": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": -0.000546,
+        "std_delta": 0.006715,
+        "ci95_bootstrap_delta": [
+          -0.00294,
+          0.001758
+        ],
+        "permutation_p_two_sided": 0.663063,
+        "cohen_dz": -0.081322
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      }
+    },
+    "SeSE_vs_Blind_CDS": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": -0.001003,
+        "std_delta": 0.006567,
+        "ci95_bootstrap_delta": [
+          -0.003376,
+          0.001254
+        ],
+        "permutation_p_two_sided": 0.418926,
+        "cohen_dz": -0.152744
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      }
+    },
+    "CDS_vs_Global_Blind": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean_delta_left_minus_right": -0.216667,
+        "std_delta": 0.17698,
+        "ci95_bootstrap_delta": [
+          -0.281111,
+          -0.156667
+        ],
+        "permutation_p_two_sided": 2e-05,
+        "cohen_dz": -1.224246
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": -0.000654,
+        "std_delta": 0.006075,
+        "ci95_bootstrap_delta": [
+          -0.002769,
+          0.00151
+        ],
+        "permutation_p_two_sided": 0.568064,
+        "cohen_dz": -0.107625
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      }
+    },
+    "CDS_vs_Global_SeSE": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean_delta_left_minus_right": -0.216667,
+        "std_delta": 0.17698,
+        "ci95_bootstrap_delta": [
+          -0.281111,
+          -0.156667
+        ],
+        "permutation_p_two_sided": 2e-05,
+        "cohen_dz": -1.224246
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": -0.001111,
+        "std_delta": 0.00759,
+        "ci95_bootstrap_delta": [
+          -0.00378,
+          0.001502
+        ],
+        "permutation_p_two_sided": 0.443526,
+        "cohen_dz": -0.14635
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean_delta_left_minus_right": 0.0,
+        "std_delta": 0.0,
+        "ci95_bootstrap_delta": [
+          0.0,
+          0.0
+        ],
+        "permutation_p_two_sided": 1.0,
+        "cohen_dz": 0.0
+      }
+    }
+  },
+  "per_task": {
+    "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.666667,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010283,
+          "std": 0.003541
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "SeSE+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.666667,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010625,
+          "std": 0.00596
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.011617,
+          "std": 0.004058
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "SeSE+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010146,
+          "std": 0.00251
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      }
+    },
+    "uavbench_Forest_Fog_Swarm_Coordination_012674": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.666667,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.013075,
+          "std": 0.005054
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "SeSE+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.666667,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.014565,
+          "std": 0.010397
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.011746,
+          "std": 0.007174
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "SeSE+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.009651,
+          "std": 0.001456
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      }
+    },
+    "uavbench_HarborSwarmDelivery_Quadrotor_015740": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.008251,
+          "std": 0.000558
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      },
+      "SeSE+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.007637,
+          "std": 0.000338
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.00779,
+          "std": 0.000539
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      },
+      "SeSE+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.007337,
+          "std": 0.001058
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      }
+    },
+    "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.666667,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.011906,
+          "std": 0.007726
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.3,
+          "std": 0.0
+        }
+      },
+      "SeSE+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.666667,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.008205,
+          "std": 0.001112
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.3,
+          "std": 0.0
+        }
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010021,
+          "std": 0.003009
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.3,
+          "std": 0.0
+        }
+      },
+      "SeSE+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.008339,
+          "std": 0.000801
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.3,
+          "std": 0.0
+        }
+      }
+    },
+    "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.012477,
+          "std": 0.006257
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "SeSE+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010182,
+          "std": 0.004822
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.013928,
+          "std": 0.008855
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      },
+      "SeSE+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.012913,
+          "std": 0.009845
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.4,
+          "std": 0.0
+        }
+      }
+    },
+    "uavbench_Urban_Snowfall_Swarm_Coordination_038984": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.013259,
+          "std": 0.005453
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      },
+      "SeSE+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.014762,
+          "std": 0.00746
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010227,
+          "std": 0.005474
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      },
+      "SeSE+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 5,
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "repair_decision_latency_seconds": {
+          "n": 5,
+          "mean": 0.010924,
+          "std": 0.003901
+        },
+        "mission_completion_time_seconds": {
+          "n": 5,
+          "mean": 0.266667,
+          "std": 0.0
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_8/results.jsonl": "470f3177f743054539d91d5d524487f5dcb3e0fba15a16987ec4cfe69010e450",
+    "data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_9/results.jsonl": "38714cb97639953cf8cfe512d4f316a75b326f3adad5ea0b382e156c733b2ab7",
+    "data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_10/results.jsonl": "8f377191a5983162e1952d696a4eb499649aa860427b62d60e26b454b6ed474c",
+    "data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_11/results.jsonl": "f384019f8f6de12b376e281d33acfea13a7dbd7a380ff438184929fe62f8ad7d",
+    "data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_12/results.jsonl": "ace56eb164b3f89131a5cf1351eccf75695d1cc8f8b3c686785cd62874ddfa90"
+  },
+  "note": "Derived analysis only; raw JSONL unchanged. CIs are deterministic percentile bootstrap CIs; p-values are two-sided sign-flip permutation estimates."
+}

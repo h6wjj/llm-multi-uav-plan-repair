@@ -1,0 +1,160 @@
+{
+  "closeout_date": "2026-10-03",
+  "verification_type": "read_only_deterministic_metadata_and_row_consistency",
+  "deterministic_checks": "PASS",
+  "checks_passed": 56,
+  "checks_total": 56,
+  "formal_audit_metadata": {
+    "suffix_grid_three_way_formal_v1": {
+      "original_scope": "preflight_only",
+      "wrapper_scope": "formal_run",
+      "wrapper_verdict": "PASS",
+      "task_count": 90,
+      "metadata_correction": "The original metric_audit.json retains scope=preflight_only. The wrapper is a post-run formal_run audit. Its audit_note uses pilot_only in error."
+    },
+    "b3_independent_task_distribution_formal_v1": {
+      "original_scope": "preflight_only",
+      "wrapper_scope": "formal_run",
+      "wrapper_verdict": "PASS",
+      "task_count": 90,
+      "metadata_correction": "The original metric_audit.json retains scope=preflight_only. The wrapper is a post-run formal_run audit. Its audit_note uses pilot_only in error."
+    }
+  },
+  "stress_corrected_interpretation": {
+    "Simple-local-reassignment": {
+      "rows": 3,
+      "terminal_task_success_count": 3,
+      "strict_contract_satisfied_count": 3,
+      "recomputed_recovery_count": 3,
+      "recomputed_recovery_rate": 1,
+      "original_recovery_items": [
+        null,
+        null,
+        null
+      ],
+      "original_summary_recoverable_success_count": 0,
+      "npsd_mean": 0.333333,
+      "selected_B2_owner": "uav_2"
+    },
+    "CDS-MR": {
+      "rows": 3,
+      "terminal_task_success_count": 3,
+      "strict_contract_satisfied_count": 3,
+      "recomputed_recovery_count": 3,
+      "recomputed_recovery_rate": 1,
+      "original_recovery_items": [
+        null,
+        null,
+        null
+      ],
+      "original_summary_recoverable_success_count": 0,
+      "npsd_mean": 0.333333,
+      "selected_B2_owner": "uav_3"
+    }
+  },
+  "b3_archive": {
+    "generator_sha256": "a2bfc5eaf0a813bd0da59db761964877aba86d44e2d0fa05b45a3533d40de301",
+    "pilot_formal_shared_task_ids": [
+      "b3_indtask_v1_branch_02",
+      "b3_indtask_v1_chain_01",
+      "b3_indtask_v1_merge_03"
+    ],
+    "pilot_formal_seeds_disjoint": true,
+    "cross_directory_join_key": [
+      "data_partition",
+      "run_seed",
+      "task_id"
+    ]
+  },
+  "environment": {
+    "historical_software_source": "provenance/environment.txt and frozen run manifests",
+    "live_hardware_observation": "provenance/vm_environment_20261003.json",
+    "current_system_python": "3.12.3",
+    "current_uav_exp_venv_python": "3.14.6",
+    "historical_hardware_capture_available": false
+  },
+  "remaining_limits": [
+    "The live hardware capture is retrospective; it cannot establish historical hardware settings.",
+    "The current uav_exp/venv differs from the recorded Python 3.12.3 experiment environment and needs restoration before rerunning.",
+    "The stress recovery correction is derived from archived final task success and intended failure records; original null values remain preserved.",
+    "This closeout has no completed fresh semantic reviewer; its checks are deterministic, not an independent review acceptance."
+  ],
+  "checks": {
+    "frozen_hash_unchanged:provenance/environment.txt": true,
+    "frozen_hash_unchanged:results/suffix_grid_three_way_formal_v1/metric_audit.json": true,
+    "frozen_hash_unchanged:results/suffix_grid_three_way_formal_v1/formal_metric_audit.json": true,
+    "frozen_hash_unchanged:results/b3_independent_task_distribution_formal_v1/formal_metric_audit.json": true,
+    "frozen_hash_unchanged:results/mechanism_stress_v2_vm_v10/tasks_recoverable_failure_v1.jsonl": true,
+    "frozen_hash_unchanged:results/mechanism_stress_v2_vm_v10/Simple_local_reassignment.jsonl": true,
+    "frozen_hash_unchanged:results/mechanism_stress_v2_vm_v10/CDS_MR.jsonl": true,
+    "frozen_hash_unchanged:results/mechanism_stress_v2_vm_v10/summary.json": true,
+    "suffix_grid_three_way_formal_v1:scope": true,
+    "suffix_grid_three_way_formal_v1:wrapper_pass": true,
+    "suffix_grid_three_way_formal_v1:formal_task_count": true,
+    "suffix_grid_three_way_formal_v1:source_note_typo_confirmed": true,
+    "b3_independent_task_distribution_formal_v1:scope": true,
+    "b3_independent_task_distribution_formal_v1:wrapper_pass": true,
+    "b3_independent_task_distribution_formal_v1:formal_task_count": true,
+    "b3_independent_task_distribution_formal_v1:source_note_typo_confirmed": true,
+    "stress:three_tasks_missing_metadata_condition": true,
+    "stress:recorded_pair_audit": true,
+    "Simple-local-reassignment:three_unique_rows": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain:strict_terminal_completion": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain:missing_original_recovery_field": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain:intended_failure": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain:selected_owner": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain_mirror:strict_terminal_completion": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain_mirror:missing_original_recovery_field": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain_mirror:intended_failure": true,
+    "Simple-local-reassignment:mechanism_stress_v2_chain_mirror:selected_owner": true,
+    "Simple-local-reassignment:mechanism_stress_v2_branch:strict_terminal_completion": true,
+    "Simple-local-reassignment:mechanism_stress_v2_branch:missing_original_recovery_field": true,
+    "Simple-local-reassignment:mechanism_stress_v2_branch:intended_failure": true,
+    "Simple-local-reassignment:mechanism_stress_v2_branch:selected_owner": true,
+    "Simple-local-reassignment:summary_missingness": true,
+    "Simple-local-reassignment:three_recomputed_recoveries": true,
+    "CDS-MR:three_unique_rows": true,
+    "CDS-MR:mechanism_stress_v2_chain:strict_terminal_completion": true,
+    "CDS-MR:mechanism_stress_v2_chain:missing_original_recovery_field": true,
+    "CDS-MR:mechanism_stress_v2_chain:intended_failure": true,
+    "CDS-MR:mechanism_stress_v2_chain:selected_owner": true,
+    "CDS-MR:mechanism_stress_v2_chain_mirror:strict_terminal_completion": true,
+    "CDS-MR:mechanism_stress_v2_chain_mirror:missing_original_recovery_field": true,
+    "CDS-MR:mechanism_stress_v2_chain_mirror:intended_failure": true,
+    "CDS-MR:mechanism_stress_v2_chain_mirror:selected_owner": true,
+    "CDS-MR:mechanism_stress_v2_branch:strict_terminal_completion": true,
+    "CDS-MR:mechanism_stress_v2_branch:missing_original_recovery_field": true,
+    "CDS-MR:mechanism_stress_v2_branch:intended_failure": true,
+    "CDS-MR:mechanism_stress_v2_branch:selected_owner": true,
+    "CDS-MR:summary_missingness": true,
+    "CDS-MR:three_recomputed_recoveries": true,
+    "stress:paired_task_ids": true,
+    "stress:paired_failure_states": true,
+    "b3:frozen_generator_restored": true,
+    "b3:documented_id_collision": true,
+    "b3:pilot_formal_seeds_disjoint": true,
+    "b3:formal_input_hash": true,
+    "environment:dated_live_observation": true,
+    "environment:hardware_matches_description": true
+  },
+  "audited_input_sha256": {
+    "provenance/environment.txt": "0ffa30b961bb18343b62f203fdc69d0c6c5011d4500eb9d1badbbb57587c813e",
+    "results/suffix_grid_three_way_formal_v1/metric_audit.json": "a9310aa858047ed67c7615c285c06c7bcc7e018d5f3aa90b86a982bd71f1f531",
+    "results/suffix_grid_three_way_formal_v1/formal_metric_audit.json": "0dc9bc1784aa5ce5831edfbed6d6222a5833a8e8ed5d616f51bee030e7dd9f23",
+    "results/b3_independent_task_distribution_formal_v1/formal_metric_audit.json": "495e4d939d8b6b79aff9259a88c0681e1595367b14816f8a8c34efa53d5abea7",
+    "results/mechanism_stress_v2_vm_v10/tasks_recoverable_failure_v1.jsonl": "5b45aa533bf690ab49fba4072f44cd21d504d9f20cad2894d5cb7503dacefdcf",
+    "results/mechanism_stress_v2_vm_v10/Simple_local_reassignment.jsonl": "657917dac5dcc2496059c42998721e67d53ba547586c0371e5cef77f2d35483f",
+    "results/mechanism_stress_v2_vm_v10/CDS_MR.jsonl": "9c19051835551b3e9c100ec0d5827446542234bcce4aad492557a5541c0625ab",
+    "results/mechanism_stress_v2_vm_v10/summary.json": "97fb9e561b3f528a979887966ee2b1346d0c55c55a5665bb2d2d5f19e75dfee1",
+    "results/suffix_grid_three_way_formal_v1/run_manifest.json": "93278ec410441a298ae8f5b5a3d7f22d614f00adc18ff917cdac167859cd81a6",
+    "results/b3_independent_task_distribution_formal_v1/metric_audit.json": "794ff4a4c59cd478337a4aeb88a24232ce069df147dd11cb3fcbfefa6eb74914",
+    "results/b3_independent_task_distribution_formal_v1/run_manifest.json": "dad1f787f69dcd771c8e90c82a4c7d032774cb4a91d21f501834bb0bb3413aa3",
+    "results/mechanism_stress_v2_vm_v10/pair_audit.json": "d460082e1afc8037b3fd889e21ccf2479ac9ed2e3d0f5ff64de6f7bbb109dafb",
+    "scenarios/independent_task_distribution_b3_v1/freeze_manifest.json": "1707db4dfc90a30f17faebd3402cd33186132cac0612a12642ce69e0e649fccf",
+    "scenarios/independent_task_distribution_b3_v1/build_b3_independent_tasks_v1.py": "a2bfc5eaf0a813bd0da59db761964877aba86d44e2d0fa05b45a3533d40de301",
+    "scenarios/independent_task_distribution_b3_v1/tasks.jsonl": "e6aa209faa87ca6f918a9209c74a124f6bced16860cfd7b15a268d34005ffb98",
+    "scenarios/independent_task_distribution_b3_v1/pilot_3.jsonl": "4daea07584435e66d4f983940784c72756e03c40f7da3b09a39799fbc3109aea",
+    "provenance/vm_environment_20261003.json": "bd684f531a87ccf1b063e7d44ea4b9924f18860bd3bbeb53705d8c719d70c886"
+  },
+  "verification_script_sha256": "4ae2e9adc07e824d0b19634d915725548dc549fd66135ef0b8147ba870d87fd2"
+}

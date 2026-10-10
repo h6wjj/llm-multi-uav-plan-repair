@@ -1,0 +1,90 @@
+{
+  "protocol": "b3_independent_task_distribution_v1",
+  "status": "preregistered_before_generation_and_execution",
+  "registered_date": "2026-09-23",
+  "claim_tested": "Quantify where suffix-aware repair helps, ties, or regresses under an independently sampled random-layout task generator, without selecting samples by observed method outcomes or an engineered coupling inequality.",
+  "evaluation_scope": "simulation_only; constructed deterministic task contracts with independently sampled geometric primitives; descriptive under this generator, not an estimate of real-world mission prevalence.",
+  "sampling_unit": "one independently seeded four-UAV task layout with the same fixed B2 partial-failure protocol and hard-contract semantics as the frozen three-way baseline",
+  "formal_sample_size": 90,
+  "strata": {
+    "dependency_structures": {
+      "chain": 30,
+      "branch": 30,
+      "merge": 30
+    },
+    "coupling_strata": "none; no coupling labels or bins are assigned"
+  },
+  "formal_seed_rule": {
+    "chain": "20280001-20280030",
+    "branch": "20281001-20281030",
+    "merge": "20282001-20282030",
+    "seed_base": 20280000,
+    "seed_list_fixed_before_generation": true
+  },
+  "separate_pilot": {
+    "task_count": 3,
+    "seeds": [20279001, 20279002, 20279003],
+    "structures": ["chain", "branch", "merge"],
+    "included_in_formal_statistics": false
+  },
+  "geometry_distribution": {
+    "c2_distance_from_failed_B2_endpoint": "Uniform(0.5, 2.5) m",
+    "c3_distance_from_failed_B2_endpoint": "independent Uniform(0.5, 2.5) m",
+    "B3_cross_track_offset": "independent sign with probability 0.5 times Uniform(0.5, 2.0) m",
+    "B4_cross_track_offset": "independent sign with probability 0.5 times Uniform(0.5, 2.0) m",
+    "within_bundle_leg_lengths": "independent Uniform(0.5, 1.5) m",
+    "B1_local_start_xy": "x Uniform(-3.0, -1.0) m and y Uniform(0.5, 2.5) m; independent",
+    "B2_local_start_xy": "x Uniform(-0.35, 0.35) m and y negative Uniform(0.8, 1.4) m; midpoint is the exact half-vector",
+    "B1_B3_B4_leg_headings": "independent Uniform(0, 2*pi)",
+    "B3_cross_track_x_and_B4_cross_track_y": "independent Uniform(-0.35, 0.35) m",
+    "global_rotation": "Uniform(0, 2*pi)",
+    "translation_xy": "independent Uniform(8, 18) m per axis",
+    "mechanism_bias": "No parameter is derived from c2/c3 or h2/h3; no target coupling delta is imposed."
+  },
+  "validity_rejection_rule": {
+    "rule": "Reject and redraw a layout only if any two consecutive waypoints in the declared B1->B2->B3->B4 execution/reference sequence are at most 4 times the fixed 0.10 m waypoint tolerance apart, or if schema/finite-value checks fail.",
+    "max_draw_attempts_per_seed": 1000,
+    "outcome_dependent_filtering": false,
+    "route_advantage_or_inequality_filtering": false,
+    "post-run_sample_replacement": false
+  },
+  "methods": [
+    "Simple-local-reassignment",
+    "CDS-MR",
+    "Global-total-route-reallocation"
+  ],
+  "primary_outcomes": {
+    "feasibility": "recovery_success and strict_contract_satisfied, counting runner errors/missing rows as failures for denominators",
+    "executed_path": "summed motor-executed repair-UAV path length; compare CDS-MR with immediate local only when both have strict success",
+    "paired_category": {
+      "cds_benefit": "CDS-MR alone has strict success, or both succeed and CDS-MR path is at least 1% shorter than the local path",
+      "cds_regression": "local alone has strict success, or both succeed and CDS-MR path is at least 1% longer than the local path",
+      "practical_tie": "both succeed and absolute relative path difference is less than 1%",
+      "joint_failure": "neither method has strict success",
+      "missing_or_invalid": "technical row absent or invalid; keep visible and do not silently drop"
+    },
+    "secondary": [
+      "mission_completion_time_seconds",
+      "estimated_full_suffix_route_cost",
+      "NPSD",
+      "repair_solver_wallclock_seconds",
+      "repair_decision_latency_seconds",
+      "strict-contract failure/check categories",
+      "global-baseline paired comparisons"
+    ]
+  },
+  "analysis_plan": {
+    "report": "all 90 cases, counts and proportions for benefit/tie/regression/joint failure, per-structure counts, mean/median/standard deviation and paired differences; list every failed, timed-out, runner-error, and missing case.",
+    "intervals": "Wilson 95% intervals for categorical proportions; paired bootstrap 95% percentile intervals for continuous deltas using 10,000 resamples and analysis seed 20289999.",
+    "local_edit_failure_regions": "tabulate strict failures and failed contract checks by the preregistered dependency-structure stratum; no post-hoc geometry bins.",
+    "cost": "report solver-only and end-to-end failure-to-first-repair-command latency separately as mean, median, and paired difference.",
+    "no_outcome_stratification": true,
+    "exploratory_geometry_analysis": "Raw c2/c3/h2/h3 may be summarized continuously after the primary analysis; they must not redefine strata or sample membership."
+  },
+  "execution": {
+    "input_schema_and_runner": "reuse the audited suffix-grid three-way runner and frozen comparison contract",
+    "run_order": "pilot on three disjoint seeds, inspect only protocol/runtime validity; then generate/freeze all 90 formal tasks and execute once",
+    "preflight_failure_policy": "If a code defect requires changing the generator or runner, preserve the failed pilot records, increment the B3 protocol/version, regenerate pilot with new disjoint seeds, and freeze a new formal input before execution.",
+    "recovery_denominator": "all 90 preregistered tasks per method, including runner errors and missing rows"
+  }
+}

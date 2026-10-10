@@ -1,0 +1,6 @@
+﻿priority,term,definition_cn,direction
+1,N_bundle,重新分配的任务束数量,min
+2,N_action,被重新分配任务束中的剩余航点动作数量,min
+3,J_route,从失效时状态按执行顺序累加的欧氏路线代价,min
+4,N_overlap,与下游原拥有者发生重叠的布尔代价,min
+5,J_tie,按执行顺序排列的无人机标识元组,lexicographic tie-break

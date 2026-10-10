@@ -1,0 +1,5 @@
+﻿raw_method,display_method,rsr_n,rsr_mean,rsr_std,csr_n,csr_mean,csr_std,npsd_n,npsd_mean,npsd_std,repair_latency_s_n,repair_latency_s_mean,repair_latency_s_std,mission_time_s_success_only_n,mission_time_s_success_only_mean,mission_time_s_success_only_std
+B0,No-repair execution,36,0.0,0.0,36,0.509259,0.038719,0,,,0,,,0,,
+LLM-Assisted Plan Execution,LLM-assisted replanning adapter,36,0.916667,0.280306,36,0.958333,0.140153,36,0.758333,0.257506,36,58.53019,67.76699,33,0.931818,0.94658
+H-MRTA-Repair,H-MRTA global-reallocation adapter,36,1.0,0.0,36,1.0,0.0,36,0.65,0.188982,36,0.008091,0.001037,36,0.338889,0.062994
+B0+SeSE+CDS-MR,Proposed full mechanism,36,1.0,0.0,36,1.0,0.0,36,0.433333,0.047809,36,5.310742,1.746193,36,0.338889,0.062994

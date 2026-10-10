@@ -1,0 +1,160 @@
+{
+  "case_id": "forest_fog_seed13_cds_mr_success",
+  "source_task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674",
+  "task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674::comparative_v6_4_recoverable_failure_uncertain::run_seed_13",
+  "source_dataset": "UAVBench",
+  "bridge_scope": "UAVBench semantics projected through Agent4Drone-compatible common CF2X bridge; role/capability heterogeneity is contract-level only",
+  "method": "B0+SeSE+CDS-MR",
+  "selected_candidate_index": 0,
+  "claim_boundary": "single-case mechanism illustration; not a population-level performance claim",
+  "original_plan": [
+    {
+      "bundle_id": "uav_0",
+      "original_owner": "uav_0",
+      "assigned_drone": "uav_0",
+      "order": 1,
+      "waypoint_count": 2,
+      "waypoints": [
+        [
+          0.04905008487356771,
+          0.04905008487356771,
+          1.0
+        ],
+        [
+          0.19620033949427085,
+          0.04905008487356771,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bundle_id": "uav_1",
+      "original_owner": "uav_1",
+      "assigned_drone": "uav_1",
+      "order": 2,
+      "waypoint_count": 3,
+      "waypoints": [
+        [
+          0.343350594114974,
+          0.04905008487356771,
+          1.0
+        ],
+        [
+          0.343350594114974,
+          0.09196890913793945,
+          1.0
+        ],
+        [
+          0.343350594114974,
+          0.1348877334023112,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bundle_id": "uav_2",
+      "original_owner": "uav_2",
+      "assigned_drone": "uav_2",
+      "order": 3,
+      "waypoint_count": 2,
+      "waypoints": [
+        [
+          0.343350594114974,
+          0.2207253819310547,
+          1.0
+        ],
+        [
+          0.19620033949427085,
+          0.2207253819310547,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bundle_id": "uav_3",
+      "original_owner": "uav_3",
+      "assigned_drone": "uav_3",
+      "order": 4,
+      "waypoint_count": 3,
+      "waypoints": [
+        [
+          0.04905008487356771,
+          0.2207253819310547,
+          1.0
+        ],
+        [
+          0.12262521218391928,
+          0.17780655766668296,
+          1.0
+        ],
+        [
+          0.19620033949427085,
+          0.1348877334023112,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "failure_observation": {
+    "type": "comparative_repair_choice_after_partial_execution",
+    "drone_id": "uav_1",
+    "bundle_id": "bundle_2",
+    "completed_waypoints_by_bundle": {
+      "bundle_1": 2,
+      "bundle_2": 2,
+      "bundle_3": 1,
+      "bundle_4": 1
+    },
+    "expected_prefix_status": {
+      "bundle_1": "completed 2/2; immutable completed prefix",
+      "bundle_2": "completed 2/3 before failure",
+      "bundle_3": "checked at 1/2; owner preserved",
+      "bundle_4": "checked at 1/3; owner preserved"
+    }
+  },
+  "causal_impact_closure": {
+    "directly_affected_bundle_ids": [
+      "bundle_2"
+    ],
+    "dependency_execution_closure": [
+      "bundle_2",
+      "bundle_3",
+      "bundle_4"
+    ],
+    "checked_but_owner_preserved": {
+      "bundle_3": "uav_2",
+      "bundle_4": "uav_3"
+    },
+    "immutable_completed_prefix": [
+      "bundle_1"
+    ],
+    "invalidated_drone_ids": [
+      "uav_1"
+    ]
+  },
+  "minimum_repair": {
+    "assignment_changes": {
+      "bundle_2": {
+        "from": "uav_1",
+        "to": "uav_2"
+      }
+    },
+    "unchanged_assignments": {
+      "bundle_3": "uav_2",
+      "bundle_4": "uav_3"
+    },
+    "repair_waypoint_counts": {
+      "bundle_1": 2,
+      "bundle_2": 3,
+      "bundle_3": 2,
+      "bundle_4": 3
+    },
+    "solver": null,
+    "solver_status": null,
+    "hard_constraints_checked": {},
+    "repair_success": true,
+    "contract_satisfaction_rate": 1.0,
+    "npsd": 0.4,
+    "repair_latency_s": 2.826793
+  }
+}

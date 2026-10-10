@@ -1,0 +1,26 @@
+# Local execution and credentials
+/generated/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!*.example
+llm_settings.json
+*.log
+# Manuscript and local review artifacts are not part of this public release
+/paper_applied_intelligence/*.tex
+/paper_applied_intelligence/*.bib
+/paper_applied_intelligence/*.cls
+/paper_applied_intelligence/*.bst
+/paper_applied_intelligence/main_zh.pdf
+/paper_applied_intelligence/supplement_zh.pdf
+/paper_applied_intelligence/reports/chapter*
+# No bundled archives or editor/build state
+*.zip
+*.tar.gz
+*.aux
+*.synctex.gz
+.DS_Store
+Thumbs.db

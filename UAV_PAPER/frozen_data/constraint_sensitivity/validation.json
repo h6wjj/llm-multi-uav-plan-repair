@@ -1,0 +1,383 @@
+{
+  "valid": true,
+  "rows": [
+    {
+      "task_id": "uavbench_HarborSwarmDelivery_Quadrotor_015740::constraint_sensitivity_loose::run_seed_13",
+      "source_task_id": "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+      "robustness_level": "loose",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 4,
+        "bundle_2": 4,
+        "bundle_3": 4,
+        "bundle_4": 4
+      }
+    },
+    {
+      "task_id": "uavbench_HarborSwarmDelivery_Quadrotor_015740::constraint_sensitivity_medium::run_seed_13",
+      "source_task_id": "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+      "robustness_level": "medium",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 3,
+        "bundle_2": 3,
+        "bundle_3": 3,
+        "bundle_4": 3
+      }
+    },
+    {
+      "task_id": "uavbench_HarborSwarmDelivery_Quadrotor_015740::constraint_sensitivity_tight::run_seed_13",
+      "source_task_id": "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+      "robustness_level": "tight",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 2,
+        "bundle_2": 2,
+        "bundle_3": 2,
+        "bundle_4": 2
+      }
+    },
+    {
+      "task_id": "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664::constraint_sensitivity_loose::run_seed_13",
+      "source_task_id": "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+      "robustness_level": "loose",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 4,
+        "bundle_2": 4,
+        "bundle_3": 4,
+        "bundle_4": 4
+      }
+    },
+    {
+      "task_id": "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664::constraint_sensitivity_medium::run_seed_13",
+      "source_task_id": "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+      "robustness_level": "medium",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 3,
+        "bundle_2": 3,
+        "bundle_3": 3,
+        "bundle_4": 3
+      }
+    },
+    {
+      "task_id": "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664::constraint_sensitivity_tight::run_seed_13",
+      "source_task_id": "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+      "robustness_level": "tight",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 2,
+        "bundle_2": 2,
+        "bundle_3": 2,
+        "bundle_4": 2
+      }
+    },
+    {
+      "task_id": "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470::constraint_sensitivity_loose::run_seed_13",
+      "source_task_id": "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+      "robustness_level": "loose",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 4,
+        "bundle_2": 4,
+        "bundle_3": 4,
+        "bundle_4": 4
+      }
+    },
+    {
+      "task_id": "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470::constraint_sensitivity_medium::run_seed_13",
+      "source_task_id": "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+      "robustness_level": "medium",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 3,
+        "bundle_2": 3,
+        "bundle_3": 3,
+        "bundle_4": 3
+      }
+    },
+    {
+      "task_id": "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470::constraint_sensitivity_tight::run_seed_13",
+      "source_task_id": "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+      "robustness_level": "tight",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 2,
+        "bundle_2": 2,
+        "bundle_3": 2,
+        "bundle_4": 2
+      }
+    },
+    {
+      "task_id": "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427::constraint_sensitivity_loose::run_seed_13",
+      "source_task_id": "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+      "robustness_level": "loose",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 4,
+        "bundle_2": 4,
+        "bundle_3": 4,
+        "bundle_4": 4
+      }
+    },
+    {
+      "task_id": "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427::constraint_sensitivity_medium::run_seed_13",
+      "source_task_id": "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+      "robustness_level": "medium",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 3,
+        "bundle_2": 3,
+        "bundle_3": 3,
+        "bundle_4": 3
+      }
+    },
+    {
+      "task_id": "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427::constraint_sensitivity_tight::run_seed_13",
+      "source_task_id": "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+      "robustness_level": "tight",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 2,
+        "bundle_2": 2,
+        "bundle_3": 2,
+        "bundle_4": 2
+      }
+    },
+    {
+      "task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674::constraint_sensitivity_loose::run_seed_13",
+      "source_task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674",
+      "robustness_level": "loose",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 4,
+        "bundle_2": 4,
+        "bundle_3": 4,
+        "bundle_4": 4
+      }
+    },
+    {
+      "task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674::constraint_sensitivity_medium::run_seed_13",
+      "source_task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674",
+      "robustness_level": "medium",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 3,
+        "bundle_2": 3,
+        "bundle_3": 3,
+        "bundle_4": 3
+      }
+    },
+    {
+      "task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674::constraint_sensitivity_tight::run_seed_13",
+      "source_task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674",
+      "robustness_level": "tight",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 2,
+        "bundle_2": 2,
+        "bundle_3": 2,
+        "bundle_4": 2
+      }
+    },
+    {
+      "task_id": "uavbench_Urban_Snowfall_Swarm_Coordination_038984::constraint_sensitivity_loose::run_seed_13",
+      "source_task_id": "uavbench_Urban_Snowfall_Swarm_Coordination_038984",
+      "robustness_level": "loose",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 4,
+        "bundle_2": 4,
+        "bundle_3": 4,
+        "bundle_4": 4
+      }
+    },
+    {
+      "task_id": "uavbench_Urban_Snowfall_Swarm_Coordination_038984::constraint_sensitivity_medium::run_seed_13",
+      "source_task_id": "uavbench_Urban_Snowfall_Swarm_Coordination_038984",
+      "robustness_level": "medium",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 3,
+        "bundle_2": 3,
+        "bundle_3": 3,
+        "bundle_4": 3
+      }
+    },
+    {
+      "task_id": "uavbench_Urban_Snowfall_Swarm_Coordination_038984::constraint_sensitivity_tight::run_seed_13",
+      "source_task_id": "uavbench_Urban_Snowfall_Swarm_Coordination_038984",
+      "robustness_level": "tight",
+      "valid": true,
+      "checks": {
+        "six_or_fewer_agents_present": true,
+        "all_bundle_candidates_nonempty": true,
+        "preferred_assignments_compatible": true,
+        "failed_bundle_has_backup": true,
+        "failure_is_recoverable": true,
+        "immutable_prefix_enabled": true,
+        "dependency_graph_acyclic_in_order": true
+      },
+      "candidate_counts": {
+        "bundle_1": 2,
+        "bundle_2": 2,
+        "bundle_3": 2,
+        "bundle_4": 2
+      }
+    }
+  ]
+}

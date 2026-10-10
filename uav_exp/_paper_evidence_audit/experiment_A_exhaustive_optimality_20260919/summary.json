@@ -1,0 +1,19 @@
+{
+  "input_root": "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18",
+  "source_files": [
+    "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18/seed_13/cds_mr.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18/seed_14/cds_mr.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18/seed_15/cds_mr.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18/seed_16/cds_mr.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18/seed_17/cds_mr.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_main_comparison_seed13_18/seed_18/cds_mr.jsonl"
+  ],
+  "recoverable_rows_seen": 36,
+  "validated_rows": 36,
+  "error_rows": 0,
+  "candidate_graph_match_count": 36,
+  "objective_match_count": 36,
+  "assignment_match_count": 36,
+  "rank_one_count": 36,
+  "all_pass": true
+}

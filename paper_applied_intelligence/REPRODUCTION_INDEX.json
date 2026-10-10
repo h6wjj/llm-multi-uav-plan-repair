@@ -1,0 +1,297 @@
+{
+  "index_date": "2026-10-10",
+  "path_root": "project_root_not_experiment_package_root",
+  "purpose": "Locate current manuscript evidence without changing frozen files; analysis_entry identifies a current reference, not necessarily the historical execution source or an instruction to run it.",
+  "historical_source_availability": {
+    "applies_to_group_ids": ["dynamic", "boundary"],
+    "checked_on": "2026-10-09",
+    "record_role": "historical_search_snapshot_not_current_reproduction_blocker",
+    "status": "historical_source_not_recovered_after_vm_and_workspace_search",
+    "runner": {
+      "recorded_path": "/home/h/uav_exp/experiment/scripts/run_simple_local_vs_cds_mr.py",
+      "recorded_sha256": "99efeb3db054e2f17c8898ceda497d02be1551c99ac155c110d51c312c98823f",
+      "vm_current_path": "/home/h/uav_exp/experiment/scripts/run_simple_local_vs_cds_mr.py",
+      "vm_current_sha256": "a3ab395a1992bacf54969c20b17d5a07ba941ae84b07e2fda7da599ef39cc03d",
+      "project_current_reference": "实验数据/code/run_simple_local_vs_cds_mr.py",
+      "project_current_sha256": "a3ab395a1992bacf54969c20b17d5a07ba941ae84b07e2fda7da599ef39cc03d",
+      "exact_match": false
+    },
+    "bridge": {
+      "recorded_path": null,
+      "recorded_sha256": "fe6807f8c52f624a7bbc3513d4db1d2e05f1e70d35e4220bd9caab43f28d2ec4",
+      "vm_current_candidate_path": "/home/h/uav_exp/experiment/scripts/gym_uav_bridge.py",
+      "vm_current_sha256": "a7e7034e9932e6532958a89ee0db5201c752ded7941748c97fd5b42b6df42fed",
+      "project_current_reference": "实验数据/code/gym_uav_bridge.py",
+      "project_current_sha256": "a7e7034e9932e6532958a89ee0db5201c752ded7941748c97fd5b42b6df42fed",
+      "exact_match": false
+    },
+    "vm_verification": {
+      "dynamic_manifest": "/home/h/uav_exp/experiment/results/mechanism_dynamic_scale_v3_ctrl48_final/results/run_manifest.json",
+      "boundary_manifest": "/home/h/uav_exp/experiment/results/mechanism_boundary_v1/results/run_manifest.json",
+      "input_hashes_and_case_counts_match": true,
+      "result_directories_contain_source_snapshot": false,
+      "python_sources_checked_in_vm_experiment_and_reproduction_trees": 98,
+      "recorded_source_hash_found_in_checked_python_sources": false,
+      "bridge_backup_or_archive_exact_match_found": false,
+      "current_source_file_times_postdate_manifests": true
+    },
+    "analysis_entry_role": "current_reference_only_not_historical_execution_source",
+    "claim_boundary": "historical_source_identity_not_recovered_current_result_reproduction_recorded_separately"
+  },
+  "current_reproduction_confirmation": {
+    "applies_to_group_ids": ["dynamic", "boundary"],
+    "recorded_on": "2026-10-10",
+    "status": "author_confirmed_same_conditions_reproduction",
+    "provenance": "user",
+    "confirmation": "作者已测试并确认当前版本在相同条件下复现论文中的选择、恢复状态、路径和时间，指定当前版本作为复现实现，不要求再次核对新旧代码差异。",
+    "implementation_entries": [
+      "实验数据/code/run_simple_local_vs_cds_mr.py",
+      "实验数据/code/gym_uav_bridge.py"
+    ],
+    "entry_basis": "existing_index_current_implementation_entries",
+    "confirmed_outputs": ["takeover_selection", "recovery_status", "path", "time"],
+    "material_issue_ids": ["chapter5_F4", "chapter6_G1"],
+    "material_issue_resolution": "closed_by_author_confirmation_of_current_implementation_reproduction",
+    "historical_hash_recovery_required": false,
+    "assistant_reran_experiments": false,
+    "assistant_compared_old_and_new_implementations": false,
+    "manuscript_changes_required": false,
+    "historical_source_identity_claimed": false,
+    "record": "paper_applied_intelligence/reports/nine_case_current_reproduction_confirmation.md"
+  },
+  "groups": [
+    {
+      "id": "main",
+      "name": "主对比",
+      "inputs": [
+        "实验数据/scenarios/main_v6_4/seed_13/tasks.jsonl",
+        "实验数据/scenarios/main_v6_4/seed_14/tasks.jsonl",
+        "实验数据/scenarios/main_v6_4/seed_15/tasks.jsonl",
+        "实验数据/scenarios/main_v6_4/seed_16/tasks.jsonl",
+        "实验数据/scenarios/main_v6_4/seed_17/tasks.jsonl",
+        "实验数据/scenarios/main_v6_4/seed_18/tasks.jsonl",
+        "实验数据/results/external_baseline_repro_v1/tasks_all_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/main_v6_4/seed_13/b0.jsonl",
+        "实验数据/results/main_v6_4/seed_13/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_14/b0.jsonl",
+        "实验数据/results/main_v6_4/seed_14/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_15/b0.jsonl",
+        "实验数据/results/main_v6_4/seed_15/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_16/b0.jsonl",
+        "实验数据/results/main_v6_4/seed_16/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_17/b0.jsonl",
+        "实验数据/results/main_v6_4/seed_17/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_18/b0.jsonl",
+        "实验数据/results/main_v6_4/seed_18/cds_mr.jsonl",
+        "实验数据/results/external_baseline_repro_v1/h_mrta.jsonl",
+        "实验数据/results/external_baseline_repro_v1/llm_ape_final.jsonl"
+      ],
+      "summary": "实验数据/results/main_v6_4/summary_closed_external_overlay.json",
+      "analysis_entry": "实验数据/code/summarize_closed_main_comparison.py"
+    },
+    {
+      "id": "ablation",
+      "name": "2×2 消融",
+      "inputs": [
+        "实验数据/scenarios/ablation_v6_4_seed8_12/seed_8/tasks.jsonl",
+        "实验数据/scenarios/ablation_v6_4_seed8_12/seed_9/tasks.jsonl",
+        "实验数据/scenarios/ablation_v6_4_seed8_12/seed_10/tasks.jsonl",
+        "实验数据/scenarios/ablation_v6_4_seed8_12/seed_11/tasks.jsonl",
+        "实验数据/scenarios/ablation_v6_4_seed8_12/seed_12/tasks.jsonl"
+      ],
+      "row_files": [
+        "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_8/results.jsonl",
+        "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_9/results.jsonl",
+        "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_10/results.jsonl",
+        "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_11/results.jsonl",
+        "实验数据/archive/previous/results/ablation_v6_4_seed8_12/seed_12/results.jsonl"
+      ],
+      "summary": "实验数据/results/ablation_v6_4_seed8_12/summary.json",
+      "analysis_entry": "实验数据/code/summarize_v6_3_preexec_ablation.py"
+    },
+    {
+      "id": "selection",
+      "name": "执行前选择诊断",
+      "inputs": [
+        "实验数据/scenarios/sese_selection/tasks.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/sese_selection/candidate_pools.jsonl",
+        "实验数据/results/sese_selection/candidate_executions.jsonl",
+        "实验数据/results/sese_selection/selections.jsonl"
+      ],
+      "summary": "实验数据/results/sese_selection/summary.json",
+      "analysis_entry": "实验数据/code/summarize_sese_selection_evidence.py"
+    },
+    {
+      "id": "sensitivity",
+      "name": "约束敏感性",
+      "inputs": [
+        "实验数据/scenarios/constraint_sensitivity/tasks.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/constraint_sensitivity/raw_results.jsonl"
+      ],
+      "summary": "实验数据/results/constraint_sensitivity/summary.json",
+      "analysis_entry": "实验数据/code/summarize_constraint_sensitivity.py"
+    },
+    {
+      "id": "finite_domain",
+      "name": "有限候选域核验",
+      "inputs": [
+        "实验数据/results/main_v6_4/seed_13/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_14/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_15/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_16/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_17/cds_mr.jsonl",
+        "实验数据/results/main_v6_4/seed_18/cds_mr.jsonl"
+      ],
+      "row_files": [
+        "uav_exp/_paper_evidence_audit/experiment_A_exhaustive_optimality_20260919/row_results.jsonl"
+      ],
+      "summary": "uav_exp/_paper_evidence_audit/experiment_A_exhaustive_optimality_20260919/summary.json",
+      "analysis_entry": "uav_exp/_paper_evidence_audit/validate_cds_mr_exhaustive_optimality.py"
+    },
+    {
+      "id": "capability",
+      "name": "能力排除验证",
+      "inputs": [
+        "uav_exp/_paper_evidence_audit/experiment_B_heterogeneous_capability_20260919/tasks.jsonl"
+      ],
+      "row_files": [
+        "uav_exp/_paper_evidence_audit/experiment_B_heterogeneous_capability_20260919/full/cds_mr.jsonl"
+      ],
+      "summary": "uav_exp/_paper_evidence_audit/experiment_B_heterogeneous_capability_20260919/manifest.json",
+      "analysis_entry": "uav_exp/_paper_evidence_audit/validate_experiment_b_heterogeneous_capability.py"
+    },
+    {
+      "id": "simple_local",
+      "name": "简单局部负对照",
+      "inputs": [
+        "实验数据/results/local_repair_vs_cds_mr_v1/tasks_recoverable_failure_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/local_repair_vs_cds_mr_v1/Simple_local_reassignment.jsonl",
+        "实验数据/results/local_repair_vs_cds_mr_v1/CDS_MR.jsonl"
+      ],
+      "summary": "实验数据/results/local_repair_vs_cds_mr_v1/summary.json",
+      "analysis_entry": "实验数据/code/run_simple_local_vs_cds_mr.py"
+    },
+    {
+      "id": "kinematic",
+      "name": "三例运动学决策探针",
+      "inputs": [
+        "实验数据/results/mechanism_stress_v2_vm_v10/tasks_recoverable_failure_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/mechanism_stress_v2_vm_v10/Simple_local_reassignment.jsonl",
+        "实验数据/results/mechanism_stress_v2_vm_v10/CDS_MR.jsonl"
+      ],
+      "summary": "实验数据/results/mechanism_stress_v2_vm_v10/summary.json",
+      "analysis_entry": "实验数据/code/run_simple_local_vs_cds_mr.py"
+    },
+    {
+      "id": "dynamic",
+      "name": "三例动力学机制",
+      "inputs": [
+        "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/tasks_recoverable_failure_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/Simple_local_reassignment.jsonl",
+        "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/CDS_MR.jsonl"
+      ],
+      "summary": "实验数据/results/mechanism_dynamic_scale_v3_ctrl48_final_vm/summary.json",
+      "analysis_entry": "实验数据/code/run_simple_local_vs_cds_mr.py"
+    },
+    {
+      "id": "boundary",
+      "name": "六例动力学边界",
+      "inputs": [
+        "实验数据/results/mechanism_boundary_v1_vm/tasks_recoverable_failure_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/mechanism_boundary_v1_vm/Simple_local_reassignment.jsonl",
+        "实验数据/results/mechanism_boundary_v1_vm/CDS_MR.jsonl"
+      ],
+      "summary": "实验数据/results/mechanism_boundary_v1_vm/summary.json",
+      "analysis_entry": "实验数据/code/run_simple_local_vs_cds_mr.py"
+    },
+    {
+      "id": "grid",
+      "name": "固定参数网格",
+      "inputs": [
+        "实验数据/results/suffix_grid_three_way_formal_v1/tasks_recoverable_failure_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/suffix_grid_three_way_formal_v1/Simple_local_reassignment.jsonl",
+        "实验数据/results/suffix_grid_three_way_formal_v1/CDS_MR.jsonl",
+        "实验数据/results/suffix_grid_three_way_formal_v1/Global_total_route_reallocation.jsonl"
+      ],
+      "summary": "实验数据/results/suffix_grid_three_way_formal_v1/summary.json",
+      "analysis_entry": "实验数据/code/audit_suffix_grid_formal_run.py"
+    },
+    {
+      "id": "random",
+      "name": "独立随机布局",
+      "inputs": [
+        "实验数据/results/b3_independent_task_distribution_formal_v1/tasks_recoverable_failure_v1.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/b3_independent_task_distribution_formal_v1/Simple_local_reassignment.jsonl",
+        "实验数据/results/b3_independent_task_distribution_formal_v1/CDS_MR.jsonl",
+        "实验数据/results/b3_independent_task_distribution_formal_v1/Global_total_route_reallocation.jsonl"
+      ],
+      "summary": "实验数据/results/b3_independent_task_distribution_formal_v1/summary.json",
+      "analysis_entry": "实验数据/code/analyze_b3_independent_distribution.py"
+    },
+    {
+      "id": "offline",
+      "name": "同目标离线枚举",
+      "inputs": [
+        "实验数据/results/suffix_grid_three_way_formal_v1/CDS_MR.jsonl",
+        "实验数据/results/b3_independent_task_distribution_formal_v1/CDS_MR.jsonl"
+      ],
+      "row_files": [
+        "实验数据/results/offline_stability_control_v1/by_task.jsonl"
+      ],
+      "summary": "实验数据/results/offline_stability_control_v1/summary.json",
+      "analysis_entry": "实验数据/code/offline_stability_control.py"
+    }
+  ],
+  "additional_inputs": [
+    "实验数据/scenarios/independent_task_distribution_b3_v1/protocol.json",
+    "实验数据/scenarios/independent_task_distribution_b3_v1/freeze_manifest.json",
+    "实验数据/scenarios/independent_task_distribution_b3_v1/tasks.jsonl",
+    "实验数据/scenarios/suffix_coupling_grid_v1/protocol.json",
+    "实验数据/scenarios/suffix_coupling_grid_v1/tasks.jsonl",
+    "实验数据/protocols/offline_stability_control_v1.md",
+    "uav_exp/_paper_evidence_audit/AUDIT_EXPORT_MANIFEST_20260920.json",
+    "uav_exp/_paper_evidence_audit/uav_exp_AB_export_20260920.tar.gz",
+    "UAV_PAPER/scripts/plot_suffix_results.py",
+    "图表数据/suffix_results/formal_metrics.csv",
+    "图表数据/suffix_results/grid_paired_effects.csv",
+    "图表数据/suffix_results/random_paired_outcomes.csv",
+    "图表数据/suffix_results/figure_provenance.json"
+  ],
+  "random_formal_seeds": {
+    "chain": [
+      20280001,
+      20280030
+    ],
+    "branch": [
+      20281001,
+      20281030
+    ],
+    "merge": [
+      20282001,
+      20282030
+    ],
+    "excluded_pilot": [
+      20279001,
+      20279002,
+      20279003
+    ]
+  }
+}

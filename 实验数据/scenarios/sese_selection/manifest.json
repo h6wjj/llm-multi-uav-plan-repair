@@ -1,0 +1,55 @@
+{
+  "protocol_version": "sese_selection_evidence_v1",
+  "purpose": "formal",
+  "input": "data/processed/v1/v6_4_main_comparison_seed13_18/seed_13_tasks.jsonl",
+  "input_sha256": "a7d561735670d5f4a2a9c973535684d2633164a5a85fafef70b465dc541d6def",
+  "output": "data/processed/v1/sese_selection_formal_seed23_27/tasks.jsonl",
+  "source_task_ids": [
+    "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+    "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+    "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+    "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+    "uavbench_Forest_Fog_Swarm_Coordination_012674",
+    "uavbench_Urban_Snowfall_Swarm_Coordination_038984"
+  ],
+  "seed_indices": [
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "candidate_pool_size": 5,
+  "task_seed_units": 30,
+  "selector_arms": [
+    "Blind",
+    "SeSE"
+  ],
+  "expected_selection_records": 60,
+  "preregistration": {
+    "one_llm_call_per_task_seed_pool": true,
+    "pool_shared_by_selectors": true,
+    "blind_rule": "sha256(blind-v1|task_id) mod K",
+    "sese_inputs": [
+      "coverage",
+      "role_capability",
+      "dependencies",
+      "load_limit",
+      "route_budget",
+      "route_cost"
+    ],
+    "future_failure_information_excluded": true,
+    "task_or_candidate_outcome_filtering_forbidden": true,
+    "primary_metrics": [
+      "initial_plan_contract_validity_rate",
+      "selection_gain",
+      "selection_regret"
+    ],
+    "diagnostics": [
+      "promotion_rate",
+      "abstention_rate",
+      "initial_planning_latency_seconds",
+      "token_cost"
+    ]
+  }
+}

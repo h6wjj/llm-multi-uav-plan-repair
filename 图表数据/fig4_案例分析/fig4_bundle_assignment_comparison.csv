@@ -1,0 +1,5 @@
+﻿bundle_id,order,original_owner,completed_waypoints_at_failure,total_waypoints,remaining_waypoints,set_role,hmrta_owner_after_repair,hmrta_changed,proposed_owner_after_repair,proposed_changed
+bundle_1,1,uav_0,2,2,0,immutable_completed_prefix,uav_0,False,uav_0,False
+bundle_2,2,uav_1,2,3,1,directly_affected_and_edited,uav_2,True,uav_2,True
+bundle_3,3,uav_2,1,2,1,dependency_checked_owner_preserved,uav_3,True,uav_2,False
+bundle_4,4,uav_3,1,3,2,dependency_checked_owner_preserved,uav_3,False,uav_3,False

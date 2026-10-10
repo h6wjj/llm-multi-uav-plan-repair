@@ -1,0 +1,21 @@
+﻿raw_method,display_method,metric,metric_label,direction,n,mean,std,ci95_low,ci95_high
+Blind+Global-Replan,Blind selection + global reallocation,recovery_success_rate_item,RSR,up,30,1.0,0.0,1.0,1.0
+Blind+Global-Replan,Blind selection + global reallocation,contract_satisfaction_rate,CSR,up,30,1.0,0.0,1.0,1.0
+Blind+Global-Replan,Blind selection + global reallocation,normalized_plan_stability_distance,NPSD,down,30,0.65,0.189525,0.585556,0.718889
+Blind+Global-Replan,Blind selection + global reallocation,repair_decision_latency_seconds,Repair latency (s),down,30,0.011542,0.005124,0.009883,0.01348
+Blind+Global-Replan,Blind selection + global reallocation,mission_completion_time_seconds,"Mission time (s), success only",down,30,0.338889,0.063175,0.316667,0.361111
+SeSE+Global-Replan,Structured selection + global reallocation,recovery_success_rate_item,RSR,up,30,1.0,0.0,1.0,1.0
+SeSE+Global-Replan,Structured selection + global reallocation,contract_satisfaction_rate,CSR,up,30,1.0,0.0,1.0,1.0
+SeSE+Global-Replan,Structured selection + global reallocation,normalized_plan_stability_distance,NPSD,down,30,0.65,0.189525,0.585556,0.718889
+SeSE+Global-Replan,Structured selection + global reallocation,repair_decision_latency_seconds,Repair latency (s),down,30,0.010996,0.006241,0.009004,0.013369
+SeSE+Global-Replan,Structured selection + global reallocation,mission_completion_time_seconds,"Mission time (s), success only",down,30,0.338889,0.063175,0.316667,0.361111
+Blind+CDS-MR,Blind selection + minimal repair,recovery_success_rate_item,RSR,up,30,1.0,0.0,1.0,1.0
+Blind+CDS-MR,Blind selection + minimal repair,contract_satisfaction_rate,CSR,up,30,1.0,0.0,1.0,1.0
+Blind+CDS-MR,Blind selection + minimal repair,normalized_plan_stability_distance,NPSD,down,30,0.433333,0.047946,0.416667,0.45
+Blind+CDS-MR,Blind selection + minimal repair,repair_decision_latency_seconds,Repair latency (s),down,30,0.010888,0.005411,0.009208,0.012991
+Blind+CDS-MR,Blind selection + minimal repair,mission_completion_time_seconds,"Mission time (s), success only",down,30,0.338889,0.063175,0.316667,0.361111
+SeSE+CDS-MR,Structured selection + minimal repair,recovery_success_rate_item,RSR,up,30,1.0,0.0,1.0,1.0
+SeSE+CDS-MR,Structured selection + minimal repair,contract_satisfaction_rate,CSR,up,30,1.0,0.0,1.0,1.0
+SeSE+CDS-MR,Structured selection + minimal repair,normalized_plan_stability_distance,NPSD,down,30,0.433333,0.047946,0.416667,0.45
+SeSE+CDS-MR,Structured selection + minimal repair,repair_decision_latency_seconds,Repair latency (s),down,30,0.009885,0.004494,0.008576,0.011699
+SeSE+CDS-MR,Structured selection + minimal repair,mission_completion_time_seconds,"Mission time (s), success only",down,30,0.338889,0.063175,0.316667,0.361111

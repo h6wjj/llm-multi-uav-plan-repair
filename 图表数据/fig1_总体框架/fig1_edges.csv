@@ -1,0 +1,11 @@
+﻿source,target,label_cn,style
+mission,llm_pool,生成,solid
+llm_pool,initial_plan,默认候选,solid
+llm_pool,quality_gate,多个候选,dashed
+quality_gate,initial_plan,可选支线,dashed
+initial_plan,bridge,执行,solid
+bridge,failure_state,平台不可用,solid
+failure_state,minimal_repair,状态+剩余后缀,solid
+minimal_repair,single_submit,选择P_sel,solid
+single_submit,runtime_check,仅提交一次,solid
+runtime_check,terminal,终止,solid

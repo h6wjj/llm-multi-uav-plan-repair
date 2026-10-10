@@ -1,0 +1,253 @@
+{
+  "protocol_version": "sese_selection_evidence_v1",
+  "manifest_sha256": "43dc979f1cdd31feb5be877d00516ca8d19821cdd72dea64608a6567ef00bf48",
+  "design": {
+    "source_tasks": 6,
+    "seed_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "task_seed_units": 30,
+    "candidate_pool_size": 5,
+    "selector_arms": [
+      "Blind",
+      "SeSE"
+    ],
+    "selection_records": 60
+  },
+  "arm_summary": {
+    "Blind": {
+      "initial_plan_contract_valid": {
+        "n": 30,
+        "mean": 0.9666666666666667,
+        "std": 0.18257418583505536
+      },
+      "initial_plan_contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 0.9944444444444444,
+        "std": 0.03042903097250922
+      },
+      "independent_selection_utility": {
+        "n": 30,
+        "mean": 0.4666666666666667,
+        "std": 0.40388439603924375
+      },
+      "selection_regret": {
+        "n": 30,
+        "mean": 0.5333333333333333,
+        "std": 0.40388439603924375
+      },
+      "actual_initial_execution_success": {
+        "n": 30,
+        "mean": 0.9333333333333333,
+        "std": 0.2537081317024624
+      },
+      "actual_contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 0.9666666666666667,
+        "std": 0.1268540658512312
+      },
+      "actual_mission_completion_time_seconds": {
+        "n": 28,
+        "mean": 0.34404761904761905,
+        "std": 0.062231197387463834
+      },
+      "initial_planning_latency_seconds": {
+        "n": 30,
+        "mean": 108.2210624,
+        "std": 56.096227829522284
+      },
+      "initial_planning_token_cost": {
+        "n": 30,
+        "mean": 15448.133333333333,
+        "std": 7502.789020428168
+      },
+      "promotion_rate": 0.0,
+      "abstention_rate": 0.0,
+      "rows": 30
+    },
+    "SeSE": {
+      "initial_plan_contract_valid": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_plan_contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "independent_selection_utility": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "selection_regret": {
+        "n": 30,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "actual_initial_execution_success": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "actual_contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "actual_mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.33888888888888885,
+        "std": 0.06317483696490864
+      },
+      "initial_planning_latency_seconds": {
+        "n": 30,
+        "mean": 108.22122080813332,
+        "std": 56.096226053141386
+      },
+      "initial_planning_token_cost": {
+        "n": 30,
+        "mean": 15448.133333333333,
+        "std": 7502.789020428168
+      },
+      "promotion_rate": 0.7333333333333333,
+      "abstention_rate": 0.0,
+      "rows": 30
+    }
+  },
+  "paired_analysis": {
+    "initial_plan_contract_valid": {
+      "field": "initial_plan_contract_valid",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.03333333333333333,
+      "bootstrap_95_ci": [
+        0.0,
+        0.1
+      ],
+      "paired_sign_flip_p": 1.0,
+      "cohen_dz": 0.18257418583505539
+    },
+    "initial_plan_contract_satisfaction_rate": {
+      "field": "initial_plan_contract_satisfaction_rate",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.005555555555555554,
+      "bootstrap_95_ci": [
+        0.0,
+        0.016666666666666663
+      ],
+      "paired_sign_flip_p": 1.0,
+      "cohen_dz": 0.18257418583505536
+    },
+    "independent_selection_utility": {
+      "field": "independent_selection_utility",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.5333333333333333,
+      "bootstrap_95_ci": [
+        0.39444444444444443,
+        0.675
+      ],
+      "paired_sign_flip_p": 1.999980000199998e-05,
+      "cohen_dz": 1.32050987501263
+    },
+    "selection_regret": {
+      "field": "selection_regret",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": -0.5333333333333333,
+      "bootstrap_95_ci": [
+        -0.675,
+        -0.39444444444444443
+      ],
+      "paired_sign_flip_p": 1.999980000199998e-05,
+      "cohen_dz": -1.32050987501263
+    },
+    "actual_initial_execution_success": {
+      "field": "actual_initial_execution_success",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.06666666666666667,
+      "bootstrap_95_ci": [
+        0.0,
+        0.16666666666666666
+      ],
+      "paired_sign_flip_p": 0.5,
+      "cohen_dz": 0.2627691364061218
+    },
+    "actual_contract_satisfaction_rate": {
+      "field": "actual_contract_satisfaction_rate",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.03333333333333333,
+      "bootstrap_95_ci": [
+        0.0,
+        0.08333333333333333
+      ],
+      "paired_sign_flip_p": 0.5,
+      "cohen_dz": 0.2627691364061218
+    },
+    "actual_mission_completion_time_seconds": {
+      "field": "actual_mission_completion_time_seconds",
+      "direction": "SeSE-Blind",
+      "n": 28,
+      "mean_difference": 0.0,
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "paired_sign_flip_p": 1.0,
+      "cohen_dz": null
+    },
+    "initial_planning_latency_seconds": {
+      "field": "initial_planning_latency_seconds",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.00015840813333246236,
+      "bootstrap_95_ci": [
+        0.00014332900076018026,
+        0.00017502129970428844
+      ],
+      "paired_sign_flip_p": 9.99990000099999e-06,
+      "cohen_dz": 3.5167357378496726
+    },
+    "initial_planning_token_cost": {
+      "field": "initial_planning_token_cost",
+      "direction": "SeSE-Blind",
+      "n": 30,
+      "mean_difference": 0.0,
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "paired_sign_flip_p": 1.0,
+      "cohen_dz": null
+    },
+    "selection_gain_reported": {
+      "n": 30,
+      "mean": 0.5333333333333333,
+      "std": 0.40388439603924375
+    }
+  },
+  "candidate_pool_diagnostics": {
+    "signature_count": {
+      "n": 30,
+      "min": 5,
+      "mean": 5.0,
+      "max": 5
+    },
+    "gate_promotions": 22,
+    "gate_abstentions": 0
+  },
+  "scope_notes": [
+    "This experiment isolates pre-execution plan selection; it does not test post-failure CDS-MR.",
+    "The independent ranking uses deterministic bridge execution plus a separate contract evaluator, not the SeSE gate score.",
+    "All physical vehicles use the current common CF2X bridge model; heterogeneity is at the role/capability contract layer."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "protocol": "mechanism_dynamic_scale_v3_physical_audit",
+  "verdict": "PASS",
+  "checks": {
+    "input_hash_matches_manifest": true,
+    "three_complete_pairs": true,
+    "identical_failure_time_state": true,
+    "motor_dynamics_without_position_projection": true,
+    "idle_drones_not_position_frozen": true,
+    "controller_frequency_48_hz": true,
+    "intended_failure_and_decisions": true,
+    "all_recovered_and_strict_contracts": true,
+    "all_repair_waypoints_reached": true,
+    "safe_positive_altitude": true,
+    "cds_shorter_time_and_path_all_pairs": true
+  },
+  "summary": {
+    "pair_count": 3,
+    "mean_simple_completion_time_s": 83.055556,
+    "mean_cds_completion_time_s": 51.486111,
+    "mean_completion_time_gain_fraction": 0.380101,
+    "mean_simple_suffix_path_m": 5.307273,
+    "mean_cds_suffix_path_m": 2.994967,
+    "mean_suffix_path_gain_fraction": 0.435686
+  },
+  "cases": [
+    {
+      "task_id": "mechanism_dynamic_scale_v3_chain",
+      "same_failure_step": true,
+      "intended_failure_both": true,
+      "simple_B2_owner": "uav_2",
+      "cds_B2_owner": "uav_3",
+      "simple_task_success": true,
+      "cds_task_success": true,
+      "simple_strict_contract": true,
+      "cds_strict_contract": true,
+      "simple_recovery_metric": true,
+      "cds_recovery_metric": true,
+      "simple_completion_time_s": 83.0,
+      "cds_completion_time_s": 51.395833,
+      "completion_time_gain_s": 31.604167,
+      "completion_time_gain_fraction": 0.380773,
+      "simple_trajectory": {
+        "command_count": 3,
+        "waypoint_move_count": 5,
+        "suffix_path_length_m": 5.309852,
+        "minimum_altitude_m": 1.0,
+        "maximum_arrival_error_m": 0.099894,
+        "all_waypoint_commands_succeeded": true
+      },
+      "cds_trajectory": {
+        "command_count": 3,
+        "waypoint_move_count": 5,
+        "suffix_path_length_m": 2.997195,
+        "minimum_altitude_m": 1.0,
+        "maximum_arrival_error_m": 0.099361,
+        "all_waypoint_commands_succeeded": true
+      },
+      "suffix_path_gain_m": 2.312657,
+      "simple_npsd": 0.333333,
+      "cds_npsd": 0.333333
+    },
+    {
+      "task_id": "mechanism_dynamic_scale_v3_chain_mirror",
+      "same_failure_step": true,
+      "intended_failure_both": true,
+      "simple_B2_owner": "uav_2",
+      "cds_B2_owner": "uav_3",
+      "simple_task_success": true,
+      "cds_task_success": true,
+      "simple_strict_contract": true,
+      "cds_strict_contract": true,
+      "simple_recovery_metric": true,
+      "cds_recovery_metric": true,
+      "simple_completion_time_s": 83.166667,
+      "cds_completion_time_s": 51.666667,
+      "completion_time_gain_s": 31.5,
+      "completion_time_gain_fraction": 0.378758,
+      "simple_trajectory": {
+        "command_count": 3,
+        "waypoint_move_count": 5,
+        "suffix_path_length_m": 5.302114,
+        "minimum_altitude_m": 1.0,
+        "maximum_arrival_error_m": 0.099894,
+        "all_waypoint_commands_succeeded": true
+      },
+      "cds_trajectory": {
+        "command_count": 3,
+        "waypoint_move_count": 5,
+        "suffix_path_length_m": 2.990512,
+        "minimum_altitude_m": 1.0,
+        "maximum_arrival_error_m": 0.099943,
+        "all_waypoint_commands_succeeded": true
+      },
+      "suffix_path_gain_m": 2.311602,
+      "simple_npsd": 0.333333,
+      "cds_npsd": 0.333333
+    },
+    {
+      "task_id": "mechanism_dynamic_scale_v3_branch",
+      "same_failure_step": true,
+      "intended_failure_both": true,
+      "simple_B2_owner": "uav_2",
+      "cds_B2_owner": "uav_3",
+      "simple_task_success": true,
+      "cds_task_success": true,
+      "simple_strict_contract": true,
+      "cds_strict_contract": true,
+      "simple_recovery_metric": true,
+      "cds_recovery_metric": true,
+      "simple_completion_time_s": 83.0,
+      "cds_completion_time_s": 51.395833,
+      "completion_time_gain_s": 31.604167,
+      "completion_time_gain_fraction": 0.380773,
+      "simple_trajectory": {
+        "command_count": 3,
+        "waypoint_move_count": 5,
+        "suffix_path_length_m": 5.309852,
+        "minimum_altitude_m": 1.0,
+        "maximum_arrival_error_m": 0.099894,
+        "all_waypoint_commands_succeeded": true
+      },
+      "cds_trajectory": {
+        "command_count": 3,
+        "waypoint_move_count": 5,
+        "suffix_path_length_m": 2.997195,
+        "minimum_altitude_m": 1.0,
+        "maximum_arrival_error_m": 0.099361,
+        "all_waypoint_commands_succeeded": true
+      },
+      "suffix_path_gain_m": 2.312657,
+      "simple_npsd": 0.333333,
+      "cds_npsd": 0.333333
+    }
+  ],
+  "scope": "exploratory constructed cases; descriptive paired mechanism evidence, not population-level performance"
+}

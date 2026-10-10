@@ -1,0 +1,19 @@
+﻿raw_selector,display_selector,metric,n,mean,std
+Blind,Blind selection,initial_plan_contract_valid,30,0.9666666666666667,0.18257418583505536
+Blind,Blind selection,initial_plan_contract_satisfaction_rate,30,0.9944444444444444,0.03042903097250922
+Blind,Blind selection,independent_selection_utility,30,0.4666666666666667,0.40388439603924375
+Blind,Blind selection,selection_regret,30,0.5333333333333333,0.40388439603924375
+Blind,Blind selection,actual_initial_execution_success,30,0.9333333333333333,0.2537081317024624
+Blind,Blind selection,actual_contract_satisfaction_rate,30,0.9666666666666667,0.1268540658512312
+Blind,Blind selection,actual_mission_completion_time_seconds,28,0.34404761904761905,0.062231197387463834
+Blind,Blind selection,initial_planning_latency_seconds,30,108.2210624,56.096227829522284
+Blind,Blind selection,initial_planning_token_cost,30,15448.133333333333,7502.789020428168
+SeSE,Structured selection,initial_plan_contract_valid,30,1.0,0.0
+SeSE,Structured selection,initial_plan_contract_satisfaction_rate,30,1.0,0.0
+SeSE,Structured selection,independent_selection_utility,30,1.0,0.0
+SeSE,Structured selection,selection_regret,30,0.0,0.0
+SeSE,Structured selection,actual_initial_execution_success,30,1.0,0.0
+SeSE,Structured selection,actual_contract_satisfaction_rate,30,1.0,0.0
+SeSE,Structured selection,actual_mission_completion_time_seconds,30,0.33888888888888885,0.06317483696490864
+SeSE,Structured selection,initial_planning_latency_seconds,30,108.22122080813332,56.096226053141386
+SeSE,Structured selection,initial_planning_token_cost,30,15448.133333333333,7502.789020428168

@@ -1,0 +1,35 @@
+{
+  "case_id": "forest_fog_seed13_cds_mr_success",
+  "source_task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674",
+  "task_id": "uavbench_Forest_Fog_Swarm_Coordination_012674::comparative_v6_4_recoverable_failure_uncertain::run_seed_13",
+  "failure_drone": "uav_1",
+  "failure_bundle": "bundle_2",
+  "directly_affected": [
+    "bundle_2"
+  ],
+  "dependency_check_scope": [
+    "bundle_2",
+    "bundle_3",
+    "bundle_4"
+  ],
+  "proposed_edited_bundles": [
+    "bundle_2"
+  ],
+  "hmrta_edited_bundles": [
+    "bundle_2",
+    "bundle_3"
+  ],
+  "proposed_metrics": {
+    "RSR": 1.0,
+    "CSR": 1.0,
+    "NPSD": 0.4,
+    "repair_latency_s": 2.826793
+  },
+  "hmrta_metrics": {
+    "RSR": true,
+    "CSR": 1.0,
+    "NPSD": 0.666667,
+    "repair_latency_s": 0.006711
+  },
+  "claim_boundary": "single-case mechanism illustration; not a population-level performance claim"
+}

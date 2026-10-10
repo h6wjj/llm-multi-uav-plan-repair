@@ -1,0 +1,67 @@
+{
+  "manifest_version": "external_baseline_repro_v1",
+  "generated_at": "2026-08-31",
+  "execution_environment": {
+    "host": "Linux VM 192.168.65.128",
+    "project_root": "/home/h/uav_exp",
+    "python": "/home/h/uav_exp/venv312/bin/python",
+    "bridge": "Agent4Drone-compatible PyBullet bridge",
+    "physical_model": "common CF2X",
+    "official_external_runtime_invoked": false
+  },
+  "input": {
+    "remote_path": "/home/h/uav_exp/data/processed/v1/external_baseline_repro_v1/tasks_all_v1.jsonl",
+    "local_path": "results/external_baseline_repro_v1/tasks_all_v1.jsonl",
+    "rows": 72,
+    "unique_task_ids": 72,
+    "sha256": "78677e316bbc52b79d1d3a3b25d0efcf2d3abd51ab8c371432b9d55cf04bef35"
+  },
+  "methods": {
+    "H-MRTA-Repair": {
+      "implementation_scope": "platform_adapted_external_baseline",
+      "runner": "code/run_role_external_baselines_h_mrta.py",
+      "runner_sha256": "fa1785ba4b8c2d873c7677dc0dc84149bcc4fb8c28d14a9d3382ce8fa3089c2e",
+      "output": "results/external_baseline_repro_v1/h_mrta.jsonl",
+      "output_sha256": "01504da1605c6619071a6e3bf3f47b62e2b41c9746a133feafc8877d489964c0",
+      "rows": 72,
+      "runner_errors": 0,
+      "command": "python experiment/scripts/run_role_external_baselines.py --input data/processed/v1/external_baseline_repro_v1/tasks_all_v1.jsonl --output data/processed/v1/external_baseline_repro_v1/h_mrta.jsonl --method 'H-MRTA-Repair' --startup-timeout 120 --llm-timeout 120 --agent-env-file /home/h/.config/agent4drone/agent4drone.env"
+    },
+    "LLM-Assisted Plan Execution": {
+      "implementation_scope": "platform_adapted_external_baseline",
+      "model": "deepseek-v4-flash",
+      "runner": "code/run_role_external_baselines_v2.py",
+      "runner_sha256": "9aebbe9033f288ef097e1ff0158c63630880b6dc18df598e6f795534d811c6f5",
+      "output": "results/external_baseline_repro_v1/llm_ape_final.jsonl",
+      "output_sha256": "342c0c4b80ed5d05272e97e48f1a769a80c14f3feb6cc10c6ce8b9f371d38cb1",
+      "intermediate_output": "results/external_baseline_repro_v1/llm_ape_v2.jsonl",
+      "intermediate_output_sha256": "a32a6ff71455266e57ab036b293507aceb7ad461b1e5f490f5457ff6c5b43311",
+      "rows": 72,
+      "runner_errors": 0,
+      "command": "python experiment/scripts/run_role_external_baselines_v2.py --input data/processed/v1/external_baseline_repro_v1/tasks_all_v1.jsonl --output data/processed/v1/external_baseline_repro_v1/llm_ape_v2.jsonl --method 'LLM-Assisted Plan Execution' --startup-timeout 120 --llm-timeout 120 --agent-env-file /home/h/.config/agent4drone/agent4drone.env"
+    }
+  },
+  "shared_protocol": {
+    "paired_key": "source_task_id + condition + run_seed_index",
+    "shared_inputs": true,
+    "shared_contracts_and_resources": true,
+    "shared_failure_profiles": true,
+    "shared_metric_evaluator": "code/v6_metric_evaluator.py",
+    "per_task_timeout_isolated": true,
+      "retry_policy": "LLM-APE parser-compatible rerun replaced six interrupted records; final output keeps only the completed v2 records for those keys",
+    "h_mrta_runner_artifact": "code/run_role_external_baselines_h_mrta.py",
+    "llm_ape_runner_artifact": "code/run_role_external_baselines_v2.py"
+  },
+  "artifacts": {
+    "summary": "results/external_baseline_repro_v1/summary.json",
+    "summary_sha256": "fa1529edaa013f9b04aa225b07c2263130b15f7bd682b4b778650991e1336016",
+    "summary_markdown": "results/external_baseline_repro_v1/summary.md",
+    "summary_markdown_sha256": "d5613ac5b33fe1923f86b0dffe518128367eb207660bb4fe9ffb3b16b79f9dc",
+    "run_log": "results/external_baseline_repro_v1/llm_ape_v2_run.log",
+    "run_log_sha256": "77203153e63bf27d0f9f92f3009327af2ad2352656c0f78eddeb0c39a4e17181",
+    "per_task_logs": "results/external_baseline_repro_v1/logs/"
+  },
+  "merge_script": "code/merge_external_outputs.py",
+  "merge_policy": "retain old completed rows, replace interrupted task keys with v2 completed rows, sort by task_id, require 72 unique completed rows",
+  "claim_boundary": "This closes reproducibility for the two platform-adapted baseline adapters under the stated bridge protocol; it is not an official-runtime reproduction and does not establish physical UAV-model heterogeneity."
+}

@@ -1,0 +1,58 @@
+{
+  "protocol": "suffix_coupling_grid_v1",
+  "protocol_revision": "preflight_readiness_amendment_2026-09-23",
+  "status": "formal_grid_frozen_ready_to_run_not_executed",
+  "task_sha256": "abd943e3060b15310627b1f9f701a2ee2930717dc5f6b580dbcba2ddd5f7c238",
+  "formal_seed_base": 20270000,
+  "disjoint_preflight_seed_base": 20260923,
+  "disjoint_preflight_ids": [
+    "preflight_suffix_grid_v1_chain_none_01",
+    "preflight_suffix_grid_v1_branch_strong_01",
+    "preflight_suffix_grid_v1_merge_strong_01"
+  ],
+  "factorial": {
+    "structures": [
+      "chain",
+      "branch",
+      "merge"
+    ],
+    "coupling_levels": [
+      "none",
+      "weak",
+      "strong"
+    ],
+    "independent_layouts_per_cell": 10
+  },
+  "assignment_rule": "Coupling labels come from seeded geometry and analytical c/h costs; no execution outcome is inspected.",
+  "methods": [
+    {
+      "name": "Simple-local-reassignment",
+      "rule": "minimum immediate B2 route cost; preserve valid remaining owners"
+    },
+    {
+      "name": "CDS-MR",
+      "rule": "minimum edit count, then minimum full-suffix live-state route cost under hard constraints"
+    },
+    {
+      "name": "Global-total-route-reallocation",
+      "rule": "over all compatible assignments of B2/B3/B4, minimize full-suffix live-state route cost subject to the same hard constraints; deterministic UAV-ID tie break",
+      "implementation_status": "implemented_and_passed_v3_preflight"
+    }
+  ],
+  "primary_metrics": [
+    "estimated_full_suffix_route_cost",
+    "executed_suffix_path_length_m",
+    "recovery_success",
+    "strict_contract_satisfaction",
+    "NPSD",
+    "repair_decision_latency_s"
+  ],
+  "secondary_metrics": [
+    "mission_completion_time_s",
+    "runner_wallclock_s"
+  ],
+  "aggregation": "Report per-cell means and dispersion, paired method differences, all failed/timeout cases, and confidence intervals across the 10 independent layouts; do not choose cells after observing outcomes.",
+  "run_gate": "PASS in suffix_grid_three_way_preflight_v3. Before formal launch, verify every code hash in its run_manifest.json; run all 90 frozen tasks with all three methods; include runner errors and missing rows as recovery failures; report all failed and timed-out rows.",
+  "execution_note": "The three dependency graphs share deterministic topological command order B2,B3,B4 in this generator; the structure factor changes which downstream bundles are causally affected by B2 failure, not parallel scheduling order.",
+  "scope": "Constructed factorial instances; separate independently generated task test remains necessary for generalization. This simulation uses waypoint projection and does not model source weather, no-fly zones, or moving obstacles."
+}

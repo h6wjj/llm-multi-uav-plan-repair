@@ -1,0 +1,25 @@
+﻿constraint_tightness,raw_method,display_method,metric,metric_label,n,mean,std
+loose,Blind+Global-Replan,Blind selection + global reallocation,recovery_success_rate_item,RSR,6,1.0,0.0
+loose,Blind+Global-Replan,Blind selection + global reallocation,contract_satisfaction_rate,CSR,6,1.0,0.0
+loose,Blind+Global-Replan,Blind selection + global reallocation,normalized_plan_stability_distance,NPSD,6,0.65,0.204124
+loose,Blind+Global-Replan,Blind selection + global reallocation,repair_decision_latency_seconds,Repair latency (s),6,0.008587,0.001845
+loose,Blind+CDS-MR,Blind selection + minimal repair,recovery_success_rate_item,RSR,6,1.0,0.0
+loose,Blind+CDS-MR,Blind selection + minimal repair,contract_satisfaction_rate,CSR,6,1.0,0.0
+loose,Blind+CDS-MR,Blind selection + minimal repair,normalized_plan_stability_distance,NPSD,6,0.433333,0.05164
+loose,Blind+CDS-MR,Blind selection + minimal repair,repair_decision_latency_seconds,Repair latency (s),6,0.007738,0.001304
+medium,Blind+Global-Replan,Blind selection + global reallocation,recovery_success_rate_item,RSR,6,1.0,0.0
+medium,Blind+Global-Replan,Blind selection + global reallocation,contract_satisfaction_rate,CSR,6,1.0,0.0
+medium,Blind+Global-Replan,Blind selection + global reallocation,normalized_plan_stability_distance,NPSD,6,0.483333,0.160208
+medium,Blind+Global-Replan,Blind selection + global reallocation,repair_decision_latency_seconds,Repair latency (s),6,0.008685,0.00248
+medium,Blind+CDS-MR,Blind selection + minimal repair,recovery_success_rate_item,RSR,6,1.0,0.0
+medium,Blind+CDS-MR,Blind selection + minimal repair,contract_satisfaction_rate,CSR,6,1.0,0.0
+medium,Blind+CDS-MR,Blind selection + minimal repair,normalized_plan_stability_distance,NPSD,6,0.433333,0.05164
+medium,Blind+CDS-MR,Blind selection + minimal repair,repair_decision_latency_seconds,Repair latency (s),6,0.007477,0.001196
+tight,Blind+Global-Replan,Blind selection + global reallocation,recovery_success_rate_item,RSR,6,0.666667,0.516398
+tight,Blind+Global-Replan,Blind selection + global reallocation,contract_satisfaction_rate,CSR,6,0.833333,0.258199
+tight,Blind+Global-Replan,Blind selection + global reallocation,normalized_plan_stability_distance,NPSD,6,0.633333,0.287518
+tight,Blind+Global-Replan,Blind selection + global reallocation,repair_decision_latency_seconds,Repair latency (s),4,0.006608,0.000196
+tight,Blind+CDS-MR,Blind selection + minimal repair,recovery_success_rate_item,RSR,6,0.666667,0.516398
+tight,Blind+CDS-MR,Blind selection + minimal repair,contract_satisfaction_rate,CSR,6,0.833333,0.258199
+tight,Blind+CDS-MR,Blind selection + minimal repair,normalized_plan_stability_distance,NPSD,6,0.633333,0.287518
+tight,Blind+CDS-MR,Blind selection + minimal repair,repair_decision_latency_seconds,Repair latency (s),4,0.007391,0.00062

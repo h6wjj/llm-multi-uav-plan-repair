@@ -1,0 +1,15 @@
+﻿item,setting,reporting_boundary
+source tasks,6 fixed UAVBench-derived tasks,not 6 independent task classes
+main seeds,13|14|15|16|17|18,36 task-seed pairs
+ablation seeds,8|9|10|11|12,30 task-seed pairs
+selector seeds,23|24|25|26|27; K=5,30 shared candidate pools
+software environment,Python 3.12.3; PyBullet 3.2.7; gym-pybullet-drones commit 24fccff,recorded simulation environment; no training-hardware comparison
+execution bridge,Agent4Drone-compatible PyBullet bridge,simulation only
+physical model,common CF2X,no physical-model heterogeneity
+main failure,uav_1 unavailable during bundle_2 after 2/3 waypoints,fixed failure object and timing
+role/capability in main,GNSS required; all role families allowed; all online replacements eligible,does not validate heterogeneous eligibility benefit
+paired key,source_task_id + condition + run_seed_index,retain paired structure
+mission time,successful-task bridge simulation time; unsuccessful rows remain null and valid n is reported,never impute failure as zero
+external baselines,platform-adapted H-MRTA and LLM-assisted replanning,official runtime not invoked
+main/ablation candidate pool,deepseek-v4-flash; K=3; T=0.0|0.55|0.9,generated once per task-seed and then frozen
+selector diagnostic,deepseek-v4-flash; K=5; one call per task-seed pool,shared pool; future failure and execution outcomes excluded from selection

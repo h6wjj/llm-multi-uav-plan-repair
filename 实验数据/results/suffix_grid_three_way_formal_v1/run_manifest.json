@@ -1,0 +1,25 @@
+{
+  "protocol_version": "suffix_grid_three_way_v1",
+  "task_count": 90,
+  "task_ids_sha256": "7a88a0a7180a8de5423dfa128930bf1365c00c1700b00ba1637fcd51041d63ad",
+  "methods": [
+    "Simple-local-reassignment",
+    "CDS-MR",
+    "Global-total-route-reallocation"
+  ],
+  "source_input": "/home/h/uav_exp/experiment/scenarios/suffix_coupling_grid_v1/tasks.jsonl",
+  "source_input_sha256": "abd943e3060b15310627b1f9f701a2ee2930717dc5f6b580dbcba2ddd5f7c238",
+  "script": "/home/h/uav_exp/experiment/scripts/run_simple_local_vs_cds_mr.py",
+  "script_sha256": "a3ab395a1992bacf54969c20b17d5a07ba941ae84b07e2fda7da599ef39cc03d",
+  "bridge_script_sha256": "a7e7034e9932e6532958a89ee0db5201c752ded7941748c97fd5b42b6df42fed",
+  "global_solver_script_sha256": "a3ffbb11b2199d93ff04e4c7ddcd3f9c5fbff604319e42a6a63c0a597d1144e0",
+  "cds_solver_script_sha256": "8f3b36243afe583d93d84b5f64aac625ac333e2c1fc416e6e6233e35cfc8087d",
+  "metric_evaluator_script_sha256": "a5a2fb3ec482f87e239523372d08c0bca088801e204fed1494d82e3fded0295d",
+  "adapter_script_sha256": "a8a53d47d48602d8af3a36e4781249d697842f89122d9b609fa91689de512717",
+  "auditor_script_sha256": "55edb4b1657cb241450d4009511c9813ab9b489894b9aefd2e05bf2e075b508d",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "same_initial_protocol": "structured preferred-owner move_along_path with allow_partial_move=true",
+  "comparison_question": "Does suffix-aware minimal repair improve on immediate local selection, and how does it compare with total-route reallocation?",
+  "no_existing_results_overwritten": true
+}

@@ -1,0 +1,18 @@
+{
+  "protocol_version": "sese_selection_evidence_v1",
+  "expected_task_seed_units": 30,
+  "expected_selection_records": 60,
+  "pool_rows": 30,
+  "completed_pool_rows": 30,
+  "execution_rows": 150,
+  "unique_execution_keys": 150,
+  "selection_rows": 60,
+  "paired_units": 30,
+  "missing_selector_pairs": [],
+  "shared_pool_id_mismatches": 0,
+  "llm_call_count_mismatches": 0,
+  "future_failure_information_violations": 0,
+  "candidate_signature_count_min": 5,
+  "candidate_signature_count_mean": 5.0,
+  "all_checks_pass": true
+}

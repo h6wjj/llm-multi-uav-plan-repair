@@ -1,0 +1,40 @@
+{
+  "protocol_version": "uavbench_comparative_repair_v6_4_constraint_sensitivity_v1",
+  "source": "frozen v6.4 recoverable_failure_uncertain tasks, seed 13",
+  "source_task_ids": [
+    "uavbench_HarborSwarmDelivery_Quadrotor_015740",
+    "uavbench_Harbor_Swarm_Coordination_with_Gusts_017664",
+    "uavbench_Arctic_Swarm_Coordination_with_Lightning_Risk_003470",
+    "uavbench_Suburban_Swarm_Coordination_Under_Microburst_Risk_034427",
+    "uavbench_Forest_Fog_Swarm_Coordination_012674",
+    "uavbench_Urban_Snowfall_Swarm_Coordination_038984"
+  ],
+  "factor": "constraint_tightness",
+  "levels": [
+    "loose",
+    "medium",
+    "tight"
+  ],
+  "level_definitions": {
+    "loose": "retain every role/capability-compatible candidate in the frozen source contract",
+    "medium": "retain the preferred owner and at most two compatible alternatives",
+    "tight": "retain the preferred owner and one compatible alternative; the failed bundle keeps one backup"
+  },
+  "task_rows": 18,
+  "expected_result_rows": 36,
+  "methods": [
+    "Blind+Global-Replan",
+    "Blind+CDS-MR"
+  ],
+  "same_episode_seed_across_levels": true,
+  "same_failure_event_across_levels": true,
+  "candidate_pool": "one deterministic shared initial plan per task-level; no LLM candidate generation",
+  "selection_outcome_excluded": true,
+  "paired_key_definition": "source_task_id + constraint_sensitivity_level + run_seed_index + repair_method",
+  "timeout_policy": "per-task runner errors are recorded and the batch continues",
+  "outputs": {
+    "tasks": "C:\\Users\\Administrator\\Desktop\\面向异构多无人机系统的 LLM 任务计划意图保持最小修复方法\\uav_reproducibility_final合并版\\scenarios\\constraint_sensitivity\\tasks.jsonl",
+    "pools": "C:\\Users\\Administrator\\Desktop\\面向异构多无人机系统的 LLM 任务计划意图保持最小修复方法\\uav_reproducibility_final合并版\\scenarios\\constraint_sensitivity\\candidate_pools.jsonl",
+    "validation": "C:\\Users\\Administrator\\Desktop\\面向异构多无人机系统的 LLM 任务计划意图保持最小修复方法\\uav_reproducibility_final合并版\\scenarios\\constraint_sensitivity\\validation.json"
+  }
+}

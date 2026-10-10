@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/uav_task_v1.schema.json",
+  "title": "Unified UAV Task v1",
+  "description": "A source-preserving intermediate representation for LLM UAV planning evaluation.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_id",
+    "source_dataset",
+    "instruction",
+    "agents",
+    "goal",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "uav_task_v1"
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_dataset": {
+      "type": "string",
+      "enum": ["swarm_steward_b", "uavbench", "hal13k_annotation"]
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "source_index": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "split": {
+      "type": ["string", "null"],
+      "enum": ["train", "validation", "test", "development", "unassigned", null]
+    },
+    "instruction": {
+      "type": "string"
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/agent"
+      }
+    },
+    "environment": {
+      "$ref": "#/$defs/environment"
+    },
+    "goal": {
+      "$ref": "#/$defs/goal"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "reference_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "unsupported_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coordinate_transform": {
+      "type": ["object", "null"],
+      "additionalProperties": true
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["source_dataset", "transform_version"],
+      "additionalProperties": true,
+      "properties": {
+        "source_dataset": {
+          "type": "string"
+        },
+        "transform_version": {
+          "type": "string"
+        },
+        "modality": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "vector3": {
+      "type": "array",
+      "prefixItems": [
+        {"type": "number"},
+        {"type": "number"},
+        {"type": "number"}
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "agent": {
+      "type": "object",
+      "required": ["agent_id"],
+      "additionalProperties": true,
+      "properties": {
+        "agent_id": {"type": "string"},
+        "vehicle_type": {"type": ["string", "null"]},
+        "role": {"type": ["string", "null"]},
+        "capabilities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "start": {
+          "anyOf": [
+            {"$ref": "#/$defs/vector3"},
+            {"type": "object", "additionalProperties": true},
+            {"type": "null"}
+          ]
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "bounds": {"type": ["array", "object", "null"]},
+        "obstacles": {"type": "array"},
+        "no_fly_zones": {"type": "array"},
+        "weather": {"type": ["object", "array", "string", "null"]}
+      }
+    },
+    "goal": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "type": {"type": ["string", "null"]},
+        "targets": {"type": "array"},
+        "waypoints": {"type": "array"}
+      }
+    }
+  },
+  "additionalProperties": false
+}

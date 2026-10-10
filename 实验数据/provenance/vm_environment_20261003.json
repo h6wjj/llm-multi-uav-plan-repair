@@ -1,0 +1,43 @@
+{
+  "observed_at_utc": "2026-10-03T00:43:28Z",
+  "observation_type": "retrospective_read_only_ssh_snapshot",
+  "os": {
+    "pretty_name": "Ubuntu 24.04.4 LTS",
+    "kernel": "7.0.0-31-generic",
+    "architecture": "x86_64"
+  },
+  "hardware": {
+    "hypervisor": "VMware",
+    "logical_cpus": 8,
+    "cpu_model_reported_by_guest": "13th Gen Intel(R) Core(TM) i5-13400F",
+    "mem_total_kib": 16324000,
+    "display_adapter": "VMware SVGA II Adapter",
+    "discrete_gpu_listed_by_lspci": false
+  },
+  "software_observation": {
+    "system_python_path": "/usr/bin/python3",
+    "system_python_version": "3.12.3",
+    "uav_exp_venv_path": "/home/h/uav_exp/venv",
+    "uav_exp_venv_python_version": "3.14.6",
+    "uav_exp_venv_pybullet_version": "3.2.7",
+    "uav_exp_venv_gym_pybullet_drones_pip_metadata": "Package(s) not found"
+  },
+  "read_only_commands": [
+    "date -u +%FT%TZ",
+    "cat /etc/os-release",
+    "uname -r",
+    "LC_ALL=C lscpu",
+    "head -n 1 /proc/meminfo",
+    "lspci",
+    "/usr/bin/python3 --version",
+    "/home/h/uav_exp/venv/bin/python --version",
+    "/home/h/uav_exp/venv/bin/pip show pybullet gym-pybullet-drones"
+  ],
+  "interpretation": [
+    "CPU, memory, OS and VMware fields agree with the manuscript description at the observation date.",
+    "This snapshot was collected after the experiments; it is not a contemporaneous hardware record.",
+    "Historical software versions are supported separately by provenance/environment.txt and frozen run manifests.",
+    "The current uav_exp/venv is not the archived Python 3.12.3 environment. Do not treat it as ready for an exact rerun.",
+    "No hardware change or package installation was performed during collection."
+  ]
+}

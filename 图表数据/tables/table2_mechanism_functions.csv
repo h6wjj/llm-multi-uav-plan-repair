@@ -1,0 +1,7 @@
+﻿order,functional_stage,input,core_operation,output,guarantee_or_boundary
+1,执行前候选质量控制,多个LLM候选,结构签名一致性+独立约束检查,P0,可选支持功能，不承担失效后收益
+2,状态提取与前缀锁定,P0+s_f,同步完成进度、拥有者和失效对象,"A_f,R_f",完成前缀不可重放
+3,影响范围定位,R_f+G+s_f,区分直接影响、检查范围和编辑范围,"C_dir,C_check,C_aff",检查不等于修改
+4,候选构造与静态预检,C_aff+UAV状态,资格、依赖、期限、预算检查,F_static(s_f),主实验资格约束不具约束性
+5,最小扰动方案选择,F_static(s_f),词典序最小编辑,P_sel,仅在有限候选空间内最优
+6,在线继续执行,P_sel,单次提交并运行时验证,success/failure,无桥状态回滚与候选重试

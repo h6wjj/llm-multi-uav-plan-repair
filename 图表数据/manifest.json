@@ -1,0 +1,354 @@
+{
+  "package_version": "figure_table_data_v1",
+  "generated_date": "2026-09-13",
+  "authoritative_main_summary": "实验数据/results/main_v6_4/summary_closed_external_overlay.json",
+  "main_row_counts": {
+    "B0": 36,
+    "B0+SeSE+CDS-MR": 36,
+    "H-MRTA-Repair": 36,
+    "LLM-Assisted Plan Execution": 36
+  },
+  "selector_row_count": 60,
+  "constraint_row_count": 36,
+  "sources": [
+    {
+      "id": "main_overlay",
+      "relative_path": "实验数据/results/main_v6_4/summary_closed_external_overlay.json",
+      "sha256": "a54d309ed079d08571f768e5cd8fd01ae2043f849b40858c9f280a6de89ddcbe"
+    },
+    {
+      "id": "hmrta_rows",
+      "relative_path": "实验数据/results/external_baseline_repro_v1/h_mrta.jsonl",
+      "sha256": "01504da1605c6619071a6e3bf3f47b62e2b41c9746a133feafc8877d489964c0"
+    },
+    {
+      "id": "llm_rows",
+      "relative_path": "实验数据/results/external_baseline_repro_v1/llm_ape_final_rebuilt.jsonl",
+      "sha256": "342c0c4b80ed5d05272e97e48f1a769a80c14f3feb6cc10c6ce8b9f371d38cb1"
+    },
+    {
+      "id": "ablation",
+      "relative_path": "实验数据/results/ablation_v6_4_seed8_12/ablation_stats_seed8_12.json",
+      "sha256": "a85c01aa4256b11c6a72fae4f6ce1926c060c3a3dd2dbc566f0047b4f44a7665"
+    },
+    {
+      "id": "selector_summary",
+      "relative_path": "实验数据/results/sese_selection/summary.json",
+      "sha256": "e3c84d8e756d34d5da4b3d4a4898843a976c369addb3b19037a9024bf38ceaea"
+    },
+    {
+      "id": "selector_rows",
+      "relative_path": "实验数据/results/sese_selection/selections.jsonl",
+      "sha256": "96cc50deb27eed42ec907365832e16eda4a985090544adc86386ad90201fa710"
+    },
+    {
+      "id": "constraint_summary",
+      "relative_path": "实验数据/results/constraint_sensitivity/summary.json",
+      "sha256": "cdab699a6d67afd8afd6fdde040a988a58feedc2a0e3c9eb5d97cde838025d2d"
+    },
+    {
+      "id": "constraint_rows",
+      "relative_path": "实验数据/results/constraint_sensitivity/raw_results.jsonl",
+      "sha256": "3eb0ca35f78e2c1e0a4a00407d5de783cd4ea73c1699f695d392ae41c481c7e4"
+    },
+    {
+      "id": "local_summary",
+      "relative_path": "实验数据/results/local_repair_vs_cds_mr_v1/summary.json",
+      "sha256": "2652eabfd6d53ac7cdd7ce1a24ffc629c55752a57e97fac96c17fa1469dcb3ec"
+    },
+    {
+      "id": "local_pairs",
+      "relative_path": "实验数据/results/local_repair_vs_cds_mr_v1/comparison_by_pair.jsonl",
+      "sha256": "0edf034ae40220d2f5299c8a360181702f683984cc1a5c519262b609144cc2f2"
+    },
+    {
+      "id": "case",
+      "relative_path": "实验数据/evidence/case/selected-case-evidence.json",
+      "sha256": "7e57adf7b71a747c9a0cc6271627056c16e417efd97de0a7a5bba72c3678e884"
+    },
+    {
+      "id": "case_mapping",
+      "relative_path": "实验数据/evidence/case/canonical_bundle_id_mapping_2026-09-03.json",
+      "sha256": "af0a9d48db17dcf0ad44897682050da45d35a2e1c72cdfb032ec308a4709bea7"
+    },
+    {
+      "id": "protocol",
+      "relative_path": "实验数据/evidence/protocol_audit.json",
+      "sha256": "d1d9779118ee2273c5441f8af9eda7e391a1f9e24085514ea788ca4bb111a7fe"
+    },
+    {
+      "id": "main_seed_13_b0",
+      "relative_path": "实验数据/results/main_v6_4/seed_13/b0.jsonl",
+      "sha256": "c58ba8acb92a1e91383730ee32fe8312c4a8d079bf0f58f39d68daed5e54a5ef"
+    },
+    {
+      "id": "main_seed_13_cds_mr",
+      "relative_path": "实验数据/results/main_v6_4/seed_13/cds_mr.jsonl",
+      "sha256": "195be63ab0874964351f35bc45a78944d5c0489732d702b90bb15c9c76f62da6"
+    },
+    {
+      "id": "main_seed_14_b0",
+      "relative_path": "实验数据/results/main_v6_4/seed_14/b0.jsonl",
+      "sha256": "24acca488cf9b81c6297d81ab9e91f9343c1d3579e38cd532afe400921333ab7"
+    },
+    {
+      "id": "main_seed_14_cds_mr",
+      "relative_path": "实验数据/results/main_v6_4/seed_14/cds_mr.jsonl",
+      "sha256": "5e47d72293d8dd6b0c8245ad9c2a7f49e30e0a4801060d0e147cff8bba5530a0"
+    },
+    {
+      "id": "main_seed_15_b0",
+      "relative_path": "实验数据/results/main_v6_4/seed_15/b0.jsonl",
+      "sha256": "bf675820524ded16b4432bf43fcf4d96de7045ea8be36b4d9c302a9dd2d21b8b"
+    },
+    {
+      "id": "main_seed_15_cds_mr",
+      "relative_path": "实验数据/results/main_v6_4/seed_15/cds_mr.jsonl",
+      "sha256": "7ea5fa7ad8fc49d5fd4b6d564b16f5283575bd12f4195cd22e064d8fab510a30"
+    },
+    {
+      "id": "main_seed_16_b0",
+      "relative_path": "实验数据/results/main_v6_4/seed_16/b0.jsonl",
+      "sha256": "e34f7b66f0ef94fd574ef8b8ece3a0624e2ef48dc44cf24b3d75070e10e76be8"
+    },
+    {
+      "id": "main_seed_16_cds_mr",
+      "relative_path": "实验数据/results/main_v6_4/seed_16/cds_mr.jsonl",
+      "sha256": "0c252e0580f735e45e93b4006a9dafca670b1a0acab1c5e7a32fe183c537c33e"
+    },
+    {
+      "id": "main_seed_17_b0",
+      "relative_path": "实验数据/results/main_v6_4/seed_17/b0.jsonl",
+      "sha256": "531cac6133f6f5eb5b4071c49a60e915543915074cafef28cf05481c932a1db3"
+    },
+    {
+      "id": "main_seed_17_cds_mr",
+      "relative_path": "实验数据/results/main_v6_4/seed_17/cds_mr.jsonl",
+      "sha256": "76bb98fa9d77ae34ca7178026b7005cdd323cbda40d11f4fce1abde4456d511d"
+    },
+    {
+      "id": "main_seed_18_b0",
+      "relative_path": "实验数据/results/main_v6_4/seed_18/b0.jsonl",
+      "sha256": "94a3202073c3ab5149ec33d6aa90c680c983135c40a729f99cc1d5eba96b2d66"
+    },
+    {
+      "id": "main_seed_18_cds_mr",
+      "relative_path": "实验数据/results/main_v6_4/seed_18/cds_mr.jsonl",
+      "sha256": "9ff189c57c38faa99b64236f9b33e79190d3f52ec5c1a4bc7bdbaeb047a5764c"
+    }
+  ],
+  "generated_files": [
+    {
+      "relative_path": "fig1_总体框架/fig1_nodes.csv",
+      "sha256": "7c45d60537b2a6d90322ef572f91415252f9a3cf2ffe1eaafaa59a9cee53f296",
+      "bytes": 684
+    },
+    {
+      "relative_path": "fig1_总体框架/fig1_edges.csv",
+      "sha256": "67b4da61b707a877f4ef201f9f07d84cb32eaafa0ae4e6adcdee997d64a4c29b",
+      "bytes": 466
+    },
+    {
+      "relative_path": "fig2_最小修复机制/fig2_mechanism_steps.csv",
+      "sha256": "e2c6848726494af8832157ceb0a7fb48807df3bfd3279e99cadc7786a92390de",
+      "bytes": 643
+    },
+    {
+      "relative_path": "fig2_最小修复机制/fig2_set_definitions.csv",
+      "sha256": "1c28b98f3ead8ad6d0d81f57556071a682f88090fa1bc466c5f12f9c61c0d6cb",
+      "bytes": 537
+    },
+    {
+      "relative_path": "fig2_最小修复机制/fig2_objective_terms.csv",
+      "sha256": "f01b670ac2fb7dc1d3d2a737eac976baa9c5611042878748b855c271e2ebd0bc",
+      "bytes": 381
+    },
+    {
+      "relative_path": "fig3_主对比/fig3_main_rows_recoverable.csv",
+      "sha256": "454fb2d38be97a1a27fb3a1bf268f3c38599afdce7c9b0d5cbf61a573e590460",
+      "bytes": 54623
+    },
+    {
+      "relative_path": "fig3_主对比/fig3_main_summary.csv",
+      "sha256": "4a259aa53d35285aeb74462be5b9b8ff5aa1a8e97241cd34ecf491108c18cc2b",
+      "bytes": 4502
+    },
+    {
+      "relative_path": "fig3_主对比/fig3_paired_statistics.csv",
+      "sha256": "6514148f99125e6d76f807ec8f1f1c664331f3ec3639ad8cb4a20b4d5b5954e1",
+      "bytes": 3373
+    },
+    {
+      "relative_path": "fig3_主对比/fig3_task_level_summary.csv",
+      "sha256": "02710231b455143916909680a1c8f12129627ed28461580c60ea6c6c76689460",
+      "bytes": 18130
+    },
+    {
+      "relative_path": "fig4_案例分析/fig4_bundle_assignment_comparison.csv",
+      "sha256": "b0336f3bfb8b9ffb9ad584b3f704511cbf3010b1d1e8fa75c14972123def1ebc",
+      "bytes": 510
+    },
+    {
+      "relative_path": "fig4_案例分析/fig4_waypoints.csv",
+      "sha256": "d28bdde8a0164e36935a08b4e989a6eb2c71f3e46198b632730b2a3f429f333a",
+      "bytes": 909
+    },
+    {
+      "relative_path": "fig4_案例分析/fig4_case_overview.json",
+      "sha256": "3b9553a906c38449e4fd37821af0160cbc953eddcd9eef8c6576892493b3909e",
+      "bytes": 906
+    },
+    {
+      "relative_path": "fig5_选择器与约束/fig5a_selector_rows.csv",
+      "sha256": "1fc71efcd06e66546c401889a196f6eb19dedb327178688fc8d1bbb8e47aa6d5",
+      "bytes": 16801
+    },
+    {
+      "relative_path": "fig5_选择器与约束/fig5a_selector_summary.csv",
+      "sha256": "9532d715e2f1cde595b3f3d51bc2d28a885e873354aeb2f09a328ca49ce15a32",
+      "bytes": 1624
+    },
+    {
+      "relative_path": "fig5_选择器与约束/fig5a_selector_paired_statistics.csv",
+      "sha256": "61179d61e8486326c292c5aba729fcb8a5ea84390eb6a2845fa0d74e4ae0d9fa",
+      "bytes": 1108
+    },
+    {
+      "relative_path": "fig5_选择器与约束/fig5bc_constraint_rows.csv",
+      "sha256": "aa900155b3817725a92bb88ab092ac312993ccae62ffbc0bcb2094d43eacacd0",
+      "bytes": 8167
+    },
+    {
+      "relative_path": "fig5_选择器与约束/fig5bc_constraint_summary.csv",
+      "sha256": "bf2748fb8e46afd1ef5d77513c4a7972ff492d01326eb442b416ba373664f20b",
+      "bytes": 2816
+    },
+    {
+      "relative_path": "fig5_选择器与约束/fig5bc_constraint_paired_deltas.csv",
+      "sha256": "064e1f8151ea28e2b04a8bbf4b2af58f87c665eb646041b6c0177e7fe1311d09",
+      "bytes": 1288
+    },
+    {
+      "relative_path": "tables/table1_symbols.csv",
+      "sha256": "a199a285c78dd3d091507fb3bafc65329ea7ba90eaa3e9162634283ee50af5d6",
+      "bytes": 923
+    },
+    {
+      "relative_path": "tables/table2_mechanism_functions.csv",
+      "sha256": "8b596979a6000f671fff65f3803a698c348d4ee050fc4673c4267983bfa0f861",
+      "bytes": 809
+    },
+    {
+      "relative_path": "tables/table3_experiment_setup.csv",
+      "sha256": "fdb79c581b319cc1b23c155460f8951c99c79c3ba30bd63110534bb70c90b3f1",
+      "bytes": 1389
+    },
+    {
+      "relative_path": "tables/table4_main_results.csv",
+      "sha256": "49c05d7363d798c0909c5b4cbf14ebbd9f5039c08ace1c93322962c781a0a2d6",
+      "bytes": 748
+    },
+    {
+      "relative_path": "tables/table4_paired_statistics.csv",
+      "sha256": "6514148f99125e6d76f807ec8f1f1c664331f3ec3639ad8cb4a20b4d5b5954e1",
+      "bytes": 3373
+    },
+    {
+      "relative_path": "tables/table5_ablation_summary.csv",
+      "sha256": "48ba2a0deebca6219ffcdda0c36b5f6089747ec38c279688508ee244648544f9",
+      "bytes": 2749
+    },
+    {
+      "relative_path": "tables/table5_ablation_paired_statistics.csv",
+      "sha256": "8e042199811f9066b3e81c74c65b8d665d66c8a29265b4903485212fe3b1ccb5",
+      "bytes": 2124
+    },
+    {
+      "relative_path": "tables/table5_simple_local_summary.csv",
+      "sha256": "ca94757d22ab69fd284c7037d22ae2c6a13469bbd24c8f0c9bbe1e568ca0afba",
+      "bytes": 482
+    },
+    {
+      "relative_path": "tables/table5_simple_local_pairs.csv",
+      "sha256": "7760e39b3d6387e4b00db57c610b49bbfaf8b2946664a5318585d1eac9d764fc",
+      "bytes": 12088
+    },
+    {
+      "relative_path": "validation_report.json",
+      "sha256": "8d1e58482107657fd5276e95fa157975f02006477e36b58c6e5fa5646e2d0628",
+      "bytes": 555
+    }
+  ],
+  "warnings": [
+    "Do not use summary_main_comparison_v6_4_seed13_18.csv for current external-baseline figures; its external rows predate evidence-chain closure.",
+    "The 36 main pairs do not bind role/capability eligibility: GNSS is required, all roles are allowed, and every online replacement is eligible.",
+    "Constraint sensitivity currently uses only seed 13 and is conditional trend evidence.",
+    "Mission completion time is defined only for successful rows.",
+    "Cross-adapter repair latency is an end-to-end observation, not a causal algorithm-cost estimate."
+  ],
+  "suffix_results_integration": {
+    "updated_date": "2026-09-23",
+    "figures": [
+      "Fig6",
+      "Fig7"
+    ],
+    "provenance": "图表数据/suffix_results/figure_provenance.json",
+    "sources": [
+      {
+        "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/Simple_local_reassignment.jsonl",
+        "sha256": "b7857ed2a1ec06dd282b27764643dbe7c7dac811d47404bee8b9159a0e19dcca"
+      },
+      {
+        "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/CDS_MR.jsonl",
+        "sha256": "f95a862753b410d707eb574e4819939fb4d040130d3f7864aeb699e67dcc1bce"
+      },
+      {
+        "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/Global_total_route_reallocation.jsonl",
+        "sha256": "da788b1e9181aba51ad92698ddf11d208cba314bfe61f697a3cb0f475dc3a28e"
+      },
+      {
+        "relative_path": "实验数据/results/suffix_grid_three_way_formal_v1/formal_metric_audit.json",
+        "sha256": "0dc9bc1784aa5ce5831edfbed6d6222a5833a8e8ed5d616f51bee030e7dd9f23"
+      },
+      {
+        "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/Simple_local_reassignment.jsonl",
+        "sha256": "9facbf917a23be42111c9ea4e02334893afa6ff84896f49d623d00deaf65538f"
+      },
+      {
+        "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/CDS_MR.jsonl",
+        "sha256": "80a70382b112d60a8fb71c81afad5dbf3e199a4f0ef21975ff92c243efb17572"
+      },
+      {
+        "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/Global_total_route_reallocation.jsonl",
+        "sha256": "440d73ea007aa28f28e1013f70818d3ba75c0b361b2ade392a312a9f4b32487f"
+      },
+      {
+        "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/formal_metric_audit.json",
+        "sha256": "495e4d939d8b6b79aff9259a88c0681e1595367b14816f8a8c34efa53d5abea7"
+      },
+      {
+        "relative_path": "实验数据/results/b3_independent_task_distribution_formal_v1/B3_ANALYSIS.json",
+        "sha256": "89c7842ff85517c150538751e52b22ac805aedef920bc1fafaefc36fa832f81a"
+      },
+      {
+        "relative_path": "UAV_PAPER/scripts/plot_suffix_results.py",
+        "sha256": "fd328ad245f5fb10d3b6d6c7cf6d7678d94c0337d8a851b15da72474f9e8480a"
+      }
+    ],
+    "generated": [
+      {
+        "relative_path": "图表数据/suffix_results/formal_metrics.csv",
+        "sha256": "f461ff5dc95725f40a90ce5dc437f9b87c346b93c95c504c471e4875018e36dc"
+      },
+      {
+        "relative_path": "图表数据/suffix_results/grid_paired_effects.csv",
+        "sha256": "eab88ff25a797d89d38fce0596b087800471528ab5dcdcc2e79a689a565fe828"
+      },
+      {
+        "relative_path": "图表数据/suffix_results/random_paired_outcomes.csv",
+        "sha256": "17616422c9a1ab8c4dc40cabef5dfd45d4321cd99e0bf2ae60eeeeef147a4bb3"
+      }
+    ],
+    "scope": "repair-UAV path only; B2 designed grid and B3 random geometry reported separately"
+  }
+}

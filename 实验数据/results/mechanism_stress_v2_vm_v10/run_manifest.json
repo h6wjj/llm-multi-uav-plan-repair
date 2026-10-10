@@ -1,0 +1,18 @@
+{
+  "protocol_version": "simple_local_vs_cds_mr_paired_v1",
+  "task_count": 3,
+  "methods": [
+    "Simple-local-reassignment",
+    "CDS-MR"
+  ],
+  "source_input": "/home/h/uav_exp/experiment/scenarios/mechanism_stress_v2/tasks.jsonl",
+  "source_input_sha256": "5473f97c4f01264b618aa66a72fcb372a4c4a8c37c61d3c8e173afffa38591db",
+  "script": "/home/h/uav_exp/experiment/scripts/run_simple_local_vs_cds_mr.py",
+  "script_sha256": "99efeb3db054e2f17c8898ceda497d02be1551c99ac155c110d51c312c98823f",
+  "bridge_script_sha256": "27ef04268c0fcec7778e7d22983406b6c2ec5f66da340f62e5a2b7b7864ec230",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "same_initial_protocol": "structured preferred-owner move_along_path with allow_partial_move=true",
+  "comparison_question": "Does CDS-MR add value beyond a constraint-valid direct-scope local reassignment rule?",
+  "no_existing_results_overwritten": true
+}

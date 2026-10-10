@@ -1,0 +1,263 @@
+{
+  "protocol_version": "v6_4_shared_candidate_pool_v1",
+  "input": [
+    "/home/h/uav_exp/data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_10/results.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_11/results.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_12/results.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_8/results.jsonl",
+    "/home/h/uav_exp/data/processed/v1/v6_4_ablation_formal_fix1_summary/input_results/seed_9/results.jsonl"
+  ],
+  "methods": [
+    "Blind+Global-Replan",
+    "SeSE+Global-Replan",
+    "Blind+CDS-MR",
+    "SeSE+CDS-MR"
+  ],
+  "metric_fields": [
+    "recovery_success_rate_item",
+    "contract_satisfaction_rate",
+    "normalized_plan_stability_distance",
+    "repair_decision_latency_seconds",
+    "mission_completion_time_seconds"
+  ],
+  "paired_key_definition": "source_task_id + run_seed_index",
+  "protocol_checks": {
+    "rows": 120,
+    "completed_rows": 120,
+    "expected_methods": [
+      "Blind+Global-Replan",
+      "SeSE+Global-Replan",
+      "Blind+CDS-MR",
+      "SeSE+CDS-MR"
+    ],
+    "shared_pool_hash_consistent": true,
+    "task_pool_count": 30,
+    "missing_method_pairs": []
+  },
+  "summary": {
+    "Blind+Global-Replan": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.65,
+        "std": 0.189525
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.011542,
+        "std": 0.005124
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175
+      },
+      "rows": 30
+    },
+    "SeSE+Global-Replan": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.65,
+        "std": 0.189525
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.010996,
+        "std": 0.006241
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175
+      },
+      "rows": 30
+    },
+    "Blind+CDS-MR": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.433333,
+        "std": 0.047946
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.010888,
+        "std": 0.005411
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175
+      },
+      "rows": 30
+    },
+    "SeSE+CDS-MR": {
+      "recovery_success_rate_item": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 30,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 30,
+        "mean": 0.433333,
+        "std": 0.047946
+      },
+      "repair_decision_latency_seconds": {
+        "n": 30,
+        "mean": 0.009885,
+        "std": 0.004494
+      },
+      "mission_completion_time_seconds": {
+        "n": 30,
+        "mean": 0.338889,
+        "std": 0.063175
+      },
+      "rows": 30
+    }
+  },
+  "paired_deltas_left_minus_right": {
+    "recovery_success_rate_item": {
+      "SeSE_minus_Blind_global": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "SeSE_minus_Blind_cds": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_blind": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_sese": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      }
+    },
+    "contract_satisfaction_rate": {
+      "SeSE_minus_Blind_global": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "SeSE_minus_Blind_cds": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_blind": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_sese": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      }
+    },
+    "normalized_plan_stability_distance": {
+      "SeSE_minus_Blind_global": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "SeSE_minus_Blind_cds": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_blind": {
+        "n": 30,
+        "mean_left_minus_right": -0.216667,
+        "std": 0.17698
+      },
+      "CDS_minus_Global_sese": {
+        "n": 30,
+        "mean_left_minus_right": -0.216667,
+        "std": 0.17698
+      }
+    },
+    "repair_decision_latency_seconds": {
+      "SeSE_minus_Blind_global": {
+        "n": 30,
+        "mean_left_minus_right": -0.000546,
+        "std": 0.006715
+      },
+      "SeSE_minus_Blind_cds": {
+        "n": 30,
+        "mean_left_minus_right": -0.001003,
+        "std": 0.006567
+      },
+      "CDS_minus_Global_blind": {
+        "n": 30,
+        "mean_left_minus_right": -0.000654,
+        "std": 0.006075
+      },
+      "CDS_minus_Global_sese": {
+        "n": 30,
+        "mean_left_minus_right": -0.001111,
+        "std": 0.00759
+      }
+    },
+    "mission_completion_time_seconds": {
+      "SeSE_minus_Blind_global": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "SeSE_minus_Blind_cds": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_blind": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      },
+      "CDS_minus_Global_sese": {
+        "n": 30,
+        "mean_left_minus_right": 0.0,
+        "std": 0.0
+      }
+    }
+  }
+}

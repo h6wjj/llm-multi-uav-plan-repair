@@ -1,0 +1,238 @@
+{
+  "protocol_version": "constraint_sensitivity_summary_v1",
+  "input": "/home/h/uav_exp/data/processed/v1/constraint_sensitivity/raw_results.jsonl",
+  "factor": "constraint_tightness",
+  "levels": [
+    "loose",
+    "medium",
+    "tight"
+  ],
+  "methods": [
+    "Blind+Global-Replan",
+    "Blind+CDS-MR"
+  ],
+  "metrics": [
+    "recovery_success_rate_item",
+    "contract_satisfaction_rate",
+    "normalized_plan_stability_distance",
+    "repair_decision_latency_seconds"
+  ],
+  "rows": 36,
+  "completed_rows": 36,
+  "runner_errors": 0,
+  "summary_by_level": {
+    "loose": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 6,
+          "mean": 0.65,
+          "std": 0.204124
+        },
+        "repair_decision_latency_seconds": {
+          "n": 6,
+          "mean": 0.008587,
+          "std": 0.001845
+        },
+        "rows": 6
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 6,
+          "mean": 0.433333,
+          "std": 0.05164
+        },
+        "repair_decision_latency_seconds": {
+          "n": 6,
+          "mean": 0.007738,
+          "std": 0.001304
+        },
+        "rows": 6
+      }
+    },
+    "medium": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 6,
+          "mean": 0.483333,
+          "std": 0.160208
+        },
+        "repair_decision_latency_seconds": {
+          "n": 6,
+          "mean": 0.008685,
+          "std": 0.00248
+        },
+        "rows": 6
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "contract_satisfaction_rate": {
+          "n": 6,
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "normalized_plan_stability_distance": {
+          "n": 6,
+          "mean": 0.433333,
+          "std": 0.05164
+        },
+        "repair_decision_latency_seconds": {
+          "n": 6,
+          "mean": 0.007477,
+          "std": 0.001196
+        },
+        "rows": 6
+      }
+    },
+    "tight": {
+      "Blind+Global-Replan": {
+        "recovery_success_rate_item": {
+          "n": 6,
+          "mean": 0.666667,
+          "std": 0.516398
+        },
+        "contract_satisfaction_rate": {
+          "n": 6,
+          "mean": 0.833333,
+          "std": 0.258199
+        },
+        "normalized_plan_stability_distance": {
+          "n": 6,
+          "mean": 0.633333,
+          "std": 0.287518
+        },
+        "repair_decision_latency_seconds": {
+          "n": 4,
+          "mean": 0.006608,
+          "std": 0.000196
+        },
+        "rows": 6
+      },
+      "Blind+CDS-MR": {
+        "recovery_success_rate_item": {
+          "n": 6,
+          "mean": 0.666667,
+          "std": 0.516398
+        },
+        "contract_satisfaction_rate": {
+          "n": 6,
+          "mean": 0.833333,
+          "std": 0.258199
+        },
+        "normalized_plan_stability_distance": {
+          "n": 6,
+          "mean": 0.633333,
+          "std": 0.287518
+        },
+        "repair_decision_latency_seconds": {
+          "n": 4,
+          "mean": 0.007391,
+          "std": 0.00062
+        },
+        "rows": 6
+      }
+    }
+  },
+  "paired_cds_minus_global_by_level": {
+    "loose": {
+      "recovery_success_rate_item": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 6,
+        "mean": -0.216667,
+        "std": 0.190613
+      },
+      "repair_decision_latency_seconds": {
+        "n": 6,
+        "mean": -0.000848,
+        "std": 0.001125
+      }
+    },
+    "medium": {
+      "recovery_success_rate_item": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 6,
+        "mean": -0.05,
+        "std": 0.122474
+      },
+      "repair_decision_latency_seconds": {
+        "n": 6,
+        "mean": -0.001208,
+        "std": 0.002379
+      }
+    },
+    "tight": {
+      "recovery_success_rate_item": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "contract_satisfaction_rate": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "normalized_plan_stability_distance": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "repair_decision_latency_seconds": {
+        "n": 4,
+        "mean": 0.000783,
+        "std": 0.000454
+      }
+    }
+  },
+  "interpretation_rule": "supplementary trend evidence only; do not claim universal robustness from one seed"
+}

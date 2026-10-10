@@ -1,0 +1,55 @@
+{
+  "manifest": "b3_independent_task_distribution_freeze_v1",
+  "status": "formal_input_frozen_before_formal_execution",
+  "frozen_at_utc": "2026-09-23",
+  "protocol_path": "protocol.json",
+  "protocol_sha256": "56552861125135865ca596bff594269db5443e03eaa5b1679600f61374aafe0b",
+  "generator_path": "build_b3_independent_tasks_v1.py",
+  "generator_sha256": "a2bfc5eaf0a813bd0da59db761964877aba86d44e2d0fa05b45a3533d40de301",
+  "template_source_path": "../../results/suffix_grid_three_way_formal_v1/tasks_recoverable_failure_v1.jsonl",
+  "template_source_sha256": "5e892889909d80c706b88f949f2819d647aa551fde3fd8016d1efcbb085f5878",
+  "formal_input_path": "tasks.jsonl",
+  "formal_input_sha256": "e6aa209faa87ca6f918a9209c74a124f6bced16860cfd7b15a268d34005ffb98",
+  "formal_task_count": 90,
+  "structure_counts": {
+    "chain": 30,
+    "branch": 30,
+    "merge": 30
+  },
+  "generation_audit_path": "generation_audit.json",
+  "generation_audit_sha256": "96ecd71cd60ca6833ed5c77763cbac922abab9e056f4bdb4db87b13d44fb94ec",
+  "formal_seed_list_sha256": "c7ad39ba30671746f7382554f58768521ce92d1ef22ea92818814806a4b5e3b0",
+  "formal_seed_disjoint_from_b2": true,
+  "formal_seed_disjoint_from_pilot": true,
+  "formal_task_ids_disjoint_from_b2": true,
+  "pilot": {
+    "task_path": "pilot_3.jsonl",
+    "task_sha256": "4daea07584435e66d4f983940784c72756e03c40f7da3b09a39799fbc3109aea",
+    "generation_audit_path": "pilot_generation_audit.json",
+    "generation_audit_sha256": "24c81384ac265e0eb73b69579d964d9f3d5328de255b4c5912137375fafba3ef",
+    "run_output": "../../results/b3_independent_task_distribution_pilot_v1",
+    "run_manifest_sha256": "7bb8f35c75131c66ccbf1ff243d4763357eae0dba6bae6e88153f19563a895e2",
+    "metric_audit_sha256": "84f64486c9589cd632ce80ae70211c081fa42c9121b108534ca821755f3670a5",
+    "pilot_passed_before_formal_generation": true,
+    "completed_triplets": 3,
+    "same_failure_state_triplets": 3,
+    "all_recovered_and_strict": true
+  },
+  "runtime_behavior_code_sha256_from_audited_b2": {
+    "run_simple_local_vs_cds_mr.py": "a3ab395a1992bacf54969c20b17d5a07ba941ae84b07e2fda7da599ef39cc03d",
+    "gym_uav_bridge.py": "a7e7034e9932e6532958a89ee0db5201c752ded7941748c97fd5b42b6df42fed",
+    "global_suffix_reallocation.py": "a3ffbb11b2199d93ff04e4c7ddcd3f9c5fbff604319e42a6a63c0a597d1144e0",
+    "run_cds_mr_contract_online.py": "8f3b36243afe583d93d84b5f64aac625ac333e2c1fc416e6e6233e35cfc8087d",
+    "v6_metric_evaluator.py": "a5a2fb3ec482f87e239523372d08c0bca088801e204fed1494d82e3fded0295d",
+    "gym_task_adapter.py": "a8a53d47d48602d8af3a36e4781249d697842f89122d9b609fa91689de512717",
+    "audit_suffix_grid_three_way.py": "55edb4b1657cb241450d4009511c9813ab9b489894b9aefd2e05bf2e075b508d"
+  },
+  "analysis_frozen_before_results": {
+    "paired_outcome_categories": ["cds_benefit", "practical_tie", "cds_regression", "joint_failure", "missing_or_invalid"],
+    "path_practical_margin": "1% relative difference",
+    "confidence_intervals": "Wilson 95% for proportions; paired bootstrap percentile 95% intervals, 10000 resamples, RNG seed 20289999",
+    "primary_metrics": ["strict recovery", "executed repair-UAV suffix path"],
+    "secondary_metrics": ["mission time", "estimated suffix cost", "NPSD", "solver-only time", "decision latency", "global-baseline paired outcomes"],
+    "failure_region_report": "strict-failure and contract-check categories by preregistered dependency-structure stratum; no post-hoc geometry bins"
+  }
+}

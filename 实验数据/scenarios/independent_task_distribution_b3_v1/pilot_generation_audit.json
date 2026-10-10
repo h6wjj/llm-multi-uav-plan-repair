@@ -1,0 +1,87 @@
+{
+  "protocol": "b3_independent_task_distribution_v1",
+  "status": "frozen_not_executed",
+  "mode": "pilot",
+  "task_count": 3,
+  "structure_counts": {
+    "chain": 1,
+    "branch": 1,
+    "merge": 1
+  },
+  "seed_range": [
+    20279001,
+    20279003
+  ],
+  "seed_list": [
+    20279001,
+    20279002,
+    20279003
+  ],
+  "minimum_sequence_gap_m": 0.543619936,
+  "minimum_gap_over_tolerance": 5.43619936,
+  "generation_attempts": {
+    "20279001": 1,
+    "20279002": 1,
+    "20279003": 1
+  },
+  "checks": {
+    "task_count_expected": true,
+    "unique_task_ids": true,
+    "unique_seeds": true,
+    "formal_balanced_30_per_structure": true,
+    "all_recoverable_failure_uncertain": true,
+    "all_have_same_candidate_set": true,
+    "no_coupling_bins": true,
+    "all_min_sequence_gaps_over_4x_tolerance": true,
+    "no_method_outcome_used": true,
+    "all_tasks_motor_dynamics": true
+  },
+  "cases": [
+    {
+      "task_id": "b3_indtask_v1_chain_01",
+      "structure": "chain",
+      "seed": 20279001,
+      "formal": false,
+      "generation_attempt": 1,
+      "c2_distance": 1.603380904,
+      "c3_distance": 1.725340249,
+      "h2_minus_h3": null,
+      "minimum_consecutive_waypoint_gap_m": 0.543619936,
+      "minimum_gap_over_tolerance": 5.436199363,
+      "outcome_conditioned": false,
+      "coupling_label_assigned": false,
+      "draw_seed": 10937910108738603599
+    },
+    {
+      "task_id": "b3_indtask_v1_branch_02",
+      "structure": "branch",
+      "seed": 20279002,
+      "formal": false,
+      "generation_attempt": 1,
+      "c2_distance": 1.157086893,
+      "c3_distance": 0.75758467,
+      "h2_minus_h3": null,
+      "minimum_consecutive_waypoint_gap_m": 0.556516548,
+      "minimum_gap_over_tolerance": 5.56516548,
+      "outcome_conditioned": false,
+      "coupling_label_assigned": false,
+      "draw_seed": 16446402355254238426
+    },
+    {
+      "task_id": "b3_indtask_v1_merge_03",
+      "structure": "merge",
+      "seed": 20279003,
+      "formal": false,
+      "generation_attempt": 1,
+      "c2_distance": 1.478943586,
+      "c3_distance": 0.617358064,
+      "h2_minus_h3": null,
+      "minimum_consecutive_waypoint_gap_m": 0.56113767,
+      "minimum_gap_over_tolerance": 5.611376698,
+      "outcome_conditioned": false,
+      "coupling_label_assigned": false,
+      "draw_seed": 15623065815602982815
+    }
+  ],
+  "tasks_sha256": "4daea07584435e66d4f983940784c72756e03c40f7da3b09a39799fbc3109aea"
+}

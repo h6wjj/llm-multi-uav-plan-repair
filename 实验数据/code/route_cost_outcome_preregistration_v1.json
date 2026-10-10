@@ -1,0 +1,31 @@
+{
+  "protocol": "route_cost_outcome_stress_v1",
+  "purpose": "Test whether the different suffix-aware owner decision avoids extra cumulative estimated route cost relative to immediate local reassignment.",
+  "case_count": 3,
+  "cases": [
+    "route competition",
+    "geometric mirror",
+    "branch dependency"
+  ],
+  "frozen_inequalities": {
+    "immediate_B2": "cost(U2,B2)=0.20 < cost(U3,B2)=0.21",
+    "complete_suffix": "cost(Simple-local)=0.61 > cost(CDS-MR)=0.25"
+  },
+  "primary_success_criterion": "All pairs start from the same failure state and pass all strict contract checks; Simple-local selects U2 for B2; CDS-MR selects U3; CDS-MR cumulative estimated suffix route cost is at least 50% lower in the route case and its mirror.",
+  "secondary_success_criterion": "The branch case satisfies the same decision and route-cost separation.",
+  "metrics": [
+    "paired failure-state hash",
+    "selected owner",
+    "strict contract checks",
+    "cumulative estimated suffix route cost",
+    "NPSD"
+  ],
+  "anti_claims": [
+    "not a population-level sample",
+    "not evidence of deadline or budget avoidance",
+    "not evidence of lower NPSD in general",
+    "not evidence of globally optimal routing"
+  ],
+  "builder_sha256": "6582f1e31608592d540d4efc00c3f169ca60b93bfa956f9eea089c10db042b81",
+  "status": "frozen_before_execution"
+}

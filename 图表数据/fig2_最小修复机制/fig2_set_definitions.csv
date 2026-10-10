@@ -1,0 +1,7 @@
+﻿symbol,meaning_cn,forest_fog_members
+A_f,失效前已完成且不可重放的动作前缀,bundle_1全部; bundle_2前2点; bundle_3前1点; bundle_4前1点
+C_dir,直接受失效影响的剩余任务,bundle_2
+C_check,沿依赖关系展开的检查范围,bundle_2|bundle_3|bundle_4
+C_aff,实际需要更换拥有者的编辑集合,bundle_2
+U_i^comp,在线且满足角色、能力和可用性要求的候选UAV,bundle_2: uav_0|uav_2|uav_3
+F_static(s_f),通过静态硬约束预检的有限候选计划集合,由候选组合构造

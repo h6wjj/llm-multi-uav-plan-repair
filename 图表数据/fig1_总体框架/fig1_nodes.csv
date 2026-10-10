@@ -1,0 +1,11 @@
+﻿id,label_cn,stage,kind,required
+mission,自然语言任务,planning,input,True
+llm_pool,LLM候选计划生成,planning,process,True
+quality_gate,执行前结构一致性质量控制,planning,optional_process,False
+initial_plan,选定结构化初始计划,planning,artifact,True
+bridge,Agent4Drone兼容执行桥,execution,process,True
+failure_state,失效时状态快照,recovery,state,True
+minimal_repair,执行状态驱动的意图保持最小修复,recovery,process,True
+single_submit,选定方案单次提交,recovery,artifact,True
+runtime_check,同桥继续执行与运行时检查,execution,process,True
+terminal,任务完成或恢复失败,terminal,terminal,True
