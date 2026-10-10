@@ -1,8 +1,8 @@
-# CDS-MR: Multi-UAV Runtime Plan Repair
+# Intent-Preserving Multi-UAV Plan Repair
 
-执行状态驱动的意图保持最小修复：代码、实验输入、逐条结果及统计/绘图材料。
+本仓库公开提供本文的复现实验代码、冻结输入、逐条结果及统计与绘图材料。
 
-本仓库公开提供本文的复现实验代码、冻结输入、逐条结果及统计与绘图材料。仓库地址：https://github.com/h6wjj/llm-multi-uav-plan-repair `h6wjj`、仓库名 `CDS-MR`；只有创建并验证真实仓库后，才登记正式访问链接。
+仓库地址：https://github.com/h6wjj/llm-multi-uav-plan-repair 
 
 ## 内容与入口
 
